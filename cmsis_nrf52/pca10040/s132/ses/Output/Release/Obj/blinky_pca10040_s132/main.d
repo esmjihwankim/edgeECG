@@ -74,4 +74,5 @@ Output/Release/Obj/blinky_pca10040_s132/main.o: \
  nn_include/arm_nnfunctions.h nn_include/arm_nnsupportfunctions.h \
  dsp_include/arm_common_tables.h dsp_include/arm_math.h \
  nn_include/arm_nn_tables.h other_includes/inputs.h \
- other_includes/weights.h other_includes/parameters.h
+ other_includes/weights.h other_includes/parameters.h \
+ other_includes/libcmsisnn.a

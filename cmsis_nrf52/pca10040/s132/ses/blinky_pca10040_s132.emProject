@@ -67,6 +67,7 @@
       <file file_name="other_includes/parameters.h" />
       <file file_name="other_includes/inputs.h" />
       <file file_name="other_includes/weights.h" />
+      <file file_name="other_includes/libcmsisnn.a" />
     </folder>
     <folder Name="None">
       <file file_name="../../../../../../modules/nrfx/mdk/ses_startup_nrf52.s" />
@@ -90,7 +91,6 @@
       <file file_name="nn_include/arm_nnfunctions.h" />
       <file file_name="nn_include/arm_nnsupportfunctions.h" />
     </folder>
-    <file file_name="../../../libcmsisnn.a" />
   </project>
   <configuration
     Name="Release"

@@ -1691,15 +1691,10 @@ Discarded input sections
  .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10040_s132/main.o
  .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10040_s132/main.o
  .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10040_s132/main.o
+ .group         0x0000000000000000        0xc Output/Release/Obj/blinky_pca10040_s132/main.o
  .text          0x0000000000000000        0x0 Output/Release/Obj/blinky_pca10040_s132/main.o
  .data          0x0000000000000000        0x0 Output/Release/Obj/blinky_pca10040_s132/main.o
  .bss           0x0000000000000000        0x0 Output/Release/Obj/blinky_pca10040_s132/main.o
- .bss.col_buffer
-                0x0000000000000000      0xc80 Output/Release/Obj/blinky_pca10040_s132/main.o
- .bss.scratch_buffer
-                0x0000000000000000    0x1fa40 Output/Release/Obj/blinky_pca10040_s132/main.o
- .data.image_data
-                0x0000000000000000      0x7e9 Output/Release/Obj/blinky_pca10040_s132/main.o
  .debug_macro   0x0000000000000000      0xaea Output/Release/Obj/blinky_pca10040_s132/main.o
  .debug_macro   0x0000000000000000       0x22 Output/Release/Obj/blinky_pca10040_s132/main.o
  .debug_macro   0x0000000000000000      0x1a3 Output/Release/Obj/blinky_pca10040_s132/main.o
@@ -4427,7 +4422,7 @@ Linker script and memory map
                 0x0000000000000001                . = ASSERT (((__init_rodata_start__ == __init_rodata_end__) || ((__init_rodata_end__ - __FLASH1_segment_start__) <= __FLASH1_segment_size__)), error: .init_rodata is too large to fit in FLASH1 memory segment)
                 0x00000000000263d0                __text_load_start__ = ALIGN (__init_rodata_end__, 0x4)
 
-.text           0x00000000000263d0      0x3d8
+.text           0x00000000000263d0      0x3ec
                 0x00000000000263d0                __text_start__ = .
  *(.text .text.* .glue_7t .glue_7 .gnu.linkonce.t.* .gcc_except_table .ARM.extab* .gnu.linkonce.armextab.*)
  .glue_7        0x00000000000263d0        0x0 linker stubs
@@ -4446,32 +4441,32 @@ Linker script and memory map
                 0x0000000000026430       0x18 Output/Release/Obj/blinky_pca10040_s132/nrf_section_iter.o
                 0x0000000000026430                nrf_section_iter_next
  .text.startup.main
-                0x0000000000026448        0x4 Output/Release/Obj/blinky_pca10040_s132/main.o
+                0x0000000000026448       0x18 Output/Release/Obj/blinky_pca10040_s132/main.o
                 0x0000000000026448                main
  .text.nrf52_errata_12
-                0x000000000002644c       0x1c Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x0000000000026460       0x1c Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
  .text.nrf52_errata_16
-                0x0000000000026468       0x28 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x000000000002647c       0x28 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
  .text.nvmc_wait
-                0x0000000000026490       0x10 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
-                0x0000000000026490                nvmc_wait
+                0x00000000000264a4       0x10 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x00000000000264a4                nvmc_wait
  .text.SystemInit
-                0x00000000000264a0      0x298 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
-                0x00000000000264a0                SystemInit
+                0x00000000000264b4      0x298 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x00000000000264b4                SystemInit
  .text.nrf_sdh_evts_poll
-                0x0000000000026738       0x28 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
-                0x0000000000026738                nrf_sdh_evts_poll
+                0x000000000002674c       0x28 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
+                0x000000000002674c                nrf_sdh_evts_poll
  .text.SWI2_EGU2_IRQHandler
-                0x0000000000026760        0x4 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
-                0x0000000000026760                SWI2_EGU2_IRQHandler
+                0x0000000000026774        0x4 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
+                0x0000000000026774                SWI2_EGU2_IRQHandler
  .text.sd_evt_get
-                0x0000000000026764        0x4 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
+                0x0000000000026778        0x4 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
  .text.nrf_sdh_soc_evts_poll
-                0x0000000000026768       0x40 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
-                0x00000000000267a8                . = ALIGN (MAX ((__text_start__ + 0x4), .), 0x4)
-                0x00000000000267a8                __text_end__ = (__text_start__ + SIZEOF (.text))
-                0x00000000000003d8                __text_size__ = SIZEOF (.text)
-                0x00000000000267a8                __text_load_end__ = __text_end__
+                0x000000000002677c       0x40 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
+                0x00000000000267bc                . = ALIGN (MAX ((__text_start__ + 0x4), .), 0x4)
+                0x00000000000267bc                __text_end__ = (__text_start__ + SIZEOF (.text))
+                0x00000000000003ec                __text_size__ = SIZEOF (.text)
+                0x00000000000267bc                __text_load_end__ = __text_end__
 
 .vfp11_veneer   0x0000000100000000        0x0
  .vfp11_veneer  0x0000000100000000        0x0 linker stubs
@@ -4482,109 +4477,109 @@ Linker script and memory map
 .iplt           0x0000000100000000        0x0
  .iplt          0x0000000100000000        0x0 Output/Release/Obj/blinky_pca10040_s132/thumb_crt0.o
                 0x0000000000000001                . = ASSERT (((__text_start__ == __text_end__) || ((__text_end__ - __FLASH1_segment_start__) <= __FLASH1_segment_size__)), error: .text is too large to fit in FLASH1 memory segment)
-                0x00000000000267a8                __sdh_soc_observers_load_start__ = ALIGN (__text_end__, 0x4)
+                0x00000000000267bc                __sdh_soc_observers_load_start__ = ALIGN (__text_end__, 0x4)
 
 .sdh_soc_observers
-                0x00000000000267a8        0x0
-                0x00000000000267a8                __sdh_soc_observers_start__ = .
-                0x00000000000267a8                __start_sdh_soc_observers = __sdh_soc_observers_start__
+                0x00000000000267bc        0x0
+                0x00000000000267bc                __sdh_soc_observers_start__ = .
+                0x00000000000267bc                __start_sdh_soc_observers = __sdh_soc_observers_start__
  *(SORT_BY_NAME(.sdh_soc_observers*))
-                0x00000000000267a8                __sdh_soc_observers_end__ = (__sdh_soc_observers_start__ + SIZEOF (.sdh_soc_observers))
+                0x00000000000267bc                __sdh_soc_observers_end__ = (__sdh_soc_observers_start__ + SIZEOF (.sdh_soc_observers))
                 0x0000000000000000                __sdh_soc_observers_size__ = SIZEOF (.sdh_soc_observers)
-                0x00000000000267a8                __stop_sdh_soc_observers = __sdh_soc_observers_end__
-                0x00000000000267a8                __sdh_soc_observers_load_end__ = __sdh_soc_observers_end__
+                0x00000000000267bc                __stop_sdh_soc_observers = __sdh_soc_observers_end__
+                0x00000000000267bc                __sdh_soc_observers_load_end__ = __sdh_soc_observers_end__
                 0x0000000000000001                . = ASSERT (((__sdh_soc_observers_start__ == __sdh_soc_observers_end__) || ((__sdh_soc_observers_end__ - __FLASH1_segment_start__) <= __FLASH1_segment_size__)), error: .sdh_soc_observers is too large to fit in FLASH1 memory segment)
-                0x00000000000267a8                __sdh_req_observers_load_start__ = ALIGN (__sdh_soc_observers_end__, 0x4)
+                0x00000000000267bc                __sdh_req_observers_load_start__ = ALIGN (__sdh_soc_observers_end__, 0x4)
 
 .sdh_req_observers
-                0x00000000000267a8        0x0
-                0x00000000000267a8                __sdh_req_observers_start__ = .
-                0x00000000000267a8                __start_sdh_req_observers = __sdh_req_observers_start__
+                0x00000000000267bc        0x0
+                0x00000000000267bc                __sdh_req_observers_start__ = .
+                0x00000000000267bc                __start_sdh_req_observers = __sdh_req_observers_start__
  *(SORT_BY_NAME(.sdh_req_observers*))
-                0x00000000000267a8                __sdh_req_observers_end__ = (__sdh_req_observers_start__ + SIZEOF (.sdh_req_observers))
+                0x00000000000267bc                __sdh_req_observers_end__ = (__sdh_req_observers_start__ + SIZEOF (.sdh_req_observers))
                 0x0000000000000000                __sdh_req_observers_size__ = SIZEOF (.sdh_req_observers)
-                0x00000000000267a8                __stop_sdh_req_observers = __sdh_req_observers_end__
-                0x00000000000267a8                __sdh_req_observers_load_end__ = __sdh_req_observers_end__
+                0x00000000000267bc                __stop_sdh_req_observers = __sdh_req_observers_end__
+                0x00000000000267bc                __sdh_req_observers_load_end__ = __sdh_req_observers_end__
                 0x0000000000000001                . = ASSERT (((__sdh_req_observers_start__ == __sdh_req_observers_end__) || ((__sdh_req_observers_end__ - __FLASH1_segment_start__) <= __FLASH1_segment_size__)), error: .sdh_req_observers is too large to fit in FLASH1 memory segment)
-                0x00000000000267a8                __sdh_state_observers_load_start__ = ALIGN (__sdh_req_observers_end__, 0x4)
+                0x00000000000267bc                __sdh_state_observers_load_start__ = ALIGN (__sdh_req_observers_end__, 0x4)
 
 .sdh_state_observers
-                0x00000000000267a8        0x0
-                0x00000000000267a8                __sdh_state_observers_start__ = .
-                0x00000000000267a8                __start_sdh_state_observers = __sdh_state_observers_start__
+                0x00000000000267bc        0x0
+                0x00000000000267bc                __sdh_state_observers_start__ = .
+                0x00000000000267bc                __start_sdh_state_observers = __sdh_state_observers_start__
  *(SORT_BY_NAME(.sdh_state_observers*))
-                0x00000000000267a8                __sdh_state_observers_end__ = (__sdh_state_observers_start__ + SIZEOF (.sdh_state_observers))
+                0x00000000000267bc                __sdh_state_observers_end__ = (__sdh_state_observers_start__ + SIZEOF (.sdh_state_observers))
                 0x0000000000000000                __sdh_state_observers_size__ = SIZEOF (.sdh_state_observers)
-                0x00000000000267a8                __stop_sdh_state_observers = __sdh_state_observers_end__
-                0x00000000000267a8                __sdh_state_observers_load_end__ = __sdh_state_observers_end__
+                0x00000000000267bc                __stop_sdh_state_observers = __sdh_state_observers_end__
+                0x00000000000267bc                __sdh_state_observers_load_end__ = __sdh_state_observers_end__
                 0x0000000000000001                . = ASSERT (((__sdh_state_observers_start__ == __sdh_state_observers_end__) || ((__sdh_state_observers_end__ - __FLASH1_segment_start__) <= __FLASH1_segment_size__)), error: .sdh_state_observers is too large to fit in FLASH1 memory segment)
-                0x00000000000267a8                __sdh_stack_observers_load_start__ = ALIGN (__sdh_state_observers_end__, 0x4)
+                0x00000000000267bc                __sdh_stack_observers_load_start__ = ALIGN (__sdh_state_observers_end__, 0x4)
 
 .sdh_stack_observers
-                0x00000000000267a8        0x8
-                0x00000000000267a8                __sdh_stack_observers_start__ = .
-                0x00000000000267a8                __start_sdh_stack_observers = __sdh_stack_observers_start__
+                0x00000000000267bc        0x8
+                0x00000000000267bc                __sdh_stack_observers_start__ = .
+                0x00000000000267bc                __start_sdh_stack_observers = __sdh_stack_observers_start__
  *(SORT_BY_NAME(.sdh_stack_observers*))
  .sdh_stack_observers0
-                0x00000000000267a8        0x8 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
-                0x00000000000267b0                __sdh_stack_observers_end__ = (__sdh_stack_observers_start__ + SIZEOF (.sdh_stack_observers))
+                0x00000000000267bc        0x8 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
+                0x00000000000267c4                __sdh_stack_observers_end__ = (__sdh_stack_observers_start__ + SIZEOF (.sdh_stack_observers))
                 0x0000000000000008                __sdh_stack_observers_size__ = SIZEOF (.sdh_stack_observers)
-                0x00000000000267b0                __stop_sdh_stack_observers = __sdh_stack_observers_end__
-                0x00000000000267b0                __sdh_stack_observers_load_end__ = __sdh_stack_observers_end__
+                0x00000000000267c4                __stop_sdh_stack_observers = __sdh_stack_observers_end__
+                0x00000000000267c4                __sdh_stack_observers_load_end__ = __sdh_stack_observers_end__
                 0x0000000000000001                . = ASSERT (((__sdh_stack_observers_start__ == __sdh_stack_observers_end__) || ((__sdh_stack_observers_end__ - __FLASH1_segment_start__) <= __FLASH1_segment_size__)), error: .sdh_stack_observers is too large to fit in FLASH1 memory segment)
-                0x00000000000267b0                __log_const_data_load_start__ = ALIGN (__sdh_stack_observers_end__, 0x4)
+                0x00000000000267c4                __log_const_data_load_start__ = ALIGN (__sdh_stack_observers_end__, 0x4)
 
 .log_const_data
-                0x00000000000267b0        0x0
-                0x00000000000267b0                __log_const_data_start__ = .
-                0x00000000000267b0                __start_log_const_data = __log_const_data_start__
+                0x00000000000267c4        0x0
+                0x00000000000267c4                __log_const_data_start__ = .
+                0x00000000000267c4                __start_log_const_data = __log_const_data_start__
  *(SORT_BY_NAME(.log_const_data*))
-                0x00000000000267b0                __log_const_data_end__ = (__log_const_data_start__ + SIZEOF (.log_const_data))
+                0x00000000000267c4                __log_const_data_end__ = (__log_const_data_start__ + SIZEOF (.log_const_data))
                 0x0000000000000000                __log_const_data_size__ = SIZEOF (.log_const_data)
-                0x00000000000267b0                __stop_log_const_data = __log_const_data_end__
-                0x00000000000267b0                __log_const_data_load_end__ = __log_const_data_end__
+                0x00000000000267c4                __stop_log_const_data = __log_const_data_end__
+                0x00000000000267c4                __log_const_data_load_end__ = __log_const_data_end__
                 0x0000000000000001                . = ASSERT (((__log_const_data_start__ == __log_const_data_end__) || ((__log_const_data_end__ - __FLASH1_segment_start__) <= __FLASH1_segment_size__)), error: .log_const_data is too large to fit in FLASH1 memory segment)
-                0x00000000000267b0                __log_backends_load_start__ = ALIGN (__log_const_data_end__, 0x4)
+                0x00000000000267c4                __log_backends_load_start__ = ALIGN (__log_const_data_end__, 0x4)
 
-.log_backends   0x00000000000267b0        0x0
-                0x00000000000267b0                __log_backends_start__ = .
-                0x00000000000267b0                __start_log_backends = __log_backends_start__
+.log_backends   0x00000000000267c4        0x0
+                0x00000000000267c4                __log_backends_start__ = .
+                0x00000000000267c4                __start_log_backends = __log_backends_start__
  *(SORT_BY_NAME(.log_backends*))
-                0x00000000000267b0                __log_backends_end__ = (__log_backends_start__ + SIZEOF (.log_backends))
+                0x00000000000267c4                __log_backends_end__ = (__log_backends_start__ + SIZEOF (.log_backends))
                 0x0000000000000000                __log_backends_size__ = SIZEOF (.log_backends)
-                0x00000000000267b0                __stop_log_backends = __log_backends_end__
-                0x00000000000267b0                __log_backends_load_end__ = __log_backends_end__
+                0x00000000000267c4                __stop_log_backends = __log_backends_end__
+                0x00000000000267c4                __log_backends_load_end__ = __log_backends_end__
                 0x0000000000000001                . = ASSERT (((__log_backends_start__ == __log_backends_end__) || ((__log_backends_end__ - __FLASH1_segment_start__) <= __FLASH1_segment_size__)), error: .log_backends is too large to fit in FLASH1 memory segment)
-                0x00000000000267b0                __nrf_balloc_load_start__ = ALIGN (__log_backends_end__, 0x4)
+                0x00000000000267c4                __nrf_balloc_load_start__ = ALIGN (__log_backends_end__, 0x4)
 
-.nrf_balloc     0x00000000000267b0        0x0
-                0x00000000000267b0                __nrf_balloc_start__ = .
-                0x00000000000267b0                __start_nrf_balloc = __nrf_balloc_start__
+.nrf_balloc     0x00000000000267c4        0x0
+                0x00000000000267c4                __nrf_balloc_start__ = .
+                0x00000000000267c4                __start_nrf_balloc = __nrf_balloc_start__
  *(.nrf_balloc*)
-                0x00000000000267b0                __nrf_balloc_end__ = (__nrf_balloc_start__ + SIZEOF (.nrf_balloc))
+                0x00000000000267c4                __nrf_balloc_end__ = (__nrf_balloc_start__ + SIZEOF (.nrf_balloc))
                 0x0000000000000000                __nrf_balloc_size__ = SIZEOF (.nrf_balloc)
-                0x00000000000267b0                __stop_nrf_balloc = __nrf_balloc_end__
-                0x00000000000267b0                __nrf_balloc_load_end__ = __nrf_balloc_end__
+                0x00000000000267c4                __stop_nrf_balloc = __nrf_balloc_end__
+                0x00000000000267c4                __nrf_balloc_load_end__ = __nrf_balloc_end__
                 0x0000000000000001                . = ASSERT (((__nrf_balloc_start__ == __nrf_balloc_end__) || ((__nrf_balloc_end__ - __FLASH1_segment_start__) <= __FLASH1_segment_size__)), error: .nrf_balloc is too large to fit in FLASH1 memory segment)
-                0x00000000000267b0                __nrf_sections_load_start__ = ALIGN (__nrf_balloc_end__, 0x4)
+                0x00000000000267c4                __nrf_sections_load_start__ = ALIGN (__nrf_balloc_end__, 0x4)
 
-.nrf_sections   0x00000000000267b0        0x0
-                0x00000000000267b0                __nrf_sections_start__ = .
-                0x00000000000267b0                __start_nrf_sections = __nrf_sections_start__
+.nrf_sections   0x00000000000267c4        0x0
+                0x00000000000267c4                __nrf_sections_start__ = .
+                0x00000000000267c4                __start_nrf_sections = __nrf_sections_start__
  *(.nrf_sections .nrf_sections.*)
-                0x00000000000267b0                __nrf_sections_end__ = (__nrf_sections_start__ + SIZEOF (.nrf_sections))
+                0x00000000000267c4                __nrf_sections_end__ = (__nrf_sections_start__ + SIZEOF (.nrf_sections))
                 0x0000000000000000                __nrf_sections_size__ = SIZEOF (.nrf_sections)
-                0x00000000000267b0                __nrf_sections_load_end__ = __nrf_sections_end__
+                0x00000000000267c4                __nrf_sections_load_end__ = __nrf_sections_end__
                 0x0000000000000001                . = ASSERT (((__nrf_sections_start__ == __nrf_sections_end__) || ((__nrf_sections_end__ - __FLASH1_segment_start__) <= __FLASH1_segment_size__)), error: .nrf_sections is too large to fit in FLASH1 memory segment)
-                0x00000000000267b0                __log_dynamic_data_load_start__ = ALIGN (__nrf_sections_end__, 0x4)
+                0x00000000000267c4                __log_dynamic_data_load_start__ = ALIGN (__nrf_sections_end__, 0x4)
 
 .log_dynamic_data
-                0x0000000020005968        0x0 load address 0x00000000000267b0
+                0x0000000020005968        0x0 load address 0x00000000000267c4
                 0x0000000020005968                __log_dynamic_data_start__ = .
  *(SORT_BY_NAME(.log_dynamic_data*))
                 0x0000000020005968                __log_dynamic_data_end__ = (__log_dynamic_data_start__ + SIZEOF (.log_dynamic_data))
                 0x0000000000000000                __log_dynamic_data_size__ = SIZEOF (.log_dynamic_data)
-                0x00000000000267b0                __log_dynamic_data_load_end__ = (__log_dynamic_data_load_start__ + SIZEOF (.log_dynamic_data))
+                0x00000000000267c4                __log_dynamic_data_load_end__ = (__log_dynamic_data_load_start__ + SIZEOF (.log_dynamic_data))
                 0x0000000000000001                . = ASSERT (((__log_dynamic_data_load_start__ == __log_dynamic_data_load_end__) || ((__log_dynamic_data_load_end__ - __FLASH1_segment_start__) <= __FLASH1_segment_size__)), error: .log_dynamic_data is too large to fit in FLASH1 memory segment)
 
 .log_dynamic_data_run
@@ -4596,15 +4591,15 @@ Linker script and memory map
                 0x0000000020005968                __stop_log_dynamic_data = __log_dynamic_data_run_end__
                 0x0000000020005968                __log_dynamic_data_run_load_end__ = __log_dynamic_data_run_end__
                 0x0000000000000001                . = ASSERT (((__log_dynamic_data_run_start__ == __log_dynamic_data_run_end__) || ((__log_dynamic_data_run_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .log_dynamic_data_run is too large to fit in RAM1 memory segment)
-                0x00000000000267b0                __log_filter_data_load_start__ = ALIGN ((__log_dynamic_data_load_start__ + SIZEOF (.log_dynamic_data)), 0x4)
+                0x00000000000267c4                __log_filter_data_load_start__ = ALIGN ((__log_dynamic_data_load_start__ + SIZEOF (.log_dynamic_data)), 0x4)
 
 .log_filter_data
-                0x0000000020005968        0x0 load address 0x00000000000267b0
+                0x0000000020005968        0x0 load address 0x00000000000267c4
                 0x0000000020005968                __log_filter_data_start__ = .
  *(SORT_BY_NAME(.log_filter_data*))
                 0x0000000020005968                __log_filter_data_end__ = (__log_filter_data_start__ + SIZEOF (.log_filter_data))
                 0x0000000000000000                __log_filter_data_size__ = SIZEOF (.log_filter_data)
-                0x00000000000267b0                __log_filter_data_load_end__ = (__log_filter_data_load_start__ + SIZEOF (.log_filter_data))
+                0x00000000000267c4                __log_filter_data_load_end__ = (__log_filter_data_load_start__ + SIZEOF (.log_filter_data))
                 0x0000000000000001                . = ASSERT (((__log_filter_data_load_start__ == __log_filter_data_load_end__) || ((__log_filter_data_load_end__ - __FLASH1_segment_start__) <= __FLASH1_segment_size__)), error: .log_filter_data is too large to fit in FLASH1 memory segment)
 
 .log_filter_data_run
@@ -4627,74 +4622,74 @@ Linker script and memory map
                 0x0000000000000000                __nrf_sections_run_end_size__ = SIZEOF (.nrf_sections_run_end)
                 0x0000000020005968                __nrf_sections_run_end_load_end__ = __nrf_sections_run_end_end__
                 0x0000000000000001                . = ASSERT (((__nrf_sections_run_end_start__ == __nrf_sections_run_end_end__) || ((__nrf_sections_run_end_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .nrf_sections_run_end is too large to fit in RAM1 memory segment)
-                0x00000000000267b0                __dtors_load_start__ = ALIGN ((__log_filter_data_load_start__ + SIZEOF (.log_filter_data)), 0x4)
+                0x00000000000267c4                __dtors_load_start__ = ALIGN ((__log_filter_data_load_start__ + SIZEOF (.log_filter_data)), 0x4)
 
-.dtors          0x00000000000267b0        0x0
-                0x00000000000267b0                __dtors_start__ = .
+.dtors          0x00000000000267c4        0x0
+                0x00000000000267c4                __dtors_start__ = .
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.fini_array)
  *(SORT_BY_NAME(.fini_array.*))
-                0x00000000000267b0                __dtors_end__ = (__dtors_start__ + SIZEOF (.dtors))
+                0x00000000000267c4                __dtors_end__ = (__dtors_start__ + SIZEOF (.dtors))
                 0x0000000000000000                __dtors_size__ = SIZEOF (.dtors)
-                0x00000000000267b0                __dtors_load_end__ = __dtors_end__
+                0x00000000000267c4                __dtors_load_end__ = __dtors_end__
                 0x0000000000000001                . = ASSERT (((__dtors_start__ == __dtors_end__) || ((__dtors_end__ - __FLASH1_segment_start__) <= __FLASH1_segment_size__)), error: .dtors is too large to fit in FLASH1 memory segment)
-                0x00000000000267b0                __ctors_load_start__ = ALIGN (__dtors_end__, 0x4)
+                0x00000000000267c4                __ctors_load_start__ = ALIGN (__dtors_end__, 0x4)
 
-.ctors          0x00000000000267b0        0x0
-                0x00000000000267b0                __ctors_start__ = .
+.ctors          0x00000000000267c4        0x0
+                0x00000000000267c4                __ctors_start__ = .
  *(SORT_BY_NAME(.ctors.*))
  *(.ctors)
  *(.init_array)
  *(SORT_BY_NAME(.init_array.*))
-                0x00000000000267b0                __ctors_end__ = (__ctors_start__ + SIZEOF (.ctors))
+                0x00000000000267c4                __ctors_end__ = (__ctors_start__ + SIZEOF (.ctors))
                 0x0000000000000000                __ctors_size__ = SIZEOF (.ctors)
-                0x00000000000267b0                __ctors_load_end__ = __ctors_end__
+                0x00000000000267c4                __ctors_load_end__ = __ctors_end__
                 0x0000000000000001                . = ASSERT (((__ctors_start__ == __ctors_end__) || ((__ctors_end__ - __FLASH1_segment_start__) <= __FLASH1_segment_size__)), error: .ctors is too large to fit in FLASH1 memory segment)
-                0x00000000000267b0                __rodata_load_start__ = ALIGN (__ctors_end__, 0x4)
+                0x00000000000267c4                __rodata_load_start__ = ALIGN (__ctors_end__, 0x4)
 
-.rodata         0x00000000000267b0       0x2c
-                0x00000000000267b0                __rodata_start__ = .
+.rodata         0x00000000000267c4       0x2c
+                0x00000000000267c4                __rodata_start__ = .
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.CSWTCH.15
-                0x00000000000267b0        0x5 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x00000000000267c4        0x5 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
  .rodata.CSWTCH.19
-                0x00000000000267b5        0x5 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x00000000000267c9        0x5 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
  .rodata.CSWTCH.21
-                0x00000000000267ba        0x5 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x00000000000267ce        0x5 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
  .rodata.CSWTCH.5
-                0x00000000000267bf        0x5 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x00000000000267d3        0x5 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
  .rodata.sdh_stack_observers
-                0x00000000000267c4        0xc Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
+                0x00000000000267d8        0xc Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
  .rodata.sdh_soc_observers
-                0x00000000000267d0        0xc Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
-                0x00000000000267dc                . = ALIGN (MAX ((__rodata_start__ + 0x4), .), 0x4)
-                0x00000000000267dc                __rodata_end__ = (__rodata_start__ + SIZEOF (.rodata))
+                0x00000000000267e4        0xc Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
+                0x00000000000267f0                . = ALIGN (MAX ((__rodata_start__ + 0x4), .), 0x4)
+                0x00000000000267f0                __rodata_end__ = (__rodata_start__ + SIZEOF (.rodata))
                 0x000000000000002c                __rodata_size__ = SIZEOF (.rodata)
-                0x00000000000267dc                __rodata_load_end__ = __rodata_end__
+                0x00000000000267f0                __rodata_load_end__ = __rodata_end__
 
-.rel.dyn        0x00000000000267dc        0x0
- .rel.iplt      0x00000000000267dc        0x0 Output/Release/Obj/blinky_pca10040_s132/thumb_crt0.o
+.rel.dyn        0x00000000000267f0        0x0
+ .rel.iplt      0x00000000000267f0        0x0 Output/Release/Obj/blinky_pca10040_s132/thumb_crt0.o
                 0x0000000000000001                . = ASSERT (((__rodata_start__ == __rodata_end__) || ((__rodata_end__ - __FLASH1_segment_start__) <= __FLASH1_segment_size__)), error: .rodata is too large to fit in FLASH1 memory segment)
-                0x00000000000267dc                __ARM.exidx_load_start__ = ALIGN (__rodata_end__, 0x4)
+                0x00000000000267f0                __ARM.exidx_load_start__ = ALIGN (__rodata_end__, 0x4)
 
-.ARM.exidx      0x00000000000267dc        0x0
-                0x00000000000267dc                __ARM.exidx_start__ = .
-                0x00000000000267dc                __exidx_start = __ARM.exidx_start__
+.ARM.exidx      0x00000000000267f0        0x0
+                0x00000000000267f0                __ARM.exidx_start__ = .
+                0x00000000000267f0                __exidx_start = __ARM.exidx_start__
  *(.ARM.exidx .ARM.exidx.*)
-                0x00000000000267dc                __ARM.exidx_end__ = (__ARM.exidx_start__ + SIZEOF (.ARM.exidx))
+                0x00000000000267f0                __ARM.exidx_end__ = (__ARM.exidx_start__ + SIZEOF (.ARM.exidx))
                 0x0000000000000000                __ARM.exidx_size__ = SIZEOF (.ARM.exidx)
-                0x00000000000267dc                __exidx_end = __ARM.exidx_end__
-                0x00000000000267dc                __ARM.exidx_load_end__ = __ARM.exidx_end__
+                0x00000000000267f0                __exidx_end = __ARM.exidx_end__
+                0x00000000000267f0                __ARM.exidx_load_end__ = __ARM.exidx_end__
                 0x0000000000000001                . = ASSERT (((__ARM.exidx_start__ == __ARM.exidx_end__) || ((__ARM.exidx_end__ - __FLASH1_segment_start__) <= __FLASH1_segment_size__)), error: .ARM.exidx is too large to fit in FLASH1 memory segment)
-                0x00000000000267dc                __fast_load_start__ = ALIGN (__ARM.exidx_end__, 0x4)
+                0x00000000000267f0                __fast_load_start__ = ALIGN (__ARM.exidx_end__, 0x4)
 
-.fast           0x0000000020005968        0x0 load address 0x00000000000267dc
+.fast           0x0000000020005968        0x0 load address 0x00000000000267f0
                 0x0000000020005968                __fast_start__ = .
  *(.fast .fast.*)
                 0x0000000020005968                __fast_end__ = (__fast_start__ + SIZEOF (.fast))
                 0x0000000000000000                __fast_size__ = SIZEOF (.fast)
-                0x00000000000267dc                __fast_load_end__ = (__fast_load_start__ + SIZEOF (.fast))
+                0x00000000000267f0                __fast_load_end__ = (__fast_load_start__ + SIZEOF (.fast))
                 0x0000000000000001                . = ASSERT (((__fast_load_start__ == __fast_load_end__) || ((__fast_load_end__ - __FLASH1_segment_start__) <= __FLASH1_segment_size__)), error: .fast is too large to fit in FLASH1 memory segment)
 
 .fast_run       0x0000000020005968        0x0
@@ -4703,17 +4698,19 @@ Linker script and memory map
                 0x0000000000000000                __fast_run_size__ = (__fast_run_end__ - __fast_run_start__)
                 0x0000000020005968                __fast_run_load_end__ = __fast_run_end__
                 0x0000000000000001                . = ASSERT (((__fast_run_start__ == __fast_run_end__) || ((__fast_run_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .fast_run is too large to fit in RAM1 memory segment)
-                0x00000000000267dc                __data_load_start__ = ALIGN ((__fast_load_start__ + SIZEOF (.fast)), 0x4)
+                0x00000000000267f0                __data_load_start__ = ALIGN ((__fast_load_start__ + SIZEOF (.fast)), 0x4)
 
-.data           0x0000000020005968        0x4 load address 0x00000000000267dc
+.data           0x0000000020005968       0x44 load address 0x00000000000267f0
                 0x0000000020005968                __data_start__ = .
  *(.data .data.* .gnu.linkonce.d.*)
+ .data.test_input1
+                0x0000000020005968       0x40 Output/Release/Obj/blinky_pca10040_s132/main.o
  .data.SystemCoreClock
-                0x0000000020005968        0x4 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
-                0x0000000020005968                SystemCoreClock
-                0x000000002000596c                __data_end__ = (__data_start__ + SIZEOF (.data))
-                0x0000000000000004                __data_size__ = SIZEOF (.data)
-                0x00000000000267e0                __data_load_end__ = (__data_load_start__ + SIZEOF (.data))
+                0x00000000200059a8        0x4 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x00000000200059a8                SystemCoreClock
+                0x00000000200059ac                __data_end__ = (__data_start__ + SIZEOF (.data))
+                0x0000000000000044                __data_size__ = SIZEOF (.data)
+                0x0000000000026834                __data_load_end__ = (__data_load_start__ + SIZEOF (.data))
 
 .igot.plt       0x0000000100000000        0x0
  .igot.plt      0x0000000100000000        0x0 Output/Release/Obj/blinky_pca10040_s132/thumb_crt0.o
@@ -4721,66 +4718,69 @@ Linker script and memory map
 
 .data_run       0x0000000020005968        0x0
                 0x0000000020005968                __data_run_start__ = .
-                0x000000002000596c                __data_run_end__ = (__data_run_start__ + SIZEOF (.data))
-                0x0000000000000004                __data_run_size__ = (__data_run_end__ - __data_run_start__)
-                0x000000002000596c                __data_run_load_end__ = __data_run_end__
+                0x00000000200059ac                __data_run_end__ = (__data_run_start__ + SIZEOF (.data))
+                0x0000000000000044                __data_run_size__ = (__data_run_end__ - __data_run_start__)
+                0x00000000200059ac                __data_run_load_end__ = __data_run_end__
                 0x0000000000000001                . = ASSERT (((__data_run_start__ == __data_run_end__) || ((__data_run_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .data_run is too large to fit in RAM1 memory segment)
-                0x00000000000267e0                __tdata_load_start__ = ALIGN ((__data_load_start__ + SIZEOF (.data)), 0x4)
+                0x0000000000026834                __tdata_load_start__ = ALIGN ((__data_load_start__ + SIZEOF (.data)), 0x4)
 
-.tdata          0x000000002000596c        0x0 load address 0x00000000000267e0
-                0x000000002000596c                __tdata_start__ = .
+.tdata          0x00000000200059ac        0x0 load address 0x0000000000026834
+                0x00000000200059ac                __tdata_start__ = .
  *(.tdata .tdata.*)
-                0x000000002000596c                __tdata_end__ = (__tdata_start__ + SIZEOF (.tdata))
+                0x00000000200059ac                __tdata_end__ = (__tdata_start__ + SIZEOF (.tdata))
                 0x0000000000000000                __tdata_size__ = SIZEOF (.tdata)
-                0x00000000000267e0                __tdata_load_end__ = (__tdata_load_start__ + SIZEOF (.tdata))
-                0x00000000000267e0                __FLASH1_segment_used_end__ = (ALIGN ((__data_load_start__ + SIZEOF (.data)), 0x4) + SIZEOF (.tdata))
-                0x00000000000267e0                __FLASH1_segment_used_size__ = (__FLASH1_segment_used_end__ - __FLASH1_segment_start__)
+                0x0000000000026834                __tdata_load_end__ = (__tdata_load_start__ + SIZEOF (.tdata))
+                0x0000000000026834                __FLASH1_segment_used_end__ = (ALIGN ((__data_load_start__ + SIZEOF (.data)), 0x4) + SIZEOF (.tdata))
+                0x0000000000026834                __FLASH1_segment_used_size__ = (__FLASH1_segment_used_end__ - __FLASH1_segment_start__)
                 0x0000000000000001                . = ASSERT (((__tdata_load_start__ == __tdata_load_end__) || ((__tdata_load_end__ - __FLASH1_segment_start__) <= __FLASH1_segment_size__)), error: .tdata is too large to fit in FLASH1 memory segment)
 
-.tdata_run      0x000000002000596c        0x0
-                0x000000002000596c                __tdata_run_start__ = .
-                0x000000002000596c                __tdata_run_end__ = (__tdata_run_start__ + SIZEOF (.tdata))
+.tdata_run      0x00000000200059ac        0x0
+                0x00000000200059ac                __tdata_run_start__ = .
+                0x00000000200059ac                __tdata_run_end__ = (__tdata_run_start__ + SIZEOF (.tdata))
                 0x0000000000000000                __tdata_run_size__ = (__tdata_run_end__ - __tdata_run_start__)
-                0x000000002000596c                __tdata_run_load_end__ = __tdata_run_end__
+                0x00000000200059ac                __tdata_run_load_end__ = __tdata_run_end__
                 0x0000000000000001                . = ASSERT (((__tdata_run_start__ == __tdata_run_end__) || ((__tdata_run_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .tdata_run is too large to fit in RAM1 memory segment)
-                0x000000002000596c                __bss_load_start__ = ALIGN (__tdata_run_end__, 0x4)
+                0x00000000200059ac                __bss_load_start__ = ALIGN (__tdata_run_end__, 0x4)
 
-.bss            0x000000002000596c        0x0
-                0x000000002000596c                __bss_start__ = .
+.bss            0x00000000200059ac      0x140
+                0x00000000200059ac                __bss_start__ = .
  *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss.scratch_buffer
+                0x00000000200059ac      0x140 Output/Release/Obj/blinky_pca10040_s132/main.o
+                0x00000000200059ac                scratch_buffer
  *(COMMON)
-                0x000000002000596c                __bss_end__ = (__bss_start__ + SIZEOF (.bss))
-                0x0000000000000000                __bss_size__ = SIZEOF (.bss)
-                0x000000002000596c                __bss_load_end__ = __bss_end__
+                0x0000000020005aec                __bss_end__ = (__bss_start__ + SIZEOF (.bss))
+                0x0000000000000140                __bss_size__ = SIZEOF (.bss)
+                0x0000000020005aec                __bss_load_end__ = __bss_end__
                 0x0000000000000001                . = ASSERT (((__bss_start__ == __bss_end__) || ((__bss_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .bss is too large to fit in RAM1 memory segment)
-                0x000000002000596c                __tbss_load_start__ = ALIGN (__bss_end__, 0x4)
+                0x0000000020005aec                __tbss_load_start__ = ALIGN (__bss_end__, 0x4)
 
-.tbss           0x000000002000596c        0x0
-                0x000000002000596c                __tbss_start__ = .
+.tbss           0x0000000020005aec        0x0
+                0x0000000020005aec                __tbss_start__ = .
  *(.tbss .tbss.*)
-                0x000000002000596c                __tbss_end__ = (__tbss_start__ + SIZEOF (.tbss))
+                0x0000000020005aec                __tbss_end__ = (__tbss_start__ + SIZEOF (.tbss))
                 0x0000000000000000                __tbss_size__ = SIZEOF (.tbss)
-                0x000000002000596c                __tbss_load_end__ = __tbss_end__
+                0x0000000020005aec                __tbss_load_end__ = __tbss_end__
                 0x0000000000000001                . = ASSERT (((__tbss_start__ == __tbss_end__) || ((__tbss_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .tbss is too large to fit in RAM1 memory segment)
-                0x000000002000596c                __non_init_load_start__ = ALIGN (__tbss_end__, 0x4)
+                0x0000000020005aec                __non_init_load_start__ = ALIGN (__tbss_end__, 0x4)
 
-.non_init       0x000000002000596c        0x0
-                0x000000002000596c                __non_init_start__ = .
+.non_init       0x0000000020005aec        0x0
+                0x0000000020005aec                __non_init_start__ = .
  *(.non_init .non_init.*)
-                0x000000002000596c                __non_init_end__ = (__non_init_start__ + SIZEOF (.non_init))
+                0x0000000020005aec                __non_init_end__ = (__non_init_start__ + SIZEOF (.non_init))
                 0x0000000000000000                __non_init_size__ = SIZEOF (.non_init)
-                0x000000002000596c                __non_init_load_end__ = __non_init_end__
+                0x0000000020005aec                __non_init_load_end__ = __non_init_end__
                 0x0000000000000001                . = ASSERT (((__non_init_start__ == __non_init_end__) || ((__non_init_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .non_init is too large to fit in RAM1 memory segment)
-                0x000000002000596c                __heap_load_start__ = ALIGN (__non_init_end__, 0x4)
+                0x0000000020005aec                __heap_load_start__ = ALIGN (__non_init_end__, 0x4)
 
-.heap           0x000000002000596c     0x2000
-                0x000000002000596c                __heap_start__ = .
+.heap           0x0000000020005aec     0x2000
+                0x0000000020005aec                __heap_start__ = .
  *(.heap .heap.*)
-                0x000000002000796c                . = ALIGN (MAX ((__heap_start__ + __HEAPSIZE__), .), 0x4)
- *fill*         0x000000002000596c     0x2000 
-                0x000000002000796c                __heap_end__ = (__heap_start__ + SIZEOF (.heap))
+                0x0000000020007aec                . = ALIGN (MAX ((__heap_start__ + __HEAPSIZE__), .), 0x4)
+ *fill*         0x0000000020005aec     0x2000 
+                0x0000000020007aec                __heap_end__ = (__heap_start__ + SIZEOF (.heap))
                 0x0000000000002000                __heap_size__ = SIZEOF (.heap)
-                0x000000002000796c                __heap_load_end__ = __heap_end__
+                0x0000000020007aec                __heap_load_end__ = __heap_end__
                 0x0000000000000001                . = ASSERT (((__heap_start__ == __heap_end__) || ((__heap_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .heap is too large to fit in RAM1 memory segment)
                 0x000000002000e000                __stack_load_start__ = (__RAM1_segment_start__ + (__RAM1_segment_size__ - 0x2000))
 
@@ -4828,12 +4828,12 @@ LOAD Output/Release/Obj/blinky_pca10040_s132/nrf_section_iter.o
 LOAD Output/Release/Obj/blinky_pca10040_s132/nrf_strerror.o
 LOAD Output/Release/Obj/blinky_pca10040_s132/nrfx_atomic.o
 LOAD Output/Release/Obj/blinky_pca10040_s132/main.o
+LOAD other_includes/libcmsisnn.a
 LOAD Output/Release/Obj/blinky_pca10040_s132/ses_startup_nrf52.o
 LOAD Output/Release/Obj/blinky_pca10040_s132/ses_startup_nrf_common.o
 LOAD Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
 LOAD Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
 LOAD Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
-LOAD ../../../libcmsisnn.a
 LOAD C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER Embedded Studio/v3/packages/libraries/libcxx/lib/libcxx_noexcept_v7em_fpv4_sp_d16_hard_t_le_eabi.a
 LOAD C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.62/lib/libm_v7em_fpv4_sp_d16_hard_t_le_eabi.a
 LOAD C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.62/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a
@@ -4875,41 +4875,41 @@ LOAD linker stubs
  .comment       0x000000000000003f       0x40 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
  .comment       0x000000000000003f       0x40 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
 
-.debug_line     0x0000000000000000     0x34bb
+.debug_line     0x0000000000000000     0x34c0
  .debug_line    0x0000000000000000      0x21e Output/Release/Obj/blinky_pca10040_s132/thumb_crt0.o
  .debug_line    0x000000000000021e      0x432 Output/Release/Obj/blinky_pca10040_s132/app_error.o
  .debug_line    0x0000000000000650      0x73a Output/Release/Obj/blinky_pca10040_s132/app_error_weak.o
  .debug_line    0x0000000000000d8a      0x4d6 Output/Release/Obj/blinky_pca10040_s132/nrf_section_iter.o
- .debug_line    0x0000000000001260      0x7e4 Output/Release/Obj/blinky_pca10040_s132/main.o
- .debug_line    0x0000000000001a44       0x76 Output/Release/Obj/blinky_pca10040_s132/ses_startup_nrf52.o
- .debug_line    0x0000000000001aba       0x98 Output/Release/Obj/blinky_pca10040_s132/ses_startup_nrf_common.o
- .debug_line    0x0000000000001b52      0x783 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
- .debug_line    0x00000000000022d5      0xb5c Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
- .debug_line    0x0000000000002e31      0x68a Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
+ .debug_line    0x0000000000001260      0x7e9 Output/Release/Obj/blinky_pca10040_s132/main.o
+ .debug_line    0x0000000000001a49       0x76 Output/Release/Obj/blinky_pca10040_s132/ses_startup_nrf52.o
+ .debug_line    0x0000000000001abf       0x98 Output/Release/Obj/blinky_pca10040_s132/ses_startup_nrf_common.o
+ .debug_line    0x0000000000001b57      0x783 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
+ .debug_line    0x00000000000022da      0xb5c Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
+ .debug_line    0x0000000000002e36      0x68a Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
 
-.debug_info     0x0000000000000000     0x46dd
+.debug_info     0x0000000000000000     0x4f14
  .debug_info    0x0000000000000000       0x22 Output/Release/Obj/blinky_pca10040_s132/thumb_crt0.o
  .debug_info    0x0000000000000022      0x2a4 Output/Release/Obj/blinky_pca10040_s132/app_error.o
  .debug_info    0x00000000000002c6      0x398 Output/Release/Obj/blinky_pca10040_s132/app_error_weak.o
  .debug_info    0x000000000000065e      0x192 Output/Release/Obj/blinky_pca10040_s132/nrf_section_iter.o
- .debug_info    0x00000000000007f0     0x1294 Output/Release/Obj/blinky_pca10040_s132/main.o
- .debug_info    0x0000000000001a84       0x23 Output/Release/Obj/blinky_pca10040_s132/ses_startup_nrf52.o
- .debug_info    0x0000000000001aa7       0x23 Output/Release/Obj/blinky_pca10040_s132/ses_startup_nrf_common.o
- .debug_info    0x0000000000001aca     0x1537 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
- .debug_info    0x0000000000003001     0x11c1 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
- .debug_info    0x00000000000041c2      0x51b Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
+ .debug_info    0x00000000000007f0     0x1acb Output/Release/Obj/blinky_pca10040_s132/main.o
+ .debug_info    0x00000000000022bb       0x23 Output/Release/Obj/blinky_pca10040_s132/ses_startup_nrf52.o
+ .debug_info    0x00000000000022de       0x23 Output/Release/Obj/blinky_pca10040_s132/ses_startup_nrf_common.o
+ .debug_info    0x0000000000002301     0x1537 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
+ .debug_info    0x0000000000003838     0x11c1 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
+ .debug_info    0x00000000000049f9      0x51b Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
 
-.debug_abbrev   0x0000000000000000      0xe80
+.debug_abbrev   0x0000000000000000      0xeab
  .debug_abbrev  0x0000000000000000       0x12 Output/Release/Obj/blinky_pca10040_s132/thumb_crt0.o
  .debug_abbrev  0x0000000000000012      0x13e Output/Release/Obj/blinky_pca10040_s132/app_error.o
  .debug_abbrev  0x0000000000000150      0x188 Output/Release/Obj/blinky_pca10040_s132/app_error_weak.o
  .debug_abbrev  0x00000000000002d8       0xbd Output/Release/Obj/blinky_pca10040_s132/nrf_section_iter.o
- .debug_abbrev  0x0000000000000395       0xdd Output/Release/Obj/blinky_pca10040_s132/main.o
- .debug_abbrev  0x0000000000000472       0x14 Output/Release/Obj/blinky_pca10040_s132/ses_startup_nrf52.o
- .debug_abbrev  0x0000000000000486       0x14 Output/Release/Obj/blinky_pca10040_s132/ses_startup_nrf_common.o
- .debug_abbrev  0x000000000000049a      0x32b Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
- .debug_abbrev  0x00000000000007c5      0x4d8 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
- .debug_abbrev  0x0000000000000c9d      0x1e3 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
+ .debug_abbrev  0x0000000000000395      0x108 Output/Release/Obj/blinky_pca10040_s132/main.o
+ .debug_abbrev  0x000000000000049d       0x14 Output/Release/Obj/blinky_pca10040_s132/ses_startup_nrf52.o
+ .debug_abbrev  0x00000000000004b1       0x14 Output/Release/Obj/blinky_pca10040_s132/ses_startup_nrf_common.o
+ .debug_abbrev  0x00000000000004c5      0x32b Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
+ .debug_abbrev  0x00000000000007f0      0x4d8 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
+ .debug_abbrev  0x0000000000000cc8      0x1e3 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
 
 .debug_aranges  0x0000000000000000      0x268
  .debug_aranges
@@ -4933,7 +4933,7 @@ LOAD linker stubs
  .debug_aranges
                 0x0000000000000240       0x28 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
 
-.debug_str      0x0000000000000000    0x85359
+.debug_str      0x0000000000000000    0x90664
  .debug_str     0x0000000000000000       0xaa Output/Release/Obj/blinky_pca10040_s132/thumb_crt0.o
  .debug_str     0x00000000000000aa    0x5e2a0 Output/Release/Obj/blinky_pca10040_s132/app_error.o
                                       0x5ec5c (size before relaxing)
@@ -4941,17 +4941,17 @@ LOAD linker stubs
                                       0x6cee3 (size before relaxing)
  .debug_str     0x000000000006c468      0x28d Output/Release/Obj/blinky_pca10040_s132/nrf_section_iter.o
                                       0x68d98 (size before relaxing)
- .debug_str     0x000000000006c6f5     0xf320 Output/Release/Obj/blinky_pca10040_s132/main.o
-                                      0x787fd (size before relaxing)
- .debug_str     0x000000000007ba15       0x38 Output/Release/Obj/blinky_pca10040_s132/ses_startup_nrf52.o
+ .debug_str     0x000000000006c6f5    0x1a62b Output/Release/Obj/blinky_pca10040_s132/main.o
+                                      0x83b08 (size before relaxing)
+ .debug_str     0x0000000000086d20       0x38 Output/Release/Obj/blinky_pca10040_s132/ses_startup_nrf52.o
                                          0x92 (size before relaxing)
- .debug_str     0x000000000007ba4d       0x3d Output/Release/Obj/blinky_pca10040_s132/ses_startup_nrf_common.o
+ .debug_str     0x0000000000086d58       0x3d Output/Release/Obj/blinky_pca10040_s132/ses_startup_nrf_common.o
                                          0x97 (size before relaxing)
- .debug_str     0x000000000007ba8a     0x840a Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
+ .debug_str     0x0000000000086d95     0x840a Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
                                       0x663ec (size before relaxing)
- .debug_str     0x0000000000083e94      0xc2b Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
+ .debug_str     0x000000000008f19f      0xc2b Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
                                       0x6d9bc (size before relaxing)
- .debug_str     0x0000000000084abf      0x89a Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
+ .debug_str     0x000000000008fdca      0x89a Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
                                       0x6c950 (size before relaxing)
 
 .debug_ranges   0x0000000000000000      0x320
@@ -4964,14 +4964,14 @@ LOAD linker stubs
  .debug_ranges  0x0000000000000138      0x198 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
  .debug_ranges  0x00000000000002d0       0x50 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
 
-.debug_frame    0x0000000000000000      0x348
+.debug_frame    0x0000000000000000      0x354
  .debug_frame   0x0000000000000000       0x58 Output/Release/Obj/blinky_pca10040_s132/app_error.o
  .debug_frame   0x0000000000000058       0x20 Output/Release/Obj/blinky_pca10040_s132/app_error_weak.o
  .debug_frame   0x0000000000000078       0x30 Output/Release/Obj/blinky_pca10040_s132/nrf_section_iter.o
- .debug_frame   0x00000000000000a8       0x20 Output/Release/Obj/blinky_pca10040_s132/main.o
- .debug_frame   0x00000000000000c8       0x7c Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
- .debug_frame   0x0000000000000144      0x1a8 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
- .debug_frame   0x00000000000002ec       0x5c Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
+ .debug_frame   0x00000000000000a8       0x2c Output/Release/Obj/blinky_pca10040_s132/main.o
+ .debug_frame   0x00000000000000d4       0x7c Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
+ .debug_frame   0x0000000000000150      0x1a8 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
+ .debug_frame   0x00000000000002f8       0x5c Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
 
 .debug_loc      0x0000000000000000      0x5dc
  .debug_loc     0x0000000000000000       0xcd Output/Release/Obj/blinky_pca10040_s132/app_error.o
@@ -4981,7 +4981,7 @@ LOAD linker stubs
  .debug_loc     0x0000000000000521       0xbb Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
 
 .debug_pubnames
-                0x0000000000000000     0x125a
+                0x0000000000000000     0x12c9
  .debug_pubnames
                 0x0000000000000000       0x6c Output/Release/Obj/blinky_pca10040_s132/app_error.o
  .debug_pubnames
@@ -4989,16 +4989,16 @@ LOAD linker stubs
  .debug_pubnames
                 0x0000000000000172       0x46 Output/Release/Obj/blinky_pca10040_s132/nrf_section_iter.o
  .debug_pubnames
-                0x00000000000001b8       0x8a Output/Release/Obj/blinky_pca10040_s132/main.o
+                0x00000000000001b8       0xf9 Output/Release/Obj/blinky_pca10040_s132/main.o
  .debug_pubnames
-                0x0000000000000242      0x1a7 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x00000000000002b1      0x1a7 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
  .debug_pubnames
-                0x00000000000003e9      0x8c4 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
+                0x0000000000000458      0x8c4 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
  .debug_pubnames
-                0x0000000000000cad      0x5ad Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
+                0x0000000000000d1c      0x5ad Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
 
 .debug_pubtypes
-                0x0000000000000000      0xa83
+                0x0000000000000000      0xa8d
  .debug_pubtypes
                 0x0000000000000000      0x10a Output/Release/Obj/blinky_pca10040_s132/app_error.o
  .debug_pubtypes
@@ -5006,15 +5006,15 @@ LOAD linker stubs
  .debug_pubtypes
                 0x0000000000000212      0x128 Output/Release/Obj/blinky_pca10040_s132/nrf_section_iter.o
  .debug_pubtypes
-                0x000000000000033a       0xfa Output/Release/Obj/blinky_pca10040_s132/main.o
+                0x000000000000033a      0x104 Output/Release/Obj/blinky_pca10040_s132/main.o
  .debug_pubtypes
-                0x0000000000000434      0x1be Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x000000000000043e      0x1be Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
  .debug_pubtypes
-                0x00000000000005f2      0x2b8 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
+                0x00000000000005fc      0x2b8 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
  .debug_pubtypes
-                0x00000000000008aa      0x1d9 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
+                0x00000000000008b4      0x1d9 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
 
-.debug_macro    0x0000000000000000     0x3227
+.debug_macro    0x0000000000000000     0x3290
  .debug_macro   0x0000000000000000      0x12f Output/Release/Obj/blinky_pca10040_s132/app_error.o
  .debug_macro   0x000000000000012f       0x78 Output/Release/Obj/blinky_pca10040_s132/app_error.o
  .debug_macro   0x00000000000001a7      0x29d Output/Release/Obj/blinky_pca10040_s132/app_error_weak.o
@@ -5030,27 +5030,28 @@ LOAD linker stubs
  .debug_macro   0x000000000000077c      0x11b Output/Release/Obj/blinky_pca10040_s132/app_error_weak.o
  .debug_macro   0x0000000000000897      0x1b8 Output/Release/Obj/blinky_pca10040_s132/nrf_section_iter.o
  .debug_macro   0x0000000000000a4f       0x11 Output/Release/Obj/blinky_pca10040_s132/nrf_section_iter.o
- .debug_macro   0x0000000000000a60      0x3a0 Output/Release/Obj/blinky_pca10040_s132/main.o
- .debug_macro   0x0000000000000e00       0x22 Output/Release/Obj/blinky_pca10040_s132/main.o
- .debug_macro   0x0000000000000e22       0x11 Output/Release/Obj/blinky_pca10040_s132/main.o
- .debug_macro   0x0000000000000e33       0x22 Output/Release/Obj/blinky_pca10040_s132/main.o
- .debug_macro   0x0000000000000e55      0x113 Output/Release/Obj/blinky_pca10040_s132/main.o
- .debug_macro   0x0000000000000f68      0x11c Output/Release/Obj/blinky_pca10040_s132/main.o
- .debug_macro   0x0000000000001084       0x16 Output/Release/Obj/blinky_pca10040_s132/main.o
- .debug_macro   0x000000000000109a       0x86 Output/Release/Obj/blinky_pca10040_s132/main.o
- .debug_macro   0x0000000000001120      0x169 Output/Release/Obj/blinky_pca10040_s132/main.o
- .debug_macro   0x0000000000001289       0xc7 Output/Release/Obj/blinky_pca10040_s132/main.o
- .debug_macro   0x0000000000001350       0x7a Output/Release/Obj/blinky_pca10040_s132/main.o
- .debug_macro   0x00000000000013ca       0x70 Output/Release/Obj/blinky_pca10040_s132/main.o
- .debug_macro   0x000000000000143a       0xe2 Output/Release/Obj/blinky_pca10040_s132/main.o
- .debug_macro   0x000000000000151c      0x126 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
- .debug_macro   0x0000000000001642      0x44e Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
- .debug_macro   0x0000000000001a90      0xa28 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
- .debug_macro   0x00000000000024b8      0x520 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
- .debug_macro   0x00000000000029d8      0x164 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
- .debug_macro   0x0000000000002b3c      0x2ab Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
- .debug_macro   0x0000000000002de7       0x2b Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
- .debug_macro   0x0000000000002e12       0x10 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
- .debug_macro   0x0000000000002e22      0x16d Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
- .debug_macro   0x0000000000002f8f      0x282 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
- .debug_macro   0x0000000000003211       0x16 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
+ .debug_macro   0x0000000000000a60      0x3b7 Output/Release/Obj/blinky_pca10040_s132/main.o
+ .debug_macro   0x0000000000000e17       0x22 Output/Release/Obj/blinky_pca10040_s132/main.o
+ .debug_macro   0x0000000000000e39       0x11 Output/Release/Obj/blinky_pca10040_s132/main.o
+ .debug_macro   0x0000000000000e4a       0x22 Output/Release/Obj/blinky_pca10040_s132/main.o
+ .debug_macro   0x0000000000000e6c      0x113 Output/Release/Obj/blinky_pca10040_s132/main.o
+ .debug_macro   0x0000000000000f7f      0x11c Output/Release/Obj/blinky_pca10040_s132/main.o
+ .debug_macro   0x000000000000109b       0x16 Output/Release/Obj/blinky_pca10040_s132/main.o
+ .debug_macro   0x00000000000010b1       0x86 Output/Release/Obj/blinky_pca10040_s132/main.o
+ .debug_macro   0x0000000000001137      0x169 Output/Release/Obj/blinky_pca10040_s132/main.o
+ .debug_macro   0x00000000000012a0       0xc7 Output/Release/Obj/blinky_pca10040_s132/main.o
+ .debug_macro   0x0000000000001367       0x7a Output/Release/Obj/blinky_pca10040_s132/main.o
+ .debug_macro   0x00000000000013e1       0x52 Output/Release/Obj/blinky_pca10040_s132/main.o
+ .debug_macro   0x0000000000001433       0x70 Output/Release/Obj/blinky_pca10040_s132/main.o
+ .debug_macro   0x00000000000014a3       0xe2 Output/Release/Obj/blinky_pca10040_s132/main.o
+ .debug_macro   0x0000000000001585      0x126 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
+ .debug_macro   0x00000000000016ab      0x44e Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
+ .debug_macro   0x0000000000001af9      0xa28 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
+ .debug_macro   0x0000000000002521      0x520 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
+ .debug_macro   0x0000000000002a41      0x164 Output/Release/Obj/blinky_pca10040_s132/system_nrf52.o
+ .debug_macro   0x0000000000002ba5      0x2ab Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
+ .debug_macro   0x0000000000002e50       0x2b Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
+ .debug_macro   0x0000000000002e7b       0x10 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
+ .debug_macro   0x0000000000002e8b      0x16d Output/Release/Obj/blinky_pca10040_s132/nrf_sdh.o
+ .debug_macro   0x0000000000002ff8      0x282 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
+ .debug_macro   0x000000000000327a       0x16 Output/Release/Obj/blinky_pca10040_s132/nrf_sdh_soc.o

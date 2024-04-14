@@ -10,34 +10,45 @@
 #include "weights.h"
 #include "parameters.h"
 
+#include "libcmsisnn.a"
 
 /**
  * @brief Function for application main entry.
  */
 
-static q7_t conv1_wt[(CONV1_PADDING + CONV1_STRIDE) * CONV1_IM_DIM * CONV1_OUT_CH] = CONV1_WT;
-static q7_t conv1_bias[CONV1_OUT_CH] = CONV1_BIAS;
+ 
+#define DIM_HISTORY 32
+#define DIM_INPUT 32
+#define DIM_VEC 64
 
+#define USE_X4
 
-q7_t col_buffer[2 * 5 * 5 * 32 * 2]; 
-q7_t scratch_buffer [45 * 45 * 32 * 2]; 
+#ifndef USE_X4
+static q7_t update_gate_weights[DIM_VEC * DIM_HISTORY] = UPDATE_GATE_WEIGHT_X2;
+static q7_t reset_gate_weights[DIM_VEC * DIM_HISTORY] = RESET_GATE_WEIGHT_X2;
+static q7_t hidden_state_weights[DIM_VEC * DIM_HISTORY] = HIDDEN_STATE_WEIGHT_X2;
+#else
+static q7_t update_gate_weights[DIM_VEC * DIM_HISTORY] = UPDATE_GATE_WEIGHT_X4;
+static q7_t reset_gate_weights[DIM_VEC * DIM_HISTORY] = RESET_GATE_WEIGHT_X4;
+static q7_t hidden_state_weights[DIM_VEC * DIM_HISTORY] = HIDDEN_STATE_WEIGHT_X4;
+#endif
 
-uint8_t image_data[CONV1_IM_CH * CONV1_IM_DIM * CONV1_IM_DIM] = IMG_DATA; 
+static q7_t update_gate_bias[DIM_HISTORY] = UPDATE_GATE_BIAS;
+static q7_t reset_gate_bias[DIM_HISTORY] = RESET_GATE_BIAS;
+static q7_t hidden_state_bias[DIM_HISTORY] = HIDDEN_STATE_BIAS;
+
+static q15_t test_input1[DIM_INPUT] = INPUT_DATA1;
+static q15_t test_input2[DIM_INPUT] = INPUT_DATA2; 
+static q15_t test_history[DIM_HISTORY] = HISTORY_DATA; 
+
+q15_t scratch_buffer[DIM_HISTORY * 4 + DIM_INPUT]; 
 
 int main(void)
 {
-    q7_t *img_buffer1 = scratch_buffer; 
-    q7_t *img_buffer2 = img_buffer1 + 45 * 45 * 32; 
-
-    //int mean_data = INPUT_MEAN_SHIFT;
-    //unsigned int scale_data = INPUT_RIGHT_SHIFT;
-    //for (int i=0;i<45 * 45; i+=1) {
-    //  img_buffer2[i] =   (q7_t)__SSAT( ((((int)image_data[i]   - mean_data)<<7) + (0x1<<(scale_data-1))) >> scale_data, 8);
-    //} 
-
-    //arm_convolve_HWC_q7_fast(img_buffer2, CONV1_IM_DIM, CONV1_IM_CH, conv1_wt, CONV1_OUT_CH, CONV1_KER_DIM, CONV1_PADDING,
-    //                          CONV1_STRIDE, conv1_bias, CONV1_BIAS_LSHIFT, CONV1_OUT_RSHIFT, img_buffer1, CONV1_OUT_DIM,
-    //                          (q15_t *) col_buffer, NULL);
+    int input_size = DIM_INPUT; 
+    int history_size = DIM_HISTORY; 
+    
+    arm_copy_q15(test_input1, scratch_buffer + history_size, input_size); 
     
 }
 
