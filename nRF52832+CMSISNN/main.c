@@ -17,6 +17,9 @@ int main(void)
     /* Configure board. */
     bsp_board_init(BSP_INIT_LEDS);
 
+    
+
+
     /* Toggle LEDs. */
     while (true)
     {
