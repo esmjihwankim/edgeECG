@@ -6,7 +6,7 @@ This project aims to classify abnormal and noise affected heart signals on the e
 
 CMSIS5-5.7.0: <https://github.com/mathworks/build-steps-for-cmsisnn-library/tree/main>
 
-nRF5 SDK 17.1.0
+nRF5 SDK 15.2.0
 
 Segger Embedded Studio (SES) V8.10b
 
