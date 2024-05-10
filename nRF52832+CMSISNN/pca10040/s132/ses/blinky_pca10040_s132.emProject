@@ -23,7 +23,7 @@
       arm_simulator_memory_simulation_parameter="RWX 00000000,00100000,FFFFFFFF;RWX 20000000,00010000,CDCDCDCD"
       arm_target_device_name="nRF52832_xxAA"
       arm_target_interface_type="SWD"
-      c_additional_options="-save-temps"
+      c_additional_options=""
       c_preprocessor_definitions="BOARD_PCA10040;BSP_DEFINES_ONLY;CONFIG_GPIO_AS_PINRESET;FLOAT_ABI_HARD;INITIALIZE_USER_SECTIONS;NO_VTOR_CONFIG;NRF52;NRF52832_XXAA;NRF52_PAN_74;NRF_SD_BLE_API_VERSION=6;S132;SOFTDEVICE_PRESENT;"
       c_user_include_directories="../../../config;../../../../../../components;../../../../../../components/boards;../../../../../../components/libraries/atomic;../../../../../../components/libraries/balloc;../../../../../../components/libraries/bsp;../../../../../../components/libraries/delay;../../../../../../components/libraries/experimental_section_vars;../../../../../../components/libraries/log;../../../../../../components/libraries/log/src;../../../../../../components/libraries/memobj;../../../../../../components/libraries/ringbuf;../../../../../../components/libraries/strerror;../../../../../../components/libraries/util;../../../../../../components/softdevice/common;../../../../../../components/softdevice/s132/headers;../../../../../../components/softdevice/s132/headers/nrf52;../../..;../../../../../../external/fprintf;../../../../../../integration/nrfx;../../../../../../modules/nrfx;../../../../../../modules/nrfx/hal;../../../../../../modules/nrfx/mdk;../config;../../../core_include;../../../dsp_include;../../../nn_include;../../../other_include"
       debug_additional_load_file="../../../../../../components/softdevice/s132/hex/s132_nrf52_6.1.0_softdevice.hex"
@@ -42,6 +42,12 @@
       project_directory=""
       project_type="Executable" />
     <folder Name="Application">
+      <folder Name="NN">
+        <file file_name="../../../nn_include/arm_nn_tables.h" />
+        <file file_name="../../../nn_include/arm_nnfunctions.h" />
+        <file file_name="../../../nn_include/arm_nnsupportfunctions.h" />
+        <file file_name="../../../nn_include/libcmsisnn.a" />
+      </folder>
       <file file_name="../../../main.c" />
       <file file_name="../config/sdk_config.h" />
     </folder>

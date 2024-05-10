@@ -1,4 +1,5 @@
 "Output/Debug/Obj/blinky_pca10040_s132/main.o"
+"../../../nn_include/libcmsisnn.a"
 "Output/Debug/Obj/blinky_pca10040_s132/boards.o"
 "Output/Debug/Obj/blinky_pca10040_s132/ses_startup_nrf52.o"
 "Output/Debug/Obj/blinky_pca10040_s132/ses_startup_nrf_common.o"

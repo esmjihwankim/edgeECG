@@ -1,5 +1,5 @@
 Output/Debug/Obj/blinky_pca10040_s132/main.o: \
- C:\nRF5_SDK_15.2.0\MYPROJECTS\EdgeECG\nRF52832+CMSISNN\main.c \
+ D:\Dev\nRF5_SDK_15.2.0\My_Projects\EdgeECG\nRF52832+CMSISNN\main.c \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.10b/include/stdbool.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.10b/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.10b/include/__SEGGER_RTL.h \
