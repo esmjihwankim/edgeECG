@@ -21,8 +21,7 @@ int main(void)
     q7_t * mult_ref_q7 = test3 + NNMULT_DIM; 
 
     arm_nn_mult_q7(test1, test1+NNMULT_DIM, mult_out_q7, 5, NNMULT_DIM);
-
     
-
+    
 }
 

@@ -1,13 +1,13 @@
 Archive member included to satisfy reference by file (symbol)
 
-../../../nn_include/libcmsisnn.a(arm_nn_mult_q7.o)
-                              Output/Debug/Obj/blinky_pca10040_s132/main.o (arm_nn_mult_q7)
 C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/heapops_basic_v7em_fpv4_sp_d16_hard_t_le_eabi_balanced.a(heapops_basic.o)
                               Output/Debug/Obj/blinky_pca10040_s132/thumb_crt0.o (__SEGGER_RTL_init_heap)
 C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/strops_unaligned_v7em_fpv4_sp_d16_hard_t_le_eabi_balanced.a(strops.o)
                               Output/Debug/Obj/blinky_pca10040_s132/nrf_fprintf_format.o (strlen)
 C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/strops_unaligned_v7em_fpv4_sp_d16_hard_t_le_eabi_balanced.a(strasmops_arm.o)
                               C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/strops_unaligned_v7em_fpv4_sp_d16_hard_t_le_eabi_balanced.a(strops.o) (strcmp)
+../../../nn_include/libcmsisnn.a(arm_nn_mult_q7.o)
+                              Output/Debug/Obj/blinky_pca10040_s132/main.o (arm_nn_mult_q7)
 C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi_balanced.a(execops.o)
                               C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/strops_unaligned_v7em_fpv4_sp_d16_hard_t_le_eabi_balanced.a(strops.o) (__SEGGER_RTL_constraint_violation)
 C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi_balanced.a(execops_arm.o)
@@ -180,8 +180,6 @@ Discarded input sections
                 0x00000000        0x8 Output/Debug/Obj/blinky_pca10040_s132/main.o
  .text.sd_protected_register_write
                 0x00000000        0x8 Output/Debug/Obj/blinky_pca10040_s132/main.o
- .data          0x00000000        0x0 ../../../nn_include/libcmsisnn.a(arm_nn_mult_q7.o)
- .bss           0x00000000        0x0 ../../../nn_include/libcmsisnn.a(arm_nn_mult_q7.o)
  .group         0x00000000        0xc Output/Debug/Obj/blinky_pca10040_s132/boards.o
  .group         0x00000000        0xc Output/Debug/Obj/blinky_pca10040_s132/boards.o
  .group         0x00000000        0xc Output/Debug/Obj/blinky_pca10040_s132/boards.o
@@ -2749,6 +2747,8 @@ Discarded input sections
                 0x00000000       0x5c C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/strops_unaligned_v7em_fpv4_sp_d16_hard_t_le_eabi_balanced.a(strasmops_arm.o)
  .text.libc.__aeabi_memmove
                 0x00000000       0x24 C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/strops_unaligned_v7em_fpv4_sp_d16_hard_t_le_eabi_balanced.a(strasmops_arm.o)
+ .data          0x00000000        0x0 ../../../nn_include/libcmsisnn.a(arm_nn_mult_q7.o)
+ .bss           0x00000000        0x0 ../../../nn_include/libcmsisnn.a(arm_nn_mult_q7.o)
  .text.libc     0x00000000        0x0 C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi_balanced.a(execops.o)
  .text.libc.abort
                 0x00000000       0x14 C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi_balanced.a(execops.o)
@@ -5260,84 +5260,84 @@ Linker script and memory map
  .glue_7t       0x000263e8        0x0 linker stubs
  .text.main     0x000263e8       0x8c Output/Debug/Obj/blinky_pca10040_s132/main.o
                 0x000263e8                main
- .text          0x00026474      0x104 ../../../nn_include/libcmsisnn.a(arm_nn_mult_q7.o)
-                0x00026474                arm_nn_mult_q7
  .text.__NVIC_SystemReset
-                0x00026578       0x28 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x00026474       0x28 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
  .text.SystemCoreClockUpdate
-                0x000265a0       0x14 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
-                0x000265a0                SystemCoreClockUpdate
+                0x0002649c       0x14 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x0002649c                SystemCoreClockUpdate
  .text.SystemInit
-                0x000265b4      0x2d8 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
-                0x000265b4                SystemInit
+                0x000264b0      0x2d8 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x000264b0                SystemInit
  .text.errata_12
-                0x0002688c       0x58 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x00026788       0x58 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
  .text.errata_16
-                0x000268e4       0x38 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x000267e0       0x38 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
  .text.errata_31
-                0x0002691c       0x58 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x00026818       0x58 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
  .text.errata_32
-                0x00026974       0x38 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x00026870       0x38 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
  .text.errata_36
-                0x000269ac       0x58 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x000268a8       0x58 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
  .text.errata_37
-                0x00026a04       0x38 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x00026900       0x38 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
  .text.errata_57
-                0x00026a3c       0x38 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x00026938       0x38 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
  .text.errata_66
-                0x00026a74       0x38 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x00026970       0x38 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
  .text.errata_108
-                0x00026aac       0x58 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x000269a8       0x58 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
  .text.errata_136
-                0x00026b04       0x58 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x00026a00       0x58 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
  .text.errata_182
-                0x00026b5c       0x24 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x00026a58       0x24 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
  .text.app_error_save_and_stop
-                0x00026b80       0x9c Output/Debug/Obj/blinky_pca10040_s132/app_error.o
-                0x00026b80                app_error_save_and_stop
+                0x00026a7c       0x9c Output/Debug/Obj/blinky_pca10040_s132/app_error.o
+                0x00026a7c                app_error_save_and_stop
  .text.app_error_handler
-                0x00026c1c       0x1c Output/Debug/Obj/blinky_pca10040_s132/app_error_handler_gcc.o
-                0x00026c1c                app_error_handler
+                0x00026b18       0x1c Output/Debug/Obj/blinky_pca10040_s132/app_error_handler_gcc.o
+                0x00026b18                app_error_handler
  .text.app_error_fault_handler
-                0x00026c38       0x84 Output/Debug/Obj/blinky_pca10040_s132/app_error_weak.o
-                0x00026c38                app_error_fault_handler
+                0x00026b34       0x84 Output/Debug/Obj/blinky_pca10040_s132/app_error_weak.o
+                0x00026b34                app_error_fault_handler
  .text.assert_nrf_callback
-                0x00026cbc       0x2e Output/Debug/Obj/blinky_pca10040_s132/nrf_assert.o
-                0x00026cbc                assert_nrf_callback
- *fill*         0x00026cea        0x2 
+                0x00026bb8       0x2e Output/Debug/Obj/blinky_pca10040_s132/nrf_assert.o
+                0x00026bb8                assert_nrf_callback
+ *fill*         0x00026be6        0x2 
  .text.nrf_section_iter_init
-                0x00026cec       0x54 Output/Debug/Obj/blinky_pca10040_s132/nrf_section_iter.o
-                0x00026cec                nrf_section_iter_init
+                0x00026be8       0x54 Output/Debug/Obj/blinky_pca10040_s132/nrf_section_iter.o
+                0x00026be8                nrf_section_iter_init
  .text.nrf_section_iter_next
-                0x00026d40       0x64 Output/Debug/Obj/blinky_pca10040_s132/nrf_section_iter.o
-                0x00026d40                nrf_section_iter_next
+                0x00026c3c       0x64 Output/Debug/Obj/blinky_pca10040_s132/nrf_section_iter.o
+                0x00026c3c                nrf_section_iter_next
  .text.nrf_section_iter_get
-                0x00026da4       0x24 Output/Debug/Obj/blinky_pca10040_s132/nrf_sdh.o
+                0x00026ca0       0x24 Output/Debug/Obj/blinky_pca10040_s132/nrf_sdh.o
  .text.nrf_sdh_evts_poll
-                0x00026dc8       0x50 Output/Debug/Obj/blinky_pca10040_s132/nrf_sdh.o
-                0x00026dc8                nrf_sdh_evts_poll
+                0x00026cc4       0x50 Output/Debug/Obj/blinky_pca10040_s132/nrf_sdh.o
+                0x00026cc4                nrf_sdh_evts_poll
  .text.SWI2_EGU2_IRQHandler
-                0x00026e18        0xa Output/Debug/Obj/blinky_pca10040_s132/nrf_sdh.o
-                0x00026e18                SWI2_EGU2_IRQHandler
- *fill*         0x00026e22        0x2 
+                0x00026d14        0xa Output/Debug/Obj/blinky_pca10040_s132/nrf_sdh.o
+                0x00026d14                SWI2_EGU2_IRQHandler
+ *fill*         0x00026d1e        0x2 
  .text.nrf_section_iter_get
-                0x00026e24       0x24 Output/Debug/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
+                0x00026d20       0x24 Output/Debug/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
  .text.sd_evt_get
-                0x00026e48        0x8 Output/Debug/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
+                0x00026d44        0x8 Output/Debug/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
  .text.nrf_sdh_soc_evts_poll
-                0x00026e50       0x78 Output/Debug/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
+                0x00026d4c       0x78 Output/Debug/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
  .text.libc.__SEGGER_RTL_init_heap
-                0x00026ec8       0x18 C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/heapops_basic_v7em_fpv4_sp_d16_hard_t_le_eabi_balanced.a(heapops_basic.o)
-                0x00026ec8                __SEGGER_RTL_init_heap
+                0x00026dc4       0x18 C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/heapops_basic_v7em_fpv4_sp_d16_hard_t_le_eabi_balanced.a(heapops_basic.o)
+                0x00026dc4                __SEGGER_RTL_init_heap
  .text.libc.__aeabi_memclr
-                0x00026ee0       0x68 C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/strops_unaligned_v7em_fpv4_sp_d16_hard_t_le_eabi_balanced.a(strasmops_arm.o)
-                0x00026ee0                __aeabi_memclr8
-                0x00026ee0                __aeabi_memclr
-                0x00026ee0                __aeabi_memclr4
-                0x00026ee2                __aeabi_memset4
-                0x00026ee2                __aeabi_memset8
-                0x00026ee2                __aeabi_memset
-                0x00026ee8                memset
+                0x00026ddc       0x68 C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/strops_unaligned_v7em_fpv4_sp_d16_hard_t_le_eabi_balanced.a(strasmops_arm.o)
+                0x00026ddc                __aeabi_memclr8
+                0x00026ddc                __aeabi_memclr
+                0x00026ddc                __aeabi_memclr4
+                0x00026dde                __aeabi_memset4
+                0x00026dde                __aeabi_memset8
+                0x00026dde                __aeabi_memset
+                0x00026de4                memset
+ .text          0x00026e44      0x104 ../../../nn_include/libcmsisnn.a(arm_nn_mult_q7.o)
+                0x00026e44                arm_nn_mult_q7
                 0x00026f48                        __text_end__ = (__text_start__ + SIZEOF (.text))
                 0x00000b60                        __text_size__ = SIZEOF (.text)
                 0x00026f48                        __text_load_end__ = __text_end__
@@ -5678,8 +5678,8 @@ Linker script and memory map
                 0x00010000                        __RAM_segment_used_size__ = (__RAM_segment_used_end__ - __RAM_segment_start__)
                 0x00000001                        . = ASSERT (((__stack_process_start__ == __stack_process_end__) || ((__stack_process_end__ - __RAM_segment_start__) <= __RAM_segment_size__)), error: .stack_process is too large to fit in RAM memory segment)
 START GROUP
-LOAD Output/Debug/Obj/blinky_pca10040_s132/main.o
 LOAD ../../../nn_include/libcmsisnn.a
+LOAD Output/Debug/Obj/blinky_pca10040_s132/main.o
 LOAD Output/Debug/Obj/blinky_pca10040_s132/boards.o
 LOAD Output/Debug/Obj/blinky_pca10040_s132/ses_startup_nrf52.o
 LOAD Output/Debug/Obj/blinky_pca10040_s132/ses_startup_nrf_common.o
@@ -5938,7 +5938,6 @@ LOAD linker stubs
 .comment        0x00000000       0xfc
  .comment       0x00000000       0xfc Output/Debug/Obj/blinky_pca10040_s132/main.o
                                  0x3e (size before relaxing)
- .comment       0x000000fc       0x4a ../../../nn_include/libcmsisnn.a(arm_nn_mult_q7.o)
  .comment       0x000000fc       0x40 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
  .comment       0x000000fc       0x40 Output/Debug/Obj/blinky_pca10040_s132/app_error.o
  .comment       0x000000fc       0x40 Output/Debug/Obj/blinky_pca10040_s132/app_error_handler_gcc.o
@@ -5948,39 +5947,40 @@ LOAD linker stubs
  .comment       0x000000fc       0x40 Output/Debug/Obj/blinky_pca10040_s132/nrf_sdh.o
  .comment       0x000000fc       0x40 Output/Debug/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
  .comment       0x000000fc       0x38 C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/heapops_basic_v7em_fpv4_sp_d16_hard_t_le_eabi_balanced.a(heapops_basic.o)
+ .comment       0x000000fc       0x4a ../../../nn_include/libcmsisnn.a(arm_nn_mult_q7.o)
 
 .ARM.attributes
                 0x00000000       0x38
  .ARM.attributes
                 0x00000000       0x36 Output/Debug/Obj/blinky_pca10040_s132/main.o
  .ARM.attributes
-                0x00000036       0x30 ../../../nn_include/libcmsisnn.a(arm_nn_mult_q7.o)
+                0x00000036       0x20 Output/Debug/Obj/blinky_pca10040_s132/ses_startup_nrf52.o
  .ARM.attributes
-                0x00000066       0x20 Output/Debug/Obj/blinky_pca10040_s132/ses_startup_nrf52.o
+                0x00000056       0x20 Output/Debug/Obj/blinky_pca10040_s132/ses_startup_nrf_common.o
  .ARM.attributes
-                0x00000086       0x20 Output/Debug/Obj/blinky_pca10040_s132/ses_startup_nrf_common.o
+                0x00000076       0x39 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
  .ARM.attributes
-                0x000000a6       0x39 Output/Debug/Obj/blinky_pca10040_s132/system_nrf52.o
+                0x000000af       0x39 Output/Debug/Obj/blinky_pca10040_s132/app_error.o
  .ARM.attributes
-                0x000000df       0x39 Output/Debug/Obj/blinky_pca10040_s132/app_error.o
+                0x000000e8       0x39 Output/Debug/Obj/blinky_pca10040_s132/app_error_handler_gcc.o
  .ARM.attributes
-                0x00000118       0x39 Output/Debug/Obj/blinky_pca10040_s132/app_error_handler_gcc.o
+                0x00000121       0x39 Output/Debug/Obj/blinky_pca10040_s132/app_error_weak.o
  .ARM.attributes
-                0x00000151       0x39 Output/Debug/Obj/blinky_pca10040_s132/app_error_weak.o
+                0x0000015a       0x39 Output/Debug/Obj/blinky_pca10040_s132/nrf_assert.o
  .ARM.attributes
-                0x0000018a       0x39 Output/Debug/Obj/blinky_pca10040_s132/nrf_assert.o
+                0x00000193       0x39 Output/Debug/Obj/blinky_pca10040_s132/nrf_section_iter.o
  .ARM.attributes
-                0x000001c3       0x39 Output/Debug/Obj/blinky_pca10040_s132/nrf_section_iter.o
+                0x000001cc       0x39 Output/Debug/Obj/blinky_pca10040_s132/nrf_sdh.o
  .ARM.attributes
-                0x000001fc       0x39 Output/Debug/Obj/blinky_pca10040_s132/nrf_sdh.o
+                0x00000205       0x39 Output/Debug/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
  .ARM.attributes
-                0x00000235       0x39 Output/Debug/Obj/blinky_pca10040_s132/nrf_sdh_soc.o
+                0x0000023e       0x20 Output/Debug/Obj/blinky_pca10040_s132/thumb_crt0.o
  .ARM.attributes
-                0x0000026e       0x20 Output/Debug/Obj/blinky_pca10040_s132/thumb_crt0.o
+                0x0000025e       0x3e C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/heapops_basic_v7em_fpv4_sp_d16_hard_t_le_eabi_balanced.a(heapops_basic.o)
  .ARM.attributes
-                0x0000028e       0x3e C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/heapops_basic_v7em_fpv4_sp_d16_hard_t_le_eabi_balanced.a(heapops_basic.o)
+                0x0000029c       0x20 C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/strops_unaligned_v7em_fpv4_sp_d16_hard_t_le_eabi_balanced.a(strasmops_arm.o)
  .ARM.attributes
-                0x000002cc       0x20 C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/strops_unaligned_v7em_fpv4_sp_d16_hard_t_le_eabi_balanced.a(strasmops_arm.o)
+                0x000002bc       0x30 ../../../nn_include/libcmsisnn.a(arm_nn_mult_q7.o)
 
 .stack_sizes    0x00000000        0x5
  .stack_sizes   0x00000000        0x5 C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10b/lib/heapops_basic_v7em_fpv4_sp_d16_hard_t_le_eabi_balanced.a(heapops_basic.o)
