@@ -1,5 +1,6 @@
 mit-bih-arrhythmia-database-1.0.0/
 __pycache__/
+.idea/
 mit_data/
 ecg_data/
 saved_model
