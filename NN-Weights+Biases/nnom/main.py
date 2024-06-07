@@ -1,12 +1,13 @@
 import matplotlib.pyplot as plt
 import os
 
-import tensorflow.keras as keras
-from tensorflow.keras import *
-from tensorflow.keras.datasets import mnist
-from tensorflow.keras.layers import *
-from tensorflow.keras.activations import *
-from tensorflow.keras.models import load_model, save_model
+
+import keras
+from keras import *
+from keras.datasets import mnist
+from keras.layers import *
+from keras.activations import *
+from keras.models import load_model, save_model
 import tensorflow as tf
 import numpy as np
 
