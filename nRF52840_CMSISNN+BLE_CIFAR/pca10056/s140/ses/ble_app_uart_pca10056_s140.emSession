@@ -2,7 +2,7 @@
 <session>
  <Bookmarks/>
  <Breakpoints groups="Breakpoints" active_group="Breakpoints">
-  <BreakpointListItem trigger="" line="777" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../main.c" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="783" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../main.c" useHWbreakpoint="false"/>
   <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
  </Breakpoints>
  <ExecutionProfileWindow/>
@@ -26,6 +26,8 @@
   <ProjectSessionItem path="ble_app_uart_pca10056_s140;ble_app_uart_pca10056_s140"/>
   <ProjectSessionItem path="ble_app_uart_pca10056_s140;ble_app_uart_pca10056_s140;Application"/>
   <ProjectSessionItem path="ble_app_uart_pca10056_s140;ble_app_uart_pca10056_s140;CMSIS_DSP_NN"/>
+  <ProjectSessionItem path="ble_app_uart_pca10056_s140;ble_app_uart_pca10056_s140;CMSIS_DSP_NN;FullyConnectedFunctions"/>
+  <ProjectSessionItem path="ble_app_uart_pca10056_s140;ble_app_uart_pca10056_s140;CMSIS_DSP_NN;NNSupportFunctions"/>
   <ProjectSessionItem path="ble_app_uart_pca10056_s140;ble_app_uart_pca10056_s140;None"/>
   <ProjectSessionItem path="ble_app_uart_pca10056_s140;ble_app_uart_pca10056_s140;nRF_Libraries"/>
   <ProjectSessionItem path="ble_app_uart_pca10056_s140;ble_app_uart_pca10056_s140;nRF_Log"/>
@@ -61,7 +63,15 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="789" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="770" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="782" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="775" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="148" useTextEdit="1" openedFrom="D:/Git Repo/nRF5_SDK_17.1.0_ddde560/My_Projects/EdgeECG/nRF52840+CMSISNN/main.c" useBinaryEdit="0" left="0" path="../../../includes/nn_include/FullyConnectedFunctions/arm_fully_connected_q7_opt.c" selected="0" top="137" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../includes/nn_include/FullyConnectedFunctions/arm_fully_connected_q15.c" selected="0" top="63" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="50" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../includes/nn_include/FullyConnectedFunctions/arm_fully_connected_q15_opt.c" selected="0" top="34" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../includes/nn_include/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15.c" selected="0" top="27" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="525" useTextEdit="1" openedFrom="D:/Git Repo/nRF5_SDK_17.1.0_ddde560/My_Projects/EdgeECG/nRF52840+CMSISNN/main.c" useBinaryEdit="0" left="0" path="../../../includes/dsp_include/arm_math.h" selected="0" top="520" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="136" useTextEdit="1" openedFrom="D:/Git Repo/nRF5_SDK_17.1.0_ddde560/My_Projects/EdgeECG/nRF52840+CMSISNN/includes/nn_include/FullyConnectedFunctions/arm_fully_connected_q7_opt.c" useBinaryEdit="0" left="0" path="../../../includes/nn_include/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.c" selected="0" top="38" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="472" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../includes/nn_include/arm_nnsupportfunctions.h" selected="0" top="53" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1961" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/toolchain/cmsis/include/cmsis_gcc.h" selected="0" top="1912" codecName="Default"/>
  </Files>
  <ARMCrossStudioWindow activeProject="ble_app_uart_pca10056_s140" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>

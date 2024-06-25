@@ -780,15 +780,15 @@ int main(void)
     printf("maxpool done\r\n");
 
 
-    arm_fully_connected_q7_opt(img_buffer2, ip1_wt, IP1_DIM, IP1_OUT, IP1_BIAS_LSHIFT, IP1_OUT_RSHIFT, ip1_bias,
-                               output_data, (q15_t *) img_buffer1);
+    arm_fully_connected_q15_opt(img_buffer2, ip1_wt, IP1_DIM, IP1_OUT, IP1_BIAS_LSHIFT, 
+            IP1_OUT_RSHIFT, ip1_bias, output_data, (q15_t *) img_buffer1);
 
-    printf("fc done\r\n");
+    printf("q15opt fc done\r\n");
 
 
-    arm_softmax_q7(output_data, 10, output_data);
+    arm_softmax_q15(output_data, 10, output_data);
 
-    printf("softmax done\r\n");
+    printf("q15 softmax done\r\n");
 
     
     for (int i = 0; i < 10; i++)
