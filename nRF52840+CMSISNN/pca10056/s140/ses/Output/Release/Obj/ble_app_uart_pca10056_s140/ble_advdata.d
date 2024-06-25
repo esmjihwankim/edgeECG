@@ -1,8 +1,12 @@
 Output/Release/Obj/ble_app_uart_pca10056_s140/ble_advdata.o: \
- D:\Github\ Repo\nRF5_SDK_17.0.2_d674dde\components\ble\common\ble_advdata.c \
- D:\Github\ Repo\nRF5_SDK_17.0.2_d674dde\components\ble\common\ble_advdata.h \
+ D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\ble\common\ble_advdata.c \
+ D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\ble\common\ble_advdata.h \
+ C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdint.h \
+ C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/__config \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdint.h \
+ C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdbool.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdbool.h \
+ C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/string.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/string.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/__crossworks.h \
  ../../../../../../components/softdevice/s140/headers/ble.h \
@@ -37,13 +41,14 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/ble_advdata.o: \
  ../../../../../../components/libraries/util/sdk_errors.h \
  ../../../../../../components/softdevice/s140/headers/nrf_error.h \
  ../../../../../../components/libraries/util/app_util.h \
+ C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stddef.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stddef.h \
  ../../../../../../components/softdevice/s140/headers/nrf52/nrf_mbr.h \
  ../../../../../../components/softdevice/s140/headers/nrf_svc.h \
  ../../../../../../components/libraries/util/sdk_macros.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
  ../../../../../../components/softdevice/s140/headers/ble_gap.h \
- D:\Github\ Repo\nRF5_SDK_17.0.2_d674dde\components\ble\common\ble_srv_common.h \
+ D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\ble\common\ble_srv_common.h \
  ../../../../../../components/softdevice/s140/headers/ble_types.h \
  ../../../../../../components/libraries/util/app_util.h \
  ../../../../../../components/softdevice/s140/headers/ble_gatt.h

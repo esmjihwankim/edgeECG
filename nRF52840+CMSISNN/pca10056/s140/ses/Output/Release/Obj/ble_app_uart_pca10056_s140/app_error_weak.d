@@ -1,9 +1,13 @@
 Output/Release/Obj/ble_app_uart_pca10056_s140/app_error_weak.o: \
- D:\Github\ Repo\nRF5_SDK_17.0.2_d674dde\components\libraries\util\app_error_weak.c \
- D:\Github\ Repo\nRF5_SDK_17.0.2_d674dde\components\libraries\util\app_error.h \
+ D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\util\app_error_weak.c \
+ D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\util\app_error.h \
+ C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdint.h \
+ C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/__config \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdint.h \
+ C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdio.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdio.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/__crossworks.h \
+ C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdbool.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdbool.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \
  ../../../../../../modules/nrfx/mdk/nrf52840.h \
@@ -17,12 +21,13 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/app_error_weak.o: \
  ../../../../../../modules/nrfx/mdk/nrf51_to_nrf52840.h \
  ../../../../../../modules/nrfx/mdk/nrf52_to_nrf52840.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
- D:\Github\ Repo\nRF5_SDK_17.0.2_d674dde\components\libraries\util\sdk_errors.h \
+ D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\util\sdk_errors.h \
  ../../../../../../components/softdevice/s140/headers/nrf_error.h \
- D:\Github\ Repo\nRF5_SDK_17.0.2_d674dde\components\libraries\util\nordic_common.h \
- D:\Github\ Repo\nRF5_SDK_17.0.2_d674dde\components\libraries\util\app_error_weak.h \
+ D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\util\nordic_common.h \
+ D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\util\app_error_weak.h \
  ../../../../../../components/libraries/log/nrf_log.h \
  ../../../../../../components/libraries/util/sdk_common.h \
+ C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/string.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/string.h \
  ../config/sdk_config.h \
  ../../../../../../components/libraries/util/nordic_common.h \
@@ -30,6 +35,7 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/app_error_weak.o: \
  ../../../../../../components/libraries/util/sdk_os.h \
  ../../../../../../components/libraries/util/sdk_errors.h \
  ../../../../../../components/libraries/util/app_util.h \
+ C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stddef.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stddef.h \
  ../../../../../../components/softdevice/s140/headers/nrf52/nrf_mbr.h \
  ../../../../../../components/softdevice/s140/headers/nrf_svc.h \
@@ -48,6 +54,7 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/app_error_weak.o: \
  ../../../../../../components/libraries/log/src/nrf_log_ctrl_internal.h \
  ../../../../../../components/libraries/log/nrf_log_backend_interface.h \
  ../../../../../../components/libraries/memobj/nrf_memobj.h \
+ C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdlib.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdlib.h \
  ../../../../../../components/libraries/balloc/nrf_balloc.h \
  ../../../../../../components/libraries/util/app_util_platform.h \
@@ -57,7 +64,7 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/app_error_weak.o: \
  ../../../../../../components/softdevice/s140/headers/nrf_error_soc.h \
  ../../../../../../components/softdevice/s140/headers/nrf_nvic.h \
  ../../../../../../components/libraries/util/app_error.h \
- D:\Github\ Repo\nRF5_SDK_17.0.2_d674dde\components\libraries\util\app_util_platform.h \
+ D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\util\app_util_platform.h \
  ../../../../../../components/softdevice/s140/headers/nrf_sdm.h \
  ../../../../../../components/softdevice/s140/headers/nrf_error_sdm.h \
  ../../../../../../components/softdevice/s140/headers/nrf_soc.h
