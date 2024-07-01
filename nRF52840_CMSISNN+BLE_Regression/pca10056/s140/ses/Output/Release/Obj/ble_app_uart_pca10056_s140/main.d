@@ -1,11 +1,15 @@
 Output/Release/Obj/ble_app_uart_pca10056_s140/main.o: \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\My_Projects\EdgeECG\nRF52840_CMSISNN+BLE_CIFAR\main.c \
+ D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\My_Projects\EdgeECG\nRF52840_CMSISNN+BLE_Regression\main.c \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdint.h \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/__config \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdint.h \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/string.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/string.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/__crossworks.h \
+ C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdlib.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdlib.h \
+ C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdbool.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdbool.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \
  ../../../../../../modules/nrfx/mdk/nrf52840.h \
@@ -21,8 +25,6 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/main.o: \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
  ../../../../../../components/softdevice/s140/headers/ble_hci.h \
  ../../../../../../components/ble/common/ble_advdata.h \
- C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdbool.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdbool.h \
  ../../../../../../components/softdevice/s140/headers/ble.h \
  ../../../../../../components/softdevice/s140/headers/nrf_svc.h \
  ../../../../../../components/softdevice/s140/headers/nrf_error.h \
@@ -118,8 +120,6 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/main.o: \
  ../../../../../../components/libraries/log/src/nrf_log_ctrl_internal.h \
  ../../../../../../components/libraries/log/nrf_log_backend_interface.h \
  ../../../../../../components/libraries/memobj/nrf_memobj.h \
- C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdlib.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdlib.h \
  ../../../../../../components/libraries/balloc/nrf_balloc.h \
  ../../../../../../components/libraries/log/nrf_log_default_backends.h \
  ../../../includes/nn_include/arm_nnfunctions.h \
@@ -135,6 +135,6 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/main.o: \
  ../../../includes/dsp_include/arm_common_tables.h \
  ../../../includes/dsp_include/arm_math.h \
  ../../../includes/nn_include/arm_nn_tables.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\My_Projects\EdgeECG\nRF52840_CMSISNN+BLE_CIFAR\arm_nnexamples_cifar10_inputs.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\My_Projects\EdgeECG\nRF52840_CMSISNN+BLE_CIFAR\arm_nnexamples_cifar10_parameter.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\My_Projects\EdgeECG\nRF52840_CMSISNN+BLE_CIFAR\arm_nnexamples_cifar10_weights.h
+ D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\My_Projects\EdgeECG\nRF52840_CMSISNN+BLE_Regression\arm_nnexamples_cifar10_inputs.h \
+ D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\My_Projects\EdgeECG\nRF52840_CMSISNN+BLE_Regression\arm_nnexamples_cifar10_parameter.h \
+ D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\My_Projects\EdgeECG\nRF52840_CMSISNN+BLE_Regression\arm_nnexamples_cifar10_weights.h
