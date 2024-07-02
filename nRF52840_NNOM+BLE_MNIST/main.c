@@ -32,8 +32,9 @@
 #include "nrf_log_ctrl.h"
 #include "nrf_log_default_backends.h"
 
-
-
+#include "nnom.h"
+#include "image.h"
+#include "weights.h"
 
 
 
@@ -650,9 +651,9 @@ static void advertising_start(void)
 
 
 
-/*****************************************************/
+/*****************************************************/ 
 /* NN Stuff                                           / 
-/*****************************************************/
+/*****************************************************/ 
 
 
 
@@ -681,8 +682,9 @@ int main(void)
 
     printf("\r\Application started.\r\n");
 
-    
-    
+    nnom_model_t* model = nnom_model_create();
+
+    model_run(model);
 
 
     // Enter main loop.

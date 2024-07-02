@@ -1,14 +1,9 @@
 Output/Release/Obj/ble_app_uart_pca10056_s140/main.o: \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\My_Projects\EdgeECG\nRF52840_NNOM+BLE_MNIST\main.c \
- C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdint.h \
- C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/__config \
+ D:\Github\ Repo\nRF5_SDK_17.1.0\MYPROJECTS\EdgeECG\nRF52840_NNOM+BLE_MNIST\main.c \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdint.h \
- C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/string.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/string.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/__crossworks.h \
- C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdlib.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdlib.h \
- C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdbool.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdbool.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \
@@ -45,7 +40,6 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/main.o: \
  ../../../../../../components/libraries/util/sdk_errors.h \
  ../../../../../../components/softdevice/s140/headers/nrf_error.h \
  ../../../../../../components/libraries/util/app_util.h \
- C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stddef.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stddef.h \
  ../../../../../../components/softdevice/s140/headers/nrf52/nrf_mbr.h \
  ../../../../../../components/softdevice/s140/headers/nrf_svc.h \
@@ -73,7 +67,6 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/main.o: \
  ../../../../../../components/ble/common/ble_srv_common.h \
  ../../../../../../components/libraries/timer/app_timer.h \
  ../../../../../../components/libraries/util/app_error.h \
- C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdio.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdio.h \
  ../../../../../../components/libraries/util/app_error_weak.h \
  ../../../../../../components/libraries/log/nrf_log_instance.h \
@@ -121,4 +114,47 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/main.o: \
  ../../../../../../components/libraries/log/nrf_log_backend_interface.h \
  ../../../../../../components/libraries/memobj/nrf_memobj.h \
  ../../../../../../components/libraries/balloc/nrf_balloc.h \
- ../../../../../../components/libraries/log/nrf_log_default_backends.h
+ ../../../../../../components/libraries/log/nrf_log_default_backends.h \
+ ../../../../includes_nnom/inc/nnom.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdarg.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/math.h \
+ ../../../../includes_nnom/port/nnom_port.h \
+ ../../../../includes_nnom/inc/nnom_tensor.h \
+ ../../../../includes_nnom/inc/nnom.h \
+ ../../../../includes_nnom/inc/nnom_layers.h \
+ ../../../../includes_nnom/inc/layers/nnom_activation.h \
+ ../../../../includes_nnom/inc/nnom_layers.h \
+ ../../../../includes_nnom/inc/nnom_local.h \
+ ../../../../includes_nnom/inc/nnom_tensor.h \
+ ../../../../includes_nnom/inc/layers/nnom_concat.h \
+ ../../../../includes_nnom/inc/layers/nnom_conv2d.h \
+ ../../../../includes_nnom/inc/layers/nnom_cropping.h \
+ ../../../../includes_nnom/inc/layers/nnom_zero_padding.h \
+ ../../../../includes_nnom/inc/layers/nnom_conv2d_trans.h \
+ ../../../../includes_nnom/inc/layers/nnom_conv2d.h \
+ ../../../../includes_nnom/inc/layers/nnom_dense.h \
+ ../../../../includes_nnom/inc/layers/nnom_dw_conv2d.h \
+ ../../../../includes_nnom/inc/layers/nnom_flatten.h \
+ ../../../../includes_nnom/inc/layers/nnom_reshape.h \
+ ../../../../includes_nnom/inc/layers/nnom_global_pool.h \
+ ../../../../includes_nnom/inc/layers/nnom_maxpool.h \
+ ../../../../includes_nnom/inc/layers/nnom_input.h \
+ ../../../../includes_nnom/inc/layers/nnom_lambda.h \
+ ../../../../includes_nnom/inc/layers/nnom_input.h \
+ ../../../../includes_nnom/inc/layers/nnom_matrix.h \
+ ../../../../includes_nnom/inc/layers/nnom_maxpool.h \
+ ../../../../includes_nnom/inc/layers/nnom_avgpool.h \
+ ../../../../includes_nnom/inc/layers/nnom_output.h \
+ ../../../../includes_nnom/inc/layers/nnom_rnn.h \
+ ../../../../includes_nnom/inc/layers/nnom_softmax.h \
+ ../../../../includes_nnom/inc/layers/nnom_sumpool.h \
+ ../../../../includes_nnom/inc/layers/nnom_upsample.h \
+ ../../../../includes_nnom/inc/layers/nnom_zero_padding.h \
+ ../../../../includes_nnom/inc/layers/nnom_simple_cell.h \
+ ../../../../includes_nnom/inc/layers/nnom_rnn.h \
+ ../../../../includes_nnom/inc/layers/nnom_activation.h \
+ ../../../../includes_nnom/inc/layers/nnom_lstm_cell.h \
+ ../../../../includes_nnom/inc/layers/nnom_gru_cell.h \
+ ../../../../includes_nnom/inc/nnom_utils.h \
+ D:\Github\ Repo\nRF5_SDK_17.1.0\MYPROJECTS\EdgeECG\nRF52840_NNOM+BLE_MNIST\image.h \
+ D:\Github\ Repo\nRF5_SDK_17.1.0\MYPROJECTS\EdgeECG\nRF52840_NNOM+BLE_MNIST\weights.h

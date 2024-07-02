@@ -1,22 +1,17 @@
 Output/Release/Obj/ble_app_uart_pca10056_s140/app_error_handler_gcc.o: \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\util\app_error_handler_gcc.c \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\util\sdk_common.h \
- C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdint.h \
- C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/__config \
+ D:\Github\ Repo\nRF5_SDK_17.1.0\components\libraries\util\app_error_handler_gcc.c \
+ D:\Github\ Repo\nRF5_SDK_17.1.0\components\libraries\util\sdk_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdint.h \
- C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdbool.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdbool.h \
- C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/string.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/string.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/__crossworks.h \
  ../config/sdk_config.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\util\nordic_common.h \
+ D:\Github\ Repo\nRF5_SDK_17.1.0\components\libraries\util\nordic_common.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\util\sdk_os.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\util\sdk_errors.h \
+ D:\Github\ Repo\nRF5_SDK_17.1.0\components\libraries\util\sdk_os.h \
+ D:\Github\ Repo\nRF5_SDK_17.1.0\components\libraries\util\sdk_errors.h \
  ../../../../../../components/softdevice/s140/headers/nrf_error.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\util\app_util.h \
- C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stddef.h \
+ D:\Github\ Repo\nRF5_SDK_17.1.0\components\libraries\util\app_util.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stddef.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \
  ../../../../../../modules/nrfx/mdk/nrf52840.h \
@@ -32,9 +27,8 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/app_error_handler_gcc.o: \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
  ../../../../../../components/softdevice/s140/headers/nrf52/nrf_mbr.h \
  ../../../../../../components/softdevice/s140/headers/nrf_svc.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\util\sdk_macros.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\util\nrf_assert.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\util\app_error.h \
- C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdio.h \
+ D:\Github\ Repo\nRF5_SDK_17.1.0\components\libraries\util\sdk_macros.h \
+ D:\Github\ Repo\nRF5_SDK_17.1.0\components\libraries\util\nrf_assert.h \
+ D:\Github\ Repo\nRF5_SDK_17.1.0\components\libraries\util\app_error.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdio.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\util\app_error_weak.h
+ D:\Github\ Repo\nRF5_SDK_17.1.0\components\libraries\util\app_error_weak.h
