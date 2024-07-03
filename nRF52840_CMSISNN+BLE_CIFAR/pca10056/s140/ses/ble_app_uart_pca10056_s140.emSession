@@ -60,7 +60,7 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="2" y="751" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="721" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="62" y="404" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="645" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="148" useTextEdit="1" openedFrom="D:/Git Repo/nRF5_SDK_17.1.0_ddde560/My_Projects/EdgeECG/nRF52840+CMSISNN/main.c" useBinaryEdit="0" left="0" path="../../../includes/nn_include/FullyConnectedFunctions/arm_fully_connected_q7_opt.c" selected="0" top="137" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../includes/nn_include/FullyConnectedFunctions/arm_fully_connected_q15.c" selected="0" top="63" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="50" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../includes/nn_include/FullyConnectedFunctions/arm_fully_connected_q15_opt.c" selected="0" top="34" codecName="Default"/>
@@ -70,5 +70,5 @@
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="472" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../includes/nn_include/arm_nnsupportfunctions.h" selected="0" top="53" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1961" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/toolchain/cmsis/include/cmsis_gcc.h" selected="0" top="1912" codecName="Default"/>
  </Files>
- <ARMCrossStudioWindow activeProject="ble_app_uart_pca10056_s140" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3711"/>
+ <ARMCrossStudioWindow activeProject="ble_app_uart_pca10056_s140" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>
