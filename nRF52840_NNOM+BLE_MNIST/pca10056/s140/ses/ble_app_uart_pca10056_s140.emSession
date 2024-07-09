@@ -59,8 +59,8 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="681" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="0" top="669" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="274" useTextEdit="1" openedFrom="D:/Github Repo/nRF5_SDK_17.1.0/MYPROJECTS/EdgeECG/nRF52840_NNOM+BLE_MNIST/main.c" useBinaryEdit="0" left="0" path="../../../weights.h" selected="1" top="16" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="688" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="669" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="62" y="411" useTextEdit="1" openedFrom="D:/Github Repo/nRF5_SDK_17.1.0/MYPROJECTS/EdgeECG/nRF52840_NNOM+BLE_MNIST/main.c" useBinaryEdit="0" left="0" path="../../../weights.h" selected="0" top="391" codecName="Default"/>
  </Files>
  <ARMCrossStudioWindow activeProject="ble_app_uart_pca10056_s140" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>
