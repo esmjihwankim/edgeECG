@@ -95,6 +95,7 @@
     <folder Name="Application">
       <file file_name="../../../main.c" />
       <file file_name="../config/sdk_config.h" />
+      <file file_name="../../../weights.h" />
     </folder>
     <folder Name="nRF_Segger_RTT">
       <file file_name="../../../../../../external/segger_rtt/SEGGER_RTT.c" />
@@ -194,12 +195,45 @@
         filter="*.*"
         path="../../../../includes_nnom/port"
         recurse="No" />
-      <folder
-        Name="src"
-        exclude=""
-        filter="*.*"
-        path="../../../../includes_nnom/src"
-        recurse="No" />
+      <folder Name="src">
+        <folder Name="backends">
+          <file file_name="../../../../includes_nnom/src/backends/nnom_local.c" />
+          <file file_name="../../../../includes_nnom/src/backends/nnom_local_q15.c" />
+        </folder>
+        <folder Name="core">
+          <file file_name="../../../../includes_nnom/src/core/nnom.c" />
+          <file file_name="../../../../includes_nnom/src/core/nnom_layers.c" />
+          <file file_name="../../../../includes_nnom/src/core/nnom_tensor.c" />
+          <file file_name="../../../../includes_nnom/src/core/nnom_utils.c" />
+        </folder>
+        <folder Name="layers">
+          <file file_name="../../../../includes_nnom/src/layers/nnom_activation.c" />
+          <file file_name="../../../../includes_nnom/src/layers/nnom_avgpool.c" />
+          <file file_name="../../../../includes_nnom/src/layers/nnom_baselayer.c" />
+          <file file_name="../../../../includes_nnom/src/layers/nnom_concat.c" />
+          <file file_name="../../../../includes_nnom/src/layers/nnom_conv2d.c" />
+          <file file_name="../../../../includes_nnom/src/layers/nnom_conv2d_trans.c" />
+          <file file_name="../../../../includes_nnom/src/layers/nnom_cropping.c" />
+          <file file_name="../../../../includes_nnom/src/layers/nnom_dense.c" />
+          <file file_name="../../../../includes_nnom/src/layers/nnom_dw_conv2d.c" />
+          <file file_name="../../../../includes_nnom/src/layers/nnom_flatten.c" />
+          <file file_name="../../../../includes_nnom/src/layers/nnom_global_pool.c" />
+          <file file_name="../../../../includes_nnom/src/layers/nnom_gru_cell.c" />
+          <file file_name="../../../../includes_nnom/src/layers/nnom_input.c" />
+          <file file_name="../../../../includes_nnom/src/layers/nnom_lambda.c" />
+          <file file_name="../../../../includes_nnom/src/layers/nnom_lstm_cell.c" />
+          <file file_name="../../../../includes_nnom/src/layers/nnom_matrix.c" />
+          <file file_name="../../../../includes_nnom/src/layers/nnom_maxpool.c" />
+          <file file_name="../../../../includes_nnom/src/layers/nnom_output.c" />
+          <file file_name="../../../../includes_nnom/src/layers/nnom_reshape.c" />
+          <file file_name="../../../../includes_nnom/src/layers/nnom_rnn.c" />
+          <file file_name="../../../../includes_nnom/src/layers/nnom_simple_cell.c" />
+          <file file_name="../../../../includes_nnom/src/layers/nnom_softmax.c" />
+          <file file_name="../../../../includes_nnom/src/layers/nnom_sumpool.c" />
+          <file file_name="../../../../includes_nnom/src/layers/nnom_upsample.c" />
+          <file file_name="../../../../includes_nnom/src/layers/nnom_zero_padding.c" />
+        </folder>
+      </folder>
     </folder>
   </project>
   <configuration

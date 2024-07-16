@@ -37,7 +37,6 @@
 #include "weights.h"
 
 
-
 #define APP_BLE_CONN_CFG_TAG            1                                           /**< A tag identifying the SoftDevice BLE configuration. */
 
 #define DEVICE_NAME                     "Nordic_UART"                               /**< Name of device. Will be included in the advertising data. */
@@ -663,12 +662,12 @@ static void advertising_start(void)
  */
 int main(void)
 {
-    bool erase_bonds;
+    //bool erase_bonds;
 
     // Initialize.
     uart_init();
     log_init();
-    timers_init();
+    //timers_init();
     //buttons_leds_init(&erase_bonds);
     //power_management_init();
     //ble_stack_init();
@@ -682,15 +681,18 @@ int main(void)
 
     printf("\r\Application started.\r\n");
 
-    nnom_model_t* model = nnom_model_create();
+    nnom_model_t* model; 
+    model = nnom_model_create();
 
-    model_run(model);
+    //model_run(model);
+    
+    int a = 1;
 
 
     // Enter main loop.
     for (;;)
     {
-        idle_state_handle();
+        //idle_state_handle();
     }
 }
 
