@@ -95,6 +95,9 @@
     <folder Name="Application">
       <file file_name="../../../main.c" />
       <file file_name="../config/sdk_config.h" />
+      <file file_name="../../../arm_nnexamples_cifar10_inputs.h" />
+      <file file_name="../../../arm_nnexamples_cifar10_parameter.h" />
+      <file file_name="../../../arm_nnexamples_cifar10_weights.h" />
     </folder>
     <folder Name="nRF_Segger_RTT">
       <file file_name="../../../../../../external/segger_rtt/SEGGER_RTT.c" />
