@@ -15165,7 +15165,7 @@ LOAD linker stubs
  .comment       0x0000000000000024       0x25 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.32a/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libvfprintf.o)
  .comment       0x0000000000000024       0x25 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.32a/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc.o)
 
-.debug_line     0x0000000000000000    0x2fc9a
+.debug_line     0x0000000000000000    0x2fca4
  .debug_line    0x0000000000000000      0x21e Output/Release/Obj/ble_app_uart_pca10056_s140/thumb_crt0.o
  .debug_line    0x000000000000021e      0xa39 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_backend_rtt.o
  .debug_line    0x0000000000000c57      0x803 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_backend_serial.o
@@ -15221,20 +15221,20 @@ LOAD linker stubs
  .debug_line    0x0000000000023136      0x6cc Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_sdh_soc.o
  .debug_line    0x0000000000023802     0x3393 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_local.o
  .debug_line    0x0000000000026b95     0x33d9 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_local_q15.o
- .debug_line    0x0000000000029f6e     0x13e2 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom.o
- .debug_line    0x000000000002b350      0x4e0 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_layers.o
- .debug_line    0x000000000002b830      0x9b4 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_tensor.o
- .debug_line    0x000000000002c1e4      0xa13 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_activation.o
- .debug_line    0x000000000002cbf7      0x4f0 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_baselayer.o
- .debug_line    0x000000000002d0e7      0x8bf Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_conv2d.o
- .debug_line    0x000000000002d9a6      0x7ea Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_dense.o
- .debug_line    0x000000000002e190      0x580 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_flatten.o
- .debug_line    0x000000000002e710      0x674 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_input.o
- .debug_line    0x000000000002ed84      0x5e6 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_maxpool.o
- .debug_line    0x000000000002f36a      0x456 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_output.o
- .debug_line    0x000000000002f7c0      0x4da Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_softmax.o
+ .debug_line    0x0000000000029f6e     0x13ec Output/Release/Obj/ble_app_uart_pca10056_s140/nnom.o
+ .debug_line    0x000000000002b35a      0x4e0 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_layers.o
+ .debug_line    0x000000000002b83a      0x9b4 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_tensor.o
+ .debug_line    0x000000000002c1ee      0xa13 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_activation.o
+ .debug_line    0x000000000002cc01      0x4f0 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_baselayer.o
+ .debug_line    0x000000000002d0f1      0x8bf Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_conv2d.o
+ .debug_line    0x000000000002d9b0      0x7ea Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_dense.o
+ .debug_line    0x000000000002e19a      0x580 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_flatten.o
+ .debug_line    0x000000000002e71a      0x674 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_input.o
+ .debug_line    0x000000000002ed8e      0x5e6 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_maxpool.o
+ .debug_line    0x000000000002f374      0x456 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_output.o
+ .debug_line    0x000000000002f7ca      0x4da Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_softmax.o
 
-.debug_info     0x0000000000000000    0x705cc
+.debug_info     0x0000000000000000    0x705e1
  .debug_info    0x0000000000000000       0x22 Output/Release/Obj/ble_app_uart_pca10056_s140/thumb_crt0.o
  .debug_info    0x0000000000000022      0xe6c Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_backend_rtt.o
  .debug_info    0x0000000000000e8e      0xefd Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_backend_serial.o
@@ -15290,20 +15290,20 @@ LOAD linker stubs
  .debug_info    0x0000000000054849      0xc45 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_sdh_soc.o
  .debug_info    0x000000000005548e     0x42fe Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_local.o
  .debug_info    0x000000000005978c     0x418b Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_local_q15.o
- .debug_info    0x000000000005d917     0x2dc5 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom.o
- .debug_info    0x00000000000606dc     0x15b5 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_layers.o
- .debug_info    0x0000000000061c91     0x155a Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_tensor.o
- .debug_info    0x00000000000631eb     0x1f97 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_activation.o
- .debug_info    0x0000000000065182     0x1502 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_baselayer.o
- .debug_info    0x0000000000066684     0x1b9d Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_conv2d.o
- .debug_info    0x0000000000068221     0x18d3 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_dense.o
- .debug_info    0x0000000000069af4     0x1493 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_flatten.o
- .debug_info    0x000000000006af87     0x1698 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_input.o
- .debug_info    0x000000000006c61f     0x1694 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_maxpool.o
- .debug_info    0x000000000006dcb3     0x149b Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_output.o
- .debug_info    0x000000000006f14e     0x147e Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_softmax.o
+ .debug_info    0x000000000005d917     0x2dda Output/Release/Obj/ble_app_uart_pca10056_s140/nnom.o
+ .debug_info    0x00000000000606f1     0x15b5 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_layers.o
+ .debug_info    0x0000000000061ca6     0x155a Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_tensor.o
+ .debug_info    0x0000000000063200     0x1f97 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_activation.o
+ .debug_info    0x0000000000065197     0x1502 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_baselayer.o
+ .debug_info    0x0000000000066699     0x1b9d Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_conv2d.o
+ .debug_info    0x0000000000068236     0x18d3 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_dense.o
+ .debug_info    0x0000000000069b09     0x1493 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_flatten.o
+ .debug_info    0x000000000006af9c     0x1698 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_input.o
+ .debug_info    0x000000000006c634     0x1694 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_maxpool.o
+ .debug_info    0x000000000006dcc8     0x149b Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_output.o
+ .debug_info    0x000000000006f163     0x147e Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_softmax.o
 
-.debug_abbrev   0x0000000000000000     0xd9fd
+.debug_abbrev   0x0000000000000000     0xda08
  .debug_abbrev  0x0000000000000000       0x12 Output/Release/Obj/ble_app_uart_pca10056_s140/thumb_crt0.o
  .debug_abbrev  0x0000000000000012      0x2f4 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_backend_rtt.o
  .debug_abbrev  0x0000000000000306      0x26b Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_backend_serial.o
@@ -15359,18 +15359,18 @@ LOAD linker stubs
  .debug_abbrev  0x000000000000af44      0x252 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_sdh_soc.o
  .debug_abbrev  0x000000000000b196      0x336 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_local.o
  .debug_abbrev  0x000000000000b4cc      0x37a Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_local_q15.o
- .debug_abbrev  0x000000000000b846      0x5d4 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom.o
- .debug_abbrev  0x000000000000be1a      0x2e3 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_layers.o
- .debug_abbrev  0x000000000000c0fd      0x29e Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_tensor.o
- .debug_abbrev  0x000000000000c39b      0x36b Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_activation.o
- .debug_abbrev  0x000000000000c706      0x228 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_baselayer.o
- .debug_abbrev  0x000000000000c92e      0x30d Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_conv2d.o
- .debug_abbrev  0x000000000000cc3b      0x2eb Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_dense.o
- .debug_abbrev  0x000000000000cf26      0x239 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_flatten.o
- .debug_abbrev  0x000000000000d15f      0x228 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_input.o
- .debug_abbrev  0x000000000000d387      0x239 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_maxpool.o
- .debug_abbrev  0x000000000000d5c0      0x215 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_output.o
- .debug_abbrev  0x000000000000d7d5      0x228 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_softmax.o
+ .debug_abbrev  0x000000000000b846      0x5df Output/Release/Obj/ble_app_uart_pca10056_s140/nnom.o
+ .debug_abbrev  0x000000000000be25      0x2e3 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_layers.o
+ .debug_abbrev  0x000000000000c108      0x29e Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_tensor.o
+ .debug_abbrev  0x000000000000c3a6      0x36b Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_activation.o
+ .debug_abbrev  0x000000000000c711      0x228 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_baselayer.o
+ .debug_abbrev  0x000000000000c939      0x30d Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_conv2d.o
+ .debug_abbrev  0x000000000000cc46      0x2eb Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_dense.o
+ .debug_abbrev  0x000000000000cf31      0x239 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_flatten.o
+ .debug_abbrev  0x000000000000d16a      0x228 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_input.o
+ .debug_abbrev  0x000000000000d392      0x239 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_maxpool.o
+ .debug_abbrev  0x000000000000d5cb      0x215 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_output.o
+ .debug_abbrev  0x000000000000d7e0      0x228 Output/Release/Obj/ble_app_uart_pca10056_s140/nnom_softmax.o
 
 .debug_aranges  0x0000000000000000     0x1b38
  .debug_aranges

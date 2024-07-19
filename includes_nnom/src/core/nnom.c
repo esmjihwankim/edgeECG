@@ -970,8 +970,14 @@ nnom_status_t model_compile(nnom_model_t *m, nnom_layer_t *input, nnom_layer_t *
 	if (buf == NULL)
 	{
 		NNOM_LOG("ERROR: No enough memory for network buffer, required %d bytes\n", (uint32_t)buf_size);
+                int i;
+                for(i=1;i<20000;i++){
+                  //
+                }
 		return NN_NO_MEMORY;
 	}
+        
+
     // all memory cost
 	NNOM_LOG(" Total memory occupied: %d bytes\n", (uint32_t)nnom_memory_taken);
 
