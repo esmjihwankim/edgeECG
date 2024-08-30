@@ -1,0 +1,33 @@
+﻿  local.cpp
+  main.cpp
+  nn.cpp
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(7,47): error C2078: 이니셜라이저가 너무 많습니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(26,101): error C2065: 'b2_conv1_wt': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(26,241): error C2065: 'b2_conv1_bias': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(26,256): error C2065: 'CONV3_BIAS_LSHIFT': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(26,275): error C2065: 'CONV3_OUT_RSHIFT': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(28,101): error C2065: 'b2_conv2_wt': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(28,241): error C2065: 'b2_conv2_bias': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(28,256): error C2065: 'CONV4_BIAS_LSHIFT': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(28,275): error C2065: 'CONV4_OUT_RSHIFT': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(32,101): error C2065: 'b3_conv1_wt': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(32,241): error C2065: 'b3_conv1_bias': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(32,256): error C2065: 'CONV5_BIAS_LSHIFT': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(32,275): error C2065: 'CONV5_OUT_RSHIFT': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(34,101): error C2065: 'b3_conv2_wt': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(34,241): error C2065: 'b3_conv2_bias': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(34,256): error C2065: 'CONV6_BIAS_LSHIFT': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(34,275): error C2065: 'CONV6_OUT_RSHIFT': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(38,101): error C2065: 'b4_conv1_wt': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(38,241): error C2065: 'b4_conv1_bias': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(38,256): error C2065: 'CONV7_BIAS_LSHIFT': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(38,275): error C2065: 'CONV7_OUT_RSHIFT': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(40,101): error C2065: 'b4_conv2_wt': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(40,241): error C2065: 'b4_conv2_bias': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(40,256): error C2065: 'CONV8_BIAS_LSHIFT': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(40,275): error C2065: 'CONV8_OUT_RSHIFT': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(50,39): error C2065: 'fc3_wt': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(50,72): error C2065: 'FC3_BIAS_LSHIFT': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(50,89): error C2065: 'FC3_OUT_RSHIFT': 선언되지 않은 식별자입니다.
+C:\Users\WonResearchGroup\Desktop\CMSISNN-Simulator - custom\Project_unet\nn.cpp(50,105): error C2065: 'fc3_bias': 선언되지 않은 식별자입니다.
+  코드를 생성하고 있습니다...

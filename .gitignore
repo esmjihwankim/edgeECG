@@ -4,3 +4,4 @@ __pycache__/
 mit_data/
 ecg_data/
 saved_model
+.vs/
