@@ -58,9 +58,9 @@ void arm_convolve_HWC_q15_fast_nonsquare(const q15_t * Im_in,
 							for (l = 0; l < ch_im_in; l++)
 							{
 								conv_out +=
-									Im_in[(in_row * dim_im_in_x + in_col) * ch_im_in +
-									l] * wt[i * ch_im_in * dim_kernel_x * dim_kernel_y + (m * dim_kernel_x +
-										n) * ch_im_in + l];
+									Im_in[(in_row * dim_im_in_x + in_col) * ch_im_in + l] 
+									* wt[i * ch_im_in * dim_kernel_x * dim_kernel_y + 
+											(m * dim_kernel_x + n) * ch_im_in + l];
 							}
 						}
 					}
@@ -249,6 +249,10 @@ void arm_relu_q15(q15_t * data, uint16_t size)
 }
 
 
+// TODO: make reference softmax implementation 
+
+
+
 void local_cat_q15_HWC(
 	const q15_t *Im_in_1,
 	const q15_t *Im_in_2,
@@ -287,3 +291,6 @@ void local_tsm_q15_HWC(
 		}
 	}
 }
+
+
+

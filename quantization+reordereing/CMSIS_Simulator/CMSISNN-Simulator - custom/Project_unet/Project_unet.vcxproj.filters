@@ -31,6 +31,9 @@
     <ClInclude Include="parameter.h">
       <Filter>src</Filter>
     </ClInclude>
+    <ClInclude Include="sample_input_output.h">
+      <Filter>src</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="local.cpp">
