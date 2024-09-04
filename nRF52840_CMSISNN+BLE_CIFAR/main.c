@@ -790,7 +790,7 @@ int main(void)
 
     printf("q15 softmax done\r\n");
 
-    
+
     for (int i = 0; i < 10; i++)
     {
         printf("%d: %d\n", i, output_data[i]);

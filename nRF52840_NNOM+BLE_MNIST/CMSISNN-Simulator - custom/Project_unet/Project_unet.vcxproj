@@ -115,8 +115,11 @@
     <ClInclude Include="local.h" />
     <ClInclude Include="nn.h" />
     <ClInclude Include="parameter.h" />
+    <ClInclude Include="parameter_example.h" />
     <ClInclude Include="sample_input_output.h" />
+    <ClInclude Include="sample_input_output_example.h" />
     <ClInclude Include="weight.h" />
+    <ClInclude Include="weight_example.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="local.cpp" />
