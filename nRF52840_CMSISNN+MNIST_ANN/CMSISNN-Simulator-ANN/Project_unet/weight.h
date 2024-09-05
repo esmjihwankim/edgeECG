@@ -8,3 +8,4 @@
 #define FC2_BIAS_LSHIFT 2
 #define FC2_OUT_RSHIFT 15
 
+

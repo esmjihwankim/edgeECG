@@ -12,10 +12,11 @@ void main() {
 	run_nn(test_input, output_buffer);
 	time_t finish_t = clock();
 	cout << "total_time: " << (double)(finish_t - begin_t) / CLOCKS_PER_SEC << "s" << endl;
-	cout << "\n\n/**********FINAL OUTPUT COMPARISON************/" << endl;
-	for (int i = 0; i < 10; i++) {
+
+	// cout << "\n\n/**********FINAL OUTPUT COMPARISON************/" << endl;
+	/*for (int i = 0; i < 10; i++) {
 		cout << "TEST OUTPUT::" << test_output[i] << "\n" << "OUTPUT BUFFER::" << output_buffer[i] << "\n" << endl;
-	}
+	}*/
 
 	system("pause");
 }

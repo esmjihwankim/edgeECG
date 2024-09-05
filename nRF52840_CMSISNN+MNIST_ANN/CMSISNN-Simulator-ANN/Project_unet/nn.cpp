@@ -24,20 +24,27 @@ void run_nn(q15_t* input_data, q15_t* output_data) {
 
 	// input -> buffer 1
 	arm_fully_connected_q15_ref(input_data, fc1_wt, FC1_IN_DIM, FC1_OUT_DIM, FC1_BIAS_LSHIFT, FC1_OUT_RSHIFT, fc1_bias, buffer1, (q15_t*)col_buffer);
-	cout << "FC1 OUTPUT COMPARISON::\n";
+	cout << "FC1 OUTPUT COMPARISON - Reference vs Output::\n";
 	j = 0;
-	for (int i = 0; i < sizeof(reference_fc1_output); i++) {
-		if (reference_fc1_output[i] != buffer1[i]) {
-			cout << "Reference vs Output\t" << reference_fc1_output[i] << "  " << buffer1[i] << '\n';
-			j++; 
-		}
+	for (int i = 0; i < 100; i++) {
+		cout << reference_fc1_output[i] << "  " << buffer1[i] << '\n';
+		j++;
 	}
-	if (j == 0) cout << "PERFECT MATCH";
-	cout << '\n' << endl;
+	cout << "TOTAL OF " << j << '\n' << endl;
 
 	arm_relu_q15(buffer1, FC1_OUT_DIM);
 
+	// buffer1 -> output
 	arm_fully_connected_q15_ref(buffer1, fc2_wt, FC2_IN_DIM, FC2_OUT_DIM, FC2_BIAS_LSHIFT, FC2_OUT_RSHIFT, fc2_bias, output_data, (q15_t*)col_buffer);
+	cout << "FC2 OUTPUT COMPARISON - Reference vs Output::\n";
+	j = 0;
+	for (int i = 0; i < 10; i++) {
+		cout << reference_fc2_output[i] << "  " << output_data[i] << '\n';
+		j++;
+	}
+	cout << "TOTAL OF " << j << '\n' << endl;
+
+
 	/*
 	output data comparison is in the main function
 	*/ 
