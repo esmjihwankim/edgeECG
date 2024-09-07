@@ -95,6 +95,9 @@
     <folder Name="Application">
       <file file_name="../../../main.c" />
       <file file_name="../config/sdk_config.h" />
+      <file file_name="../../../parameter.h" />
+      <file file_name="../../../sample_input_output.h" />
+      <file file_name="../../../weight.h" />
     </folder>
     <folder Name="nRF_Segger_RTT">
       <file file_name="../../../../../../external/segger_rtt/SEGGER_RTT.c" />
