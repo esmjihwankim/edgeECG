@@ -1,11 +1,13 @@
 Output/Release/Obj/ble_app_uart_pca10056_s140/main.o: \
  D:\Git\ Repo\nRF5_SDK_17.1.0\My_Projects\EdgeECG\nRF52840_CMSISNN+MNIST_ANN\main.c \
- C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdint.h \
+ C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdio.h \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/__config \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdio.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/__crossworks.h \
+ C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdint.h \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/string.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/string.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/__crossworks.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \
  ../../../../../../modules/nrfx/mdk/nrf52840.h \
@@ -22,8 +24,6 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/main.o: \
  ../../../../../../components/libraries/timer/app_timer.h \
  ../config/sdk_config.h \
  ../../../../../../components/libraries/util/app_error.h \
- C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdio.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdio.h \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdbool.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdbool.h \
  ../../../../../../components/libraries/util/sdk_errors.h \

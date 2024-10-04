@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdint.h>
 #include <string.h>
 #include "nordic_common.h"
@@ -40,7 +41,8 @@ int main(void)
 {
     bool erase_bonds;
     log_init();
-    printf("\r\Application started.\r\n");
+    NRF_LOG_INFO("Application")
+    printf("\r\nApplication started.\r\n");
 
 
     q15_t input_data[784] = INPUT_DATA;
@@ -67,6 +69,11 @@ int main(void)
     arm_fully_connected_q15_opt(input_data, fc1_wt, FC1_IN_DIM, FC1_OUT_DIM, FC1_BIAS_LSHIFT, FC1_OUT_RSHIFT, fc1_bias, buffer1, (q15_t*)col_buffer);
     arm_relu_q15(buffer1, FC1_OUT_DIM);
     arm_fully_connected_q15_opt(buffer1, fc2_wt, FC2_IN_DIM, FC2_OUT_DIM, FC2_BIAS_LSHIFT, FC2_OUT_RSHIFT, fc2_bias, output_data, (q15_t*)col_buffer);
+    
+    int i = 0;
+    for (i = 0; i < 10; i++){
+        printf("%d---%d\n\r", reference_fc2_output[i]);
+    }
 
     // Enter main loop.
     for (;;)
