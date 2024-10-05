@@ -92,13 +92,6 @@
       <file file_name="../../../../../../components/libraries/bsp/bsp.c" />
       <file file_name="../../../../../../components/libraries/bsp/bsp_btn_ble.c" />
     </folder>
-    <folder Name="Application">
-      <file file_name="../../../main.c" />
-      <file file_name="../config/sdk_config.h" />
-      <file file_name="../../../parameter.h" />
-      <file file_name="../../../sample_input_output.h" />
-      <file file_name="../../../weight.h" />
-    </folder>
     <folder Name="nRF_Segger_RTT">
       <file file_name="../../../../../../external/segger_rtt/SEGGER_RTT.c" />
       <file file_name="../../../../../../external/segger_rtt/SEGGER_RTT_Syscalls_SES.c" />
@@ -183,6 +176,16 @@
       <file file_name="../../../../includes_cmsis/nn_include/arm_nn_tables.h" />
       <file file_name="../../../../includes_cmsis/nn_include/arm_nnfunctions.h" />
       <file file_name="../../../../includes_cmsis/nn_include/arm_nnsupportfunctions.h" />
+    </folder>
+    <folder Name="Application">
+      <file file_name="../../../main.c" />
+      <file file_name="../config/sdk_config.h" />
+      <file file_name="../../../arm_nnexamples_cifar10_inputs.h" />
+      <file file_name="../../../arm_nnexamples_cifar10_parameter.h" />
+      <file file_name="../../../arm_nnexamples_cifar10_weights.h" />
+      <file file_name="../../../parameter.h" />
+      <file file_name="../../../sample_input_output.h" />
+      <file file_name="../../../weight.h" />
     </folder>
   </project>
   <configuration

@@ -744,7 +744,7 @@ int main(void)
     arm_convolve_HWC_q7_fast(img_buffer2, CONV2_IM_DIM, CONV2_IM_CH, conv2_wt, CONV2_OUT_CH, CONV2_KER_DIM,
                              CONV2_PADDING, CONV2_STRIDE, conv2_bias, CONV2_BIAS_LSHIFT, CONV2_OUT_RSHIFT, img_buffer1,
                              CONV2_OUT_DIM, (q15_t *) col_buffer, NULL);
-
+  
     printf("convolving done\r\n");
 
 
