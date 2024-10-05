@@ -1,6 +1,6 @@
 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_atomic.o: \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\atomic\nrf_atomic.c \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\atomic\nrf_atomic.h \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\components\libraries\atomic\nrf_atomic.c \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\components\libraries\atomic\nrf_atomic.h \
  ../../../../../../components/libraries/util/sdk_common.h \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdint.h \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/__config \
@@ -35,4 +35,4 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_atomic.o: \
  ../../../../../../components/softdevice/s140/headers/nrf_svc.h \
  ../../../../../../components/libraries/util/sdk_macros.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\atomic\nrf_atomic_internal.h
+ D:\Git\ Repo\nRF5_SDK_17.1.0\components\libraries\atomic\nrf_atomic_internal.h

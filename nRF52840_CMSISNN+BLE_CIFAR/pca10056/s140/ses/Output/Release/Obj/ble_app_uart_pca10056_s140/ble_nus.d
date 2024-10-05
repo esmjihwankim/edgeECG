@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_app_uart_pca10056_s140/ble_nus.o: \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\ble\ble_services\ble_nus\ble_nus.c \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\components\ble\ble_services\ble_nus\ble_nus.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdint.h \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/__config \
@@ -46,7 +46,7 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/ble_nus.o: \
  ../../../../../../components/softdevice/s140/headers/ble_gatt.h \
  ../../../../../../components/softdevice/s140/headers/ble_gattc.h \
  ../../../../../../components/softdevice/s140/headers/ble_gatts.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\ble\ble_services\ble_nus\ble_nus.h \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\components\ble\ble_services\ble_nus\ble_nus.h \
  ../../../../../../components/ble/common/ble_srv_common.h \
  ../../../../../../components/softdevice/s140/headers/ble_types.h \
  ../../../../../../components/libraries/util/app_util.h \

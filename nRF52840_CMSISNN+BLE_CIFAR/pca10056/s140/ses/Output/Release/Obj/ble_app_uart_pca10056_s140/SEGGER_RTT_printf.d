@@ -1,7 +1,7 @@
 Output/Release/Obj/ble_app_uart_pca10056_s140/SEGGER_RTT_printf.o: \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\external\segger_rtt\SEGGER_RTT_printf.c \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\external\segger_rtt\SEGGER_RTT.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\external\segger_rtt\SEGGER_RTT_Conf.h \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\external\segger_rtt\SEGGER_RTT_printf.c \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\external\segger_rtt\SEGGER_RTT.h \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\external\segger_rtt\SEGGER_RTT_Conf.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../components/libraries/util/app_util_platform.h \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdint.h \

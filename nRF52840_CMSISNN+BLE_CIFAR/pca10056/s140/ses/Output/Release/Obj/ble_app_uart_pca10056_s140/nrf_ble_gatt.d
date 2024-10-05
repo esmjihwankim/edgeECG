@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_ble_gatt.o: \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\ble\nrf_ble_gatt\nrf_ble_gatt.c \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\components\ble\nrf_ble_gatt\nrf_ble_gatt.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdint.h \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/__config \
@@ -34,7 +34,7 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_ble_gatt.o: \
  ../../../../../../components/softdevice/s140/headers/nrf_svc.h \
  ../../../../../../components/libraries/util/sdk_macros.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\ble\nrf_ble_gatt\nrf_ble_gatt.h \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\components\ble\nrf_ble_gatt\nrf_ble_gatt.h \
  ../../../../../../components/softdevice/s140/headers/ble.h \
  ../../../../../../components/softdevice/s140/headers/nrf_svc.h \
  ../../../../../../components/softdevice/s140/headers/nrf_error.h \

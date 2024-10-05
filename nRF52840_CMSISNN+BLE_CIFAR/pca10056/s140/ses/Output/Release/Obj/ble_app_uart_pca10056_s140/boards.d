@@ -1,6 +1,6 @@
 Output/Release/Obj/ble_app_uart_pca10056_s140/boards.o: \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\boards\boards.c \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\boards\boards.h \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\components\boards\boards.c \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\components\boards\boards.h \
  ../../../../../../modules/nrfx/hal/nrf_gpio.h \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h ../config/sdk_config.h \
@@ -58,4 +58,4 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/boards.o: \
  ../../../../../../components/softdevice/s140/headers/nrf_sd_def.h \
  ../../../../../../components/softdevice/s140/headers/nrf_soc.h \
  ../../../../../../modules/nrfx/drivers/nrfx_errors.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\boards\pca10056.h
+ D:\Git\ Repo\nRF5_SDK_17.1.0\components\boards\pca10056.h

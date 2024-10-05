@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_str_formatter.o: \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\log\src\nrf_log_str_formatter.c \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\components\libraries\log\src\nrf_log_str_formatter.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdint.h \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/__config \
@@ -59,7 +59,7 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_str_formatter.o: \
  ../../../../../../components/libraries/log/nrf_log_instance.h \
  ../../../../../../components/libraries/experimental_section_vars/nrf_section.h \
  ../../../../../../components/libraries/util/nordic_common.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\log\src\nrf_log_internal.h \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\components\libraries\log\src\nrf_log_internal.h \
  ../../../../../../components/libraries/log/nrf_log_types.h \
  ../../../../../../components/libraries/log/nrf_log_ctrl.h \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/ctype.h \

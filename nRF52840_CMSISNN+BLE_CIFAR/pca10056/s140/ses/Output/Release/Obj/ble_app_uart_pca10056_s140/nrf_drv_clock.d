@@ -1,7 +1,7 @@
 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_drv_clock.o: \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\integration\nrfx\legacy\nrf_drv_clock.c \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\integration\nrfx\legacy\nrf_drv_clock.c \
  ../../../../../../components/libraries/util/nordic_common.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\integration\nrfx\legacy\nrf_drv_clock.h \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\integration\nrfx\legacy\nrf_drv_clock.h \
  ../../../../../../modules/nrfx/drivers/include/nrfx_clock.h \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h ../config/sdk_config.h \

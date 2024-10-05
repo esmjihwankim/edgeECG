@@ -1,6 +1,6 @@
 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_ringbuf.o: \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\ringbuf\nrf_ringbuf.c \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\ringbuf\nrf_ringbuf.h \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\components\libraries\ringbuf\nrf_ringbuf.c \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\components\libraries\ringbuf\nrf_ringbuf.h \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdint.h \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/__config \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdint.h \

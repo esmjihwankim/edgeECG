@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_app_uart_pca10056_s140/ble_advertising.o: \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\ble\ble_advertising\ble_advertising.c \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\components\ble\ble_advertising\ble_advertising.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdint.h \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/__config \
@@ -47,7 +47,7 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/ble_advertising.o: \
  ../../../../../../components/softdevice/s140/headers/ble_gatt.h \
  ../../../../../../components/softdevice/s140/headers/ble_gattc.h \
  ../../../../../../components/softdevice/s140/headers/ble_gatts.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\ble\ble_advertising\ble_advertising.h \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\components\ble\ble_advertising\ble_advertising.h \
  ../../../../../../components/softdevice/s140/headers/ble_gap.h \
  ../../../../../../components/softdevice/s140/headers/ble_gattc.h \
  ../../../../../../components/softdevice/s140/headers/nrf_soc.h \

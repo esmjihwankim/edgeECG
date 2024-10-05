@@ -1,6 +1,6 @@
 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_drv_uart.o: \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\integration\nrfx\legacy\nrf_drv_uart.c \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\integration\nrfx\legacy\nrf_drv_uart.h \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\integration\nrfx\legacy\nrf_drv_uart.c \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\integration\nrfx\legacy\nrf_drv_uart.h \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h ../config/sdk_config.h \
  ../../../../../../modules/nrfx/drivers/nrfx_common.h \

@@ -773,8 +773,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x55 Output/Release/Obj/ble_app_uart_pca10056_s140/app_error_handler_gcc.o
  .debug_macro   0x0000000000000000       0x72 Output/Release/Obj/ble_app_uart_pca10056_s140/app_error_handler_gcc.o
  .debug_macro   0x0000000000000000       0x49 Output/Release/Obj/ble_app_uart_pca10056_s140/app_error_handler_gcc.o
- .debug_line    0x0000000000000000      0x44e Output/Release/Obj/ble_app_uart_pca10056_s140/app_error_handler_gcc.o
- .debug_str     0x0000000000000000    0x878eb Output/Release/Obj/ble_app_uart_pca10056_s140/app_error_handler_gcc.o
+ .debug_line    0x0000000000000000      0x446 Output/Release/Obj/ble_app_uart_pca10056_s140/app_error_handler_gcc.o
+ .debug_str     0x0000000000000000    0x878db Output/Release/Obj/ble_app_uart_pca10056_s140/app_error_handler_gcc.o
  .comment       0x0000000000000000       0x25 Output/Release/Obj/ble_app_uart_pca10056_s140/app_error_handler_gcc.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/ble_app_uart_pca10056_s140/app_error_handler_gcc.o
@@ -1053,8 +1053,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x88 Output/Release/Obj/ble_app_uart_pca10056_s140/app_scheduler.o
  .debug_macro   0x0000000000000000       0x3a Output/Release/Obj/ble_app_uart_pca10056_s140/app_scheduler.o
  .debug_macro   0x0000000000000000       0x8c Output/Release/Obj/ble_app_uart_pca10056_s140/app_scheduler.o
- .debug_line    0x0000000000000000      0x75e Output/Release/Obj/ble_app_uart_pca10056_s140/app_scheduler.o
- .debug_str     0x0000000000000000    0x88a6c Output/Release/Obj/ble_app_uart_pca10056_s140/app_scheduler.o
+ .debug_line    0x0000000000000000      0x756 Output/Release/Obj/ble_app_uart_pca10056_s140/app_scheduler.o
+ .debug_str     0x0000000000000000    0x88a5c Output/Release/Obj/ble_app_uart_pca10056_s140/app_scheduler.o
  .comment       0x0000000000000000       0x25 Output/Release/Obj/ble_app_uart_pca10056_s140/app_scheduler.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/ble_app_uart_pca10056_s140/app_scheduler.o
@@ -1613,8 +1613,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xad Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_assert.o
  .debug_macro   0x0000000000000000      0x16d Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_assert.o
  .debug_macro   0x0000000000000000       0x49 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_assert.o
- .debug_line    0x0000000000000000      0x37a Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_assert.o
- .debug_str     0x0000000000000000    0x76c21 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_assert.o
+ .debug_line    0x0000000000000000      0x372 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_assert.o
+ .debug_str     0x0000000000000000    0x76c11 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_assert.o
  .comment       0x0000000000000000       0x25 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_assert.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_assert.o
@@ -2831,8 +2831,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x1c Output/Release/Obj/ble_app_uart_pca10056_s140/boards.o
  .debug_macro   0x0000000000000000      0x208 Output/Release/Obj/ble_app_uart_pca10056_s140/boards.o
  .debug_macro   0x0000000000000000      0x16d Output/Release/Obj/ble_app_uart_pca10056_s140/boards.o
- .debug_line    0x0000000000000000      0xc49 Output/Release/Obj/ble_app_uart_pca10056_s140/boards.o
- .debug_str     0x0000000000000000    0x90d90 Output/Release/Obj/ble_app_uart_pca10056_s140/boards.o
+ .debug_line    0x0000000000000000      0xc41 Output/Release/Obj/ble_app_uart_pca10056_s140/boards.o
+ .debug_str     0x0000000000000000    0x90d80 Output/Release/Obj/ble_app_uart_pca10056_s140/boards.o
  .comment       0x0000000000000000       0x25 Output/Release/Obj/ble_app_uart_pca10056_s140/boards.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/ble_app_uart_pca10056_s140/boards.o
@@ -3220,8 +3220,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x40 Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_atomic.o
  .debug_macro   0x0000000000000000       0x20 Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_atomic.o
  .debug_macro   0x0000000000000000       0x42 Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_atomic.o
- .debug_line    0x0000000000000000      0x96c Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_atomic.o
- .debug_str     0x0000000000000000    0x8fcb6 Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_atomic.o
+ .debug_line    0x0000000000000000      0x964 Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_atomic.o
+ .debug_str     0x0000000000000000    0x8fca6 Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_atomic.o
  .comment       0x0000000000000000       0x25 Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_atomic.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_atomic.o
@@ -4600,8 +4600,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x115 Output/Release/Obj/ble_app_uart_pca10056_s140/SEGGER_RTT_printf.o
  .debug_macro   0x0000000000000000       0x28 Output/Release/Obj/ble_app_uart_pca10056_s140/SEGGER_RTT_printf.o
  .debug_macro   0x0000000000000000       0x22 Output/Release/Obj/ble_app_uart_pca10056_s140/SEGGER_RTT_printf.o
- .debug_line    0x0000000000000000      0x941 Output/Release/Obj/ble_app_uart_pca10056_s140/SEGGER_RTT_printf.o
- .debug_str     0x0000000000000000    0x80fb5 Output/Release/Obj/ble_app_uart_pca10056_s140/SEGGER_RTT_printf.o
+ .debug_line    0x0000000000000000      0x939 Output/Release/Obj/ble_app_uart_pca10056_s140/SEGGER_RTT_printf.o
+ .debug_str     0x0000000000000000    0x80fa5 Output/Release/Obj/ble_app_uart_pca10056_s140/SEGGER_RTT_printf.o
  .comment       0x0000000000000000       0x25 Output/Release/Obj/ble_app_uart_pca10056_s140/SEGGER_RTT_printf.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/ble_app_uart_pca10056_s140/SEGGER_RTT_printf.o
@@ -5506,8 +5506,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x89 Output/Release/Obj/ble_app_uart_pca10056_s140/utf.o
  .debug_macro   0x0000000000000000       0x1c Output/Release/Obj/ble_app_uart_pca10056_s140/utf.o
  .debug_macro   0x0000000000000000      0x1a3 Output/Release/Obj/ble_app_uart_pca10056_s140/utf.o
- .debug_line    0x0000000000000000      0x682 Output/Release/Obj/ble_app_uart_pca10056_s140/utf.o
- .debug_str     0x0000000000000000     0x3c7a Output/Release/Obj/ble_app_uart_pca10056_s140/utf.o
+ .debug_line    0x0000000000000000      0x67a Output/Release/Obj/ble_app_uart_pca10056_s140/utf.o
+ .debug_str     0x0000000000000000     0x3c6a Output/Release/Obj/ble_app_uart_pca10056_s140/utf.o
  .comment       0x0000000000000000       0x25 Output/Release/Obj/ble_app_uart_pca10056_s140/utf.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/ble_app_uart_pca10056_s140/utf.o
@@ -12878,69 +12878,69 @@ LOAD linker stubs
  .comment       0x0000000000000024       0x25 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.32a/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libvfprintf.o)
  .comment       0x0000000000000024       0x25 C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.32a/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc.o)
 
-.debug_line     0x0000000000000000    0x26d79
+.debug_line     0x0000000000000000    0x26bf1
  .debug_line    0x0000000000000000      0x21e Output/Release/Obj/ble_app_uart_pca10056_s140/thumb_crt0.o
- .debug_line    0x000000000000021e      0xa39 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_backend_rtt.o
- .debug_line    0x0000000000000c57      0x803 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_backend_serial.o
- .debug_line    0x000000000000145a      0x6f3 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_default_backends.o
- .debug_line    0x0000000000001b4d     0x13b9 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_frontend.o
- .debug_line    0x0000000000002f06      0x91f Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_str_formatter.o
- .debug_line    0x0000000000003825      0xe3d Output/Release/Obj/ble_app_uart_pca10056_s140/app_button.o
- .debug_line    0x0000000000004662      0x450 Output/Release/Obj/ble_app_uart_pca10056_s140/app_error.o
- .debug_line    0x0000000000004ab2      0x845 Output/Release/Obj/ble_app_uart_pca10056_s140/app_error_weak.o
- .debug_line    0x00000000000052f7      0x806 Output/Release/Obj/ble_app_uart_pca10056_s140/app_fifo.o
- .debug_line    0x0000000000005afd      0xf39 Output/Release/Obj/ble_app_uart_pca10056_s140/app_timer2.o
- .debug_line    0x0000000000006a36      0xbf1 Output/Release/Obj/ble_app_uart_pca10056_s140/app_uart_fifo.o
- .debug_line    0x0000000000007627      0x69c Output/Release/Obj/ble_app_uart_pca10056_s140/app_util_platform.o
- .debug_line    0x0000000000007cc3     0x11f3 Output/Release/Obj/ble_app_uart_pca10056_s140/drv_rtc.o
- .debug_line    0x0000000000008eb6      0x879 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_atfifo.o
- .debug_line    0x000000000000972f      0x77b Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_atflags.o
- .debug_line    0x0000000000009eaa      0x796 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_atomic.o
- .debug_line    0x000000000000a640      0x7e5 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_balloc.o
- .debug_line    0x000000000000ae25      0x4d2 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_fprintf.o
- .debug_line    0x000000000000b2f7      0x932 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_fprintf_format.o
- .debug_line    0x000000000000bc29      0x92b Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_memobj.o
- .debug_line    0x000000000000c554      0xd90 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_pwr_mgmt.o
- .debug_line    0x000000000000d2e4      0x891 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_ringbuf.o
- .debug_line    0x000000000000db75      0x4f4 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_section_iter.o
- .debug_line    0x000000000000e069      0x6ce Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_sortlist.o
- .debug_line    0x000000000000e737      0x4c8 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_strerror.o
- .debug_line    0x000000000000ebff      0x506 Output/Release/Obj/ble_app_uart_pca10056_s140/retarget.o
- .debug_line    0x000000000000f105       0x84 Output/Release/Obj/ble_app_uart_pca10056_s140/ses_startup_nrf52840.o
- .debug_line    0x000000000000f189       0xa3 Output/Release/Obj/ble_app_uart_pca10056_s140/ses_startup_nrf_common.o
- .debug_line    0x000000000000f22c      0x6e5 Output/Release/Obj/ble_app_uart_pca10056_s140/system_nrf52840.o
- .debug_line    0x000000000000f911      0xf35 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_drv_clock.o
- .debug_line    0x0000000000010846      0x7ba Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_drv_uart.o
- .debug_line    0x0000000000011000      0xc81 Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_clock.o
- .debug_line    0x0000000000011c81     0x1d81 Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_gpiote.o
- .debug_line    0x0000000000013a02      0x87b Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_prs.o
- .debug_line    0x000000000001427d     0x1917 Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_uart.o
- .debug_line    0x0000000000015b94     0x1892 Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_uarte.o
- .debug_line    0x0000000000017426      0xf02 Output/Release/Obj/ble_app_uart_pca10056_s140/bsp.o
- .debug_line    0x0000000000018328      0xa20 Output/Release/Obj/ble_app_uart_pca10056_s140/bsp_btn_ble.o
- .debug_line    0x0000000000018d48     0x1364 Output/Release/Obj/ble_app_uart_pca10056_s140/main.o
- .debug_line    0x000000000001a0ac     0x13a9 Output/Release/Obj/ble_app_uart_pca10056_s140/SEGGER_RTT.o
- .debug_line    0x000000000001b455     0x102d Output/Release/Obj/ble_app_uart_pca10056_s140/ble_advdata.o
- .debug_line    0x000000000001c482     0x100e Output/Release/Obj/ble_app_uart_pca10056_s140/ble_advertising.o
- .debug_line    0x000000000001d490      0xc1e Output/Release/Obj/ble_app_uart_pca10056_s140/ble_conn_params.o
- .debug_line    0x000000000001e0ae      0xcea Output/Release/Obj/ble_app_uart_pca10056_s140/ble_conn_state.o
- .debug_line    0x000000000001ed98      0x5fa Output/Release/Obj/ble_app_uart_pca10056_s140/ble_link_ctx_manager.o
- .debug_line    0x000000000001f392      0x7b2 Output/Release/Obj/ble_app_uart_pca10056_s140/ble_srv_common.o
- .debug_line    0x000000000001fb44      0xb98 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_ble_gatt.o
- .debug_line    0x00000000000206dc      0x777 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_ble_qwr.o
- .debug_line    0x0000000000020e53      0xbf6 Output/Release/Obj/ble_app_uart_pca10056_s140/ble_nus.o
- .debug_line    0x0000000000021a49      0xb76 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_sdh.o
- .debug_line    0x00000000000225bf      0xa88 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_sdh_ble.o
- .debug_line    0x0000000000023047      0x6cc Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_sdh_soc.o
- .debug_line    0x0000000000023713      0x341 Output/Release/Obj/ble_app_uart_pca10056_s140/arm_relu_q7.o
- .debug_line    0x0000000000023a54      0x8df Output/Release/Obj/ble_app_uart_pca10056_s140/arm_convolve_HWC_q7_fast.o
- .debug_line    0x0000000000024333      0x643 Output/Release/Obj/ble_app_uart_pca10056_s140/arm_convolve_HWC_q7_RGB.o
- .debug_line    0x0000000000024976      0x859 Output/Release/Obj/ble_app_uart_pca10056_s140/arm_nn_mat_mult_kernel_q7_q15.o
- .debug_line    0x00000000000251cf      0x6e2 Output/Release/Obj/ble_app_uart_pca10056_s140/arm_nn_mat_mult_kernel_q7_q15_reordered.o
- .debug_line    0x00000000000258b1      0x5cb Output/Release/Obj/ble_app_uart_pca10056_s140/arm_fully_connected_q15_opt.o
- .debug_line    0x0000000000025e7c      0x2e6 Output/Release/Obj/ble_app_uart_pca10056_s140/arm_q7_to_q15_reordered_no_shift.o
- .debug_line    0x0000000000026162      0x8c8 Output/Release/Obj/ble_app_uart_pca10056_s140/arm_pool_q7_HWC.o
- .debug_line    0x0000000000026a2a      0x34f Output/Release/Obj/ble_app_uart_pca10056_s140/arm_softmax_q15.o
+ .debug_line    0x000000000000021e      0xa31 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_backend_rtt.o
+ .debug_line    0x0000000000000c4f      0x7fb Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_backend_serial.o
+ .debug_line    0x000000000000144a      0x6eb Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_default_backends.o
+ .debug_line    0x0000000000001b35     0x13b1 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_frontend.o
+ .debug_line    0x0000000000002ee6      0x917 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_str_formatter.o
+ .debug_line    0x00000000000037fd      0xe35 Output/Release/Obj/ble_app_uart_pca10056_s140/app_button.o
+ .debug_line    0x0000000000004632      0x448 Output/Release/Obj/ble_app_uart_pca10056_s140/app_error.o
+ .debug_line    0x0000000000004a7a      0x83d Output/Release/Obj/ble_app_uart_pca10056_s140/app_error_weak.o
+ .debug_line    0x00000000000052b7      0x7fe Output/Release/Obj/ble_app_uart_pca10056_s140/app_fifo.o
+ .debug_line    0x0000000000005ab5      0xf31 Output/Release/Obj/ble_app_uart_pca10056_s140/app_timer2.o
+ .debug_line    0x00000000000069e6      0xbe9 Output/Release/Obj/ble_app_uart_pca10056_s140/app_uart_fifo.o
+ .debug_line    0x00000000000075cf      0x694 Output/Release/Obj/ble_app_uart_pca10056_s140/app_util_platform.o
+ .debug_line    0x0000000000007c63     0x11f3 Output/Release/Obj/ble_app_uart_pca10056_s140/drv_rtc.o
+ .debug_line    0x0000000000008e56      0x871 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_atfifo.o
+ .debug_line    0x00000000000096c7      0x773 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_atflags.o
+ .debug_line    0x0000000000009e3a      0x78e Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_atomic.o
+ .debug_line    0x000000000000a5c8      0x7dd Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_balloc.o
+ .debug_line    0x000000000000ada5      0x4ca Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_fprintf.o
+ .debug_line    0x000000000000b26f      0x92a Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_fprintf_format.o
+ .debug_line    0x000000000000bb99      0x923 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_memobj.o
+ .debug_line    0x000000000000c4bc      0xd88 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_pwr_mgmt.o
+ .debug_line    0x000000000000d244      0x889 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_ringbuf.o
+ .debug_line    0x000000000000dacd      0x4ec Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_section_iter.o
+ .debug_line    0x000000000000dfb9      0x6c6 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_sortlist.o
+ .debug_line    0x000000000000e67f      0x4c0 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_strerror.o
+ .debug_line    0x000000000000eb3f      0x4fe Output/Release/Obj/ble_app_uart_pca10056_s140/retarget.o
+ .debug_line    0x000000000000f03d       0x84 Output/Release/Obj/ble_app_uart_pca10056_s140/ses_startup_nrf52840.o
+ .debug_line    0x000000000000f0c1       0xa3 Output/Release/Obj/ble_app_uart_pca10056_s140/ses_startup_nrf_common.o
+ .debug_line    0x000000000000f164      0x6dd Output/Release/Obj/ble_app_uart_pca10056_s140/system_nrf52840.o
+ .debug_line    0x000000000000f841      0xf2d Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_drv_clock.o
+ .debug_line    0x000000000001076e      0x7b2 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_drv_uart.o
+ .debug_line    0x0000000000010f20      0xc81 Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_clock.o
+ .debug_line    0x0000000000011ba1     0x1d81 Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_gpiote.o
+ .debug_line    0x0000000000013922      0x873 Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_prs.o
+ .debug_line    0x0000000000014195     0x1907 Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_uart.o
+ .debug_line    0x0000000000015a9c     0x1882 Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_uarte.o
+ .debug_line    0x000000000001731e      0xefa Output/Release/Obj/ble_app_uart_pca10056_s140/bsp.o
+ .debug_line    0x0000000000018218      0xa18 Output/Release/Obj/ble_app_uart_pca10056_s140/bsp_btn_ble.o
+ .debug_line    0x0000000000018c30     0x135c Output/Release/Obj/ble_app_uart_pca10056_s140/main.o
+ .debug_line    0x0000000000019f8c     0x13a1 Output/Release/Obj/ble_app_uart_pca10056_s140/SEGGER_RTT.o
+ .debug_line    0x000000000001b32d     0x1025 Output/Release/Obj/ble_app_uart_pca10056_s140/ble_advdata.o
+ .debug_line    0x000000000001c352     0x1006 Output/Release/Obj/ble_app_uart_pca10056_s140/ble_advertising.o
+ .debug_line    0x000000000001d358      0xc16 Output/Release/Obj/ble_app_uart_pca10056_s140/ble_conn_params.o
+ .debug_line    0x000000000001df6e      0xce2 Output/Release/Obj/ble_app_uart_pca10056_s140/ble_conn_state.o
+ .debug_line    0x000000000001ec50      0x5f2 Output/Release/Obj/ble_app_uart_pca10056_s140/ble_link_ctx_manager.o
+ .debug_line    0x000000000001f242      0x7aa Output/Release/Obj/ble_app_uart_pca10056_s140/ble_srv_common.o
+ .debug_line    0x000000000001f9ec      0xb90 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_ble_gatt.o
+ .debug_line    0x000000000002057c      0x76f Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_ble_qwr.o
+ .debug_line    0x0000000000020ceb      0xbee Output/Release/Obj/ble_app_uart_pca10056_s140/ble_nus.o
+ .debug_line    0x00000000000218d9      0xb6e Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_sdh.o
+ .debug_line    0x0000000000022447      0xa80 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_sdh_ble.o
+ .debug_line    0x0000000000022ec7      0x6c4 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_sdh_soc.o
+ .debug_line    0x000000000002358b      0x341 Output/Release/Obj/ble_app_uart_pca10056_s140/arm_relu_q7.o
+ .debug_line    0x00000000000238cc      0x8df Output/Release/Obj/ble_app_uart_pca10056_s140/arm_convolve_HWC_q7_fast.o
+ .debug_line    0x00000000000241ab      0x643 Output/Release/Obj/ble_app_uart_pca10056_s140/arm_convolve_HWC_q7_RGB.o
+ .debug_line    0x00000000000247ee      0x859 Output/Release/Obj/ble_app_uart_pca10056_s140/arm_nn_mat_mult_kernel_q7_q15.o
+ .debug_line    0x0000000000025047      0x6e2 Output/Release/Obj/ble_app_uart_pca10056_s140/arm_nn_mat_mult_kernel_q7_q15_reordered.o
+ .debug_line    0x0000000000025729      0x5cb Output/Release/Obj/ble_app_uart_pca10056_s140/arm_fully_connected_q15_opt.o
+ .debug_line    0x0000000000025cf4      0x2e6 Output/Release/Obj/ble_app_uart_pca10056_s140/arm_q7_to_q15_reordered_no_shift.o
+ .debug_line    0x0000000000025fda      0x8c8 Output/Release/Obj/ble_app_uart_pca10056_s140/arm_pool_q7_HWC.o
+ .debug_line    0x00000000000268a2      0x34f Output/Release/Obj/ble_app_uart_pca10056_s140/arm_softmax_q15.o
 
 .debug_info     0x0000000000000000    0x62175
  .debug_info    0x0000000000000000       0x22 Output/Release/Obj/ble_app_uart_pca10056_s140/thumb_crt0.o
@@ -13196,129 +13196,129 @@ LOAD linker stubs
  .debug_aranges
                 0x0000000000001530       0x20 Output/Release/Obj/ble_app_uart_pca10056_s140/arm_softmax_q15.o
 
-.debug_str      0x0000000000000000    0xd6676
+.debug_str      0x0000000000000000    0xd64f6
  .debug_str     0x0000000000000000       0xbe Output/Release/Obj/ble_app_uart_pca10056_s140/thumb_crt0.o
- .debug_str     0x00000000000000be    0x91669 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_backend_rtt.o
-                                      0x93cd4 (size before relaxing)
- .debug_str     0x0000000000091727      0x241 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_backend_serial.o
-                                      0x8c05d (size before relaxing)
- .debug_str     0x0000000000091968      0x12d Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_default_backends.o
-                                      0x8be12 (size before relaxing)
- .debug_str     0x0000000000091a95     0x13a7 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_frontend.o
-                                      0x8d2ea (size before relaxing)
- .debug_str     0x0000000000092e3c      0x2fc Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_str_formatter.o
-                                      0x8c1c0 (size before relaxing)
- .debug_str     0x0000000000093138     0x1ad9 Output/Release/Obj/ble_app_uart_pca10056_s140/app_button.o
-                                      0x93fda (size before relaxing)
- .debug_str     0x0000000000094c11      0x14a Output/Release/Obj/ble_app_uart_pca10056_s140/app_error.o
-                                      0x76c0d (size before relaxing)
- .debug_str     0x0000000000094d5b      0xa4d Output/Release/Obj/ble_app_uart_pca10056_s140/app_error_weak.o
-                                      0x8ce63 (size before relaxing)
- .debug_str     0x00000000000957a8      0x179 Output/Release/Obj/ble_app_uart_pca10056_s140/app_fifo.o
-                                      0x875b3 (size before relaxing)
- .debug_str     0x0000000000095921     0x11af Output/Release/Obj/ble_app_uart_pca10056_s140/app_timer2.o
-                                      0x93d43 (size before relaxing)
- .debug_str     0x0000000000096ad0     0x1632 Output/Release/Obj/ble_app_uart_pca10056_s140/app_uart_fifo.o
-                                      0x912ef (size before relaxing)
- .debug_str     0x0000000000098102      0x1e6 Output/Release/Obj/ble_app_uart_pca10056_s140/app_util_platform.o
-                                      0x7803d (size before relaxing)
- .debug_str     0x00000000000982e8      0x74e Output/Release/Obj/ble_app_uart_pca10056_s140/drv_rtc.o
+ .debug_str     0x00000000000000be    0x91659 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_backend_rtt.o
+                                      0x93cc4 (size before relaxing)
+ .debug_str     0x0000000000091717      0x239 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_backend_serial.o
+                                      0x8c04d (size before relaxing)
+ .debug_str     0x0000000000091950      0x125 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_default_backends.o
+                                      0x8be02 (size before relaxing)
+ .debug_str     0x0000000000091a75     0x139f Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_frontend.o
+                                      0x8d2da (size before relaxing)
+ .debug_str     0x0000000000092e14      0x2f4 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_log_str_formatter.o
+                                      0x8c1b0 (size before relaxing)
+ .debug_str     0x0000000000093108     0x1ad1 Output/Release/Obj/ble_app_uart_pca10056_s140/app_button.o
+                                      0x93fca (size before relaxing)
+ .debug_str     0x0000000000094bd9      0x142 Output/Release/Obj/ble_app_uart_pca10056_s140/app_error.o
+                                      0x76bfd (size before relaxing)
+ .debug_str     0x0000000000094d1b      0xa45 Output/Release/Obj/ble_app_uart_pca10056_s140/app_error_weak.o
+                                      0x8ce53 (size before relaxing)
+ .debug_str     0x0000000000095760      0x171 Output/Release/Obj/ble_app_uart_pca10056_s140/app_fifo.o
+                                      0x875a3 (size before relaxing)
+ .debug_str     0x00000000000958d1     0x11a7 Output/Release/Obj/ble_app_uart_pca10056_s140/app_timer2.o
+                                      0x93d33 (size before relaxing)
+ .debug_str     0x0000000000096a78     0x162a Output/Release/Obj/ble_app_uart_pca10056_s140/app_uart_fifo.o
+                                      0x912df (size before relaxing)
+ .debug_str     0x00000000000980a2      0x1de Output/Release/Obj/ble_app_uart_pca10056_s140/app_util_platform.o
+                                      0x7802d (size before relaxing)
+ .debug_str     0x0000000000098280      0x74e Output/Release/Obj/ble_app_uart_pca10056_s140/drv_rtc.o
                                       0x93556 (size before relaxing)
- .debug_str     0x0000000000098a36      0x167 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_atfifo.o
-                                      0x8a3b9 (size before relaxing)
- .debug_str     0x0000000000098b9d      0x3dc Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_atflags.o
-                                      0x877ae (size before relaxing)
- .debug_str     0x0000000000098f79      0x66d Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_atomic.o
-                                      0x87aef (size before relaxing)
- .debug_str     0x00000000000995e6      0x166 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_balloc.o
-                                      0x8be30 (size before relaxing)
- .debug_str     0x000000000009974c      0x114 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_fprintf.o
-                                      0x87689 (size before relaxing)
- .debug_str     0x0000000000099860      0x523 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_fprintf_format.o
-                                      0x87b72 (size before relaxing)
- .debug_str     0x0000000000099d83      0x1b7 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_memobj.o
-                                      0x8a1c6 (size before relaxing)
- .debug_str     0x0000000000099f3a     0x17b3 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_pwr_mgmt.o
-                                      0x954f4 (size before relaxing)
- .debug_str     0x000000000009b6ed       0xee Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_ringbuf.o
-                                      0x888da (size before relaxing)
- .debug_str     0x000000000009b7db       0x66 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_section_iter.o
-                                      0x87902 (size before relaxing)
- .debug_str     0x000000000009b841       0xd7 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_sortlist.o
-                                      0x8a008 (size before relaxing)
- .debug_str     0x000000000009b918       0xff Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_strerror.o
-                                      0x874af (size before relaxing)
- .debug_str     0x000000000009ba17       0x82 Output/Release/Obj/ble_app_uart_pca10056_s140/retarget.o
-                                      0x88860 (size before relaxing)
- .debug_str     0x000000000009ba99       0x47 Output/Release/Obj/ble_app_uart_pca10056_s140/ses_startup_nrf52840.o
+ .debug_str     0x00000000000989ce      0x15f Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_atfifo.o
+                                      0x8a3a9 (size before relaxing)
+ .debug_str     0x0000000000098b2d      0x3d4 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_atflags.o
+                                      0x8779e (size before relaxing)
+ .debug_str     0x0000000000098f01      0x665 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_atomic.o
+                                      0x87adf (size before relaxing)
+ .debug_str     0x0000000000099566      0x15e Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_balloc.o
+                                      0x8be20 (size before relaxing)
+ .debug_str     0x00000000000996c4      0x10c Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_fprintf.o
+                                      0x87679 (size before relaxing)
+ .debug_str     0x00000000000997d0      0x51b Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_fprintf_format.o
+                                      0x87b62 (size before relaxing)
+ .debug_str     0x0000000000099ceb      0x1af Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_memobj.o
+                                      0x8a1b6 (size before relaxing)
+ .debug_str     0x0000000000099e9a     0x17ab Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_pwr_mgmt.o
+                                      0x954e4 (size before relaxing)
+ .debug_str     0x000000000009b645       0xe6 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_ringbuf.o
+                                      0x888ca (size before relaxing)
+ .debug_str     0x000000000009b72b       0x5e Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_section_iter.o
+                                      0x878f2 (size before relaxing)
+ .debug_str     0x000000000009b789       0xcf Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_sortlist.o
+                                      0x89ff8 (size before relaxing)
+ .debug_str     0x000000000009b858       0xf7 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_strerror.o
+                                      0x8749f (size before relaxing)
+ .debug_str     0x000000000009b94f       0x7a Output/Release/Obj/ble_app_uart_pca10056_s140/retarget.o
+                                      0x88850 (size before relaxing)
+ .debug_str     0x000000000009b9c9       0x47 Output/Release/Obj/ble_app_uart_pca10056_s140/ses_startup_nrf52840.o
                                          0xb4 (size before relaxing)
- .debug_str     0x000000000009bae0       0x49 Output/Release/Obj/ble_app_uart_pca10056_s140/ses_startup_nrf_common.o
+ .debug_str     0x000000000009ba10       0x49 Output/Release/Obj/ble_app_uart_pca10056_s140/ses_startup_nrf_common.o
                                          0xb6 (size before relaxing)
- .debug_str     0x000000000009bb29     0x839f Output/Release/Obj/ble_app_uart_pca10056_s140/system_nrf52840.o
-                                      0x7e22c (size before relaxing)
- .debug_str     0x00000000000a3ec8      0xf3b Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_drv_clock.o
-                                      0x94293 (size before relaxing)
- .debug_str     0x00000000000a4e03      0x47f Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_drv_uart.o
-                                      0x909e8 (size before relaxing)
- .debug_str     0x00000000000a5282      0x7ac Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_clock.o
+ .debug_str     0x000000000009ba59     0x8397 Output/Release/Obj/ble_app_uart_pca10056_s140/system_nrf52840.o
+                                      0x7e21c (size before relaxing)
+ .debug_str     0x00000000000a3df0      0xf33 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_drv_clock.o
+                                      0x94283 (size before relaxing)
+ .debug_str     0x00000000000a4d23      0x477 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_drv_uart.o
+                                      0x909d8 (size before relaxing)
+ .debug_str     0x00000000000a519a      0x7ac Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_clock.o
                                       0x93475 (size before relaxing)
- .debug_str     0x00000000000a5a2e     0x10c2 Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_gpiote.o
+ .debug_str     0x00000000000a5946     0x10c2 Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_gpiote.o
                                       0x94834 (size before relaxing)
- .debug_str     0x00000000000a6af0      0x346 Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_prs.o
-                                      0x92c75 (size before relaxing)
- .debug_str     0x00000000000a6e36      0x693 Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_uart.o
-                                      0x93e69 (size before relaxing)
- .debug_str     0x00000000000a74c9      0x954 Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_uarte.o
-                                      0x942fd (size before relaxing)
- .debug_str     0x00000000000a7e1d     0x22f3 Output/Release/Obj/ble_app_uart_pca10056_s140/bsp.o
-                                      0x92c1e (size before relaxing)
- .debug_str     0x00000000000aa110     0x6b3a Output/Release/Obj/ble_app_uart_pca10056_s140/bsp_btn_ble.o
-                                      0x97fd3 (size before relaxing)
- .debug_str     0x00000000000b0c4a    0x2121b Output/Release/Obj/ble_app_uart_pca10056_s140/main.o
-                                      0xbe952 (size before relaxing)
- .debug_str     0x00000000000d1e65      0x533 Output/Release/Obj/ble_app_uart_pca10056_s140/SEGGER_RTT.o
-                                      0x8126e (size before relaxing)
- .debug_str     0x00000000000d2398      0x89f Output/Release/Obj/ble_app_uart_pca10056_s140/ble_advdata.o
-                                      0x8e9a0 (size before relaxing)
- .debug_str     0x00000000000d2c37      0x3a0 Output/Release/Obj/ble_app_uart_pca10056_s140/ble_advertising.o
-                                      0x92401 (size before relaxing)
- .debug_str     0x00000000000d2fd7      0x55d Output/Release/Obj/ble_app_uart_pca10056_s140/ble_conn_params.o
-                                      0x91240 (size before relaxing)
- .debug_str     0x00000000000d3534      0x873 Output/Release/Obj/ble_app_uart_pca10056_s140/ble_conn_state.o
-                                      0x8fe89 (size before relaxing)
- .debug_str     0x00000000000d3da7       0x85 Output/Release/Obj/ble_app_uart_pca10056_s140/ble_link_ctx_manager.o
-                                      0x8c8e6 (size before relaxing)
- .debug_str     0x00000000000d3e2c      0x621 Output/Release/Obj/ble_app_uart_pca10056_s140/ble_srv_common.o
-                                      0x8548b (size before relaxing)
- .debug_str     0x00000000000d444d      0x644 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_ble_gatt.o
-                                      0x912ab (size before relaxing)
- .debug_str     0x00000000000d4a91      0x26f Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_ble_qwr.o
-                                      0x8f452 (size before relaxing)
- .debug_str     0x00000000000d4d00      0x2f2 Output/Release/Obj/ble_app_uart_pca10056_s140/ble_nus.o
-                                      0x92907 (size before relaxing)
- .debug_str     0x00000000000d4ff2      0x51d Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_sdh.o
-                                      0x8c8b9 (size before relaxing)
- .debug_str     0x00000000000d550f      0x73a Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_sdh_ble.o
-                                      0x91910 (size before relaxing)
- .debug_str     0x00000000000d5c49      0x196 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_sdh_soc.o
-                                      0x8b8a9 (size before relaxing)
- .debug_str     0x00000000000d5ddf       0x8a Output/Release/Obj/ble_app_uart_pca10056_s140/arm_relu_q7.o
+ .debug_str     0x00000000000a6a08      0x33e Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_prs.o
+                                      0x92c65 (size before relaxing)
+ .debug_str     0x00000000000a6d46      0x68b Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_uart.o
+                                      0x93e59 (size before relaxing)
+ .debug_str     0x00000000000a73d1      0x94c Output/Release/Obj/ble_app_uart_pca10056_s140/nrfx_uarte.o
+                                      0x942ed (size before relaxing)
+ .debug_str     0x00000000000a7d1d     0x22eb Output/Release/Obj/ble_app_uart_pca10056_s140/bsp.o
+                                      0x92c0e (size before relaxing)
+ .debug_str     0x00000000000aa008     0x6b32 Output/Release/Obj/ble_app_uart_pca10056_s140/bsp_btn_ble.o
+                                      0x97fc3 (size before relaxing)
+ .debug_str     0x00000000000b0b3a    0x21213 Output/Release/Obj/ble_app_uart_pca10056_s140/main.o
+                                      0xbe942 (size before relaxing)
+ .debug_str     0x00000000000d1d4d      0x52b Output/Release/Obj/ble_app_uart_pca10056_s140/SEGGER_RTT.o
+                                      0x8125e (size before relaxing)
+ .debug_str     0x00000000000d2278      0x897 Output/Release/Obj/ble_app_uart_pca10056_s140/ble_advdata.o
+                                      0x8e990 (size before relaxing)
+ .debug_str     0x00000000000d2b0f      0x398 Output/Release/Obj/ble_app_uart_pca10056_s140/ble_advertising.o
+                                      0x923f1 (size before relaxing)
+ .debug_str     0x00000000000d2ea7      0x555 Output/Release/Obj/ble_app_uart_pca10056_s140/ble_conn_params.o
+                                      0x91230 (size before relaxing)
+ .debug_str     0x00000000000d33fc      0x86b Output/Release/Obj/ble_app_uart_pca10056_s140/ble_conn_state.o
+                                      0x8fe79 (size before relaxing)
+ .debug_str     0x00000000000d3c67       0x7d Output/Release/Obj/ble_app_uart_pca10056_s140/ble_link_ctx_manager.o
+                                      0x8c8d6 (size before relaxing)
+ .debug_str     0x00000000000d3ce4      0x619 Output/Release/Obj/ble_app_uart_pca10056_s140/ble_srv_common.o
+                                      0x8547b (size before relaxing)
+ .debug_str     0x00000000000d42fd      0x63c Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_ble_gatt.o
+                                      0x9129b (size before relaxing)
+ .debug_str     0x00000000000d4939      0x267 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_ble_qwr.o
+                                      0x8f442 (size before relaxing)
+ .debug_str     0x00000000000d4ba0      0x2ea Output/Release/Obj/ble_app_uart_pca10056_s140/ble_nus.o
+                                      0x928f7 (size before relaxing)
+ .debug_str     0x00000000000d4e8a      0x515 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_sdh.o
+                                      0x8c8a9 (size before relaxing)
+ .debug_str     0x00000000000d539f      0x732 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_sdh_ble.o
+                                      0x91900 (size before relaxing)
+ .debug_str     0x00000000000d5ad1      0x18e Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_sdh_soc.o
+                                      0x8b899 (size before relaxing)
+ .debug_str     0x00000000000d5c5f       0x8a Output/Release/Obj/ble_app_uart_pca10056_s140/arm_relu_q7.o
                                        0x6b1a (size before relaxing)
- .debug_str     0x00000000000d5e69      0x27a Output/Release/Obj/ble_app_uart_pca10056_s140/arm_convolve_HWC_q7_fast.o
+ .debug_str     0x00000000000d5ce9      0x27a Output/Release/Obj/ble_app_uart_pca10056_s140/arm_convolve_HWC_q7_fast.o
                                        0x6d1b (size before relaxing)
- .debug_str     0x00000000000d60e3       0xeb Output/Release/Obj/ble_app_uart_pca10056_s140/arm_convolve_HWC_q7_RGB.o
+ .debug_str     0x00000000000d5f63       0xeb Output/Release/Obj/ble_app_uart_pca10056_s140/arm_convolve_HWC_q7_RGB.o
                                        0x6d2d (size before relaxing)
- .debug_str     0x00000000000d61ce       0xce Output/Release/Obj/ble_app_uart_pca10056_s140/arm_nn_mat_mult_kernel_q7_q15.o
+ .debug_str     0x00000000000d604e       0xce Output/Release/Obj/ble_app_uart_pca10056_s140/arm_nn_mat_mult_kernel_q7_q15.o
                                        0x6c12 (size before relaxing)
- .debug_str     0x00000000000d629c       0x8b Output/Release/Obj/ble_app_uart_pca10056_s140/arm_nn_mat_mult_kernel_q7_q15_reordered.o
+ .debug_str     0x00000000000d611c       0x8b Output/Release/Obj/ble_app_uart_pca10056_s140/arm_nn_mat_mult_kernel_q7_q15_reordered.o
                                        0x6c13 (size before relaxing)
- .debug_str     0x00000000000d6327       0xd7 Output/Release/Obj/ble_app_uart_pca10056_s140/arm_fully_connected_q15_opt.o
+ .debug_str     0x00000000000d61a7       0xd7 Output/Release/Obj/ble_app_uart_pca10056_s140/arm_fully_connected_q15_opt.o
                                        0x6c59 (size before relaxing)
- .debug_str     0x00000000000d63fe       0x9d Output/Release/Obj/ble_app_uart_pca10056_s140/arm_q7_to_q15_reordered_no_shift.o
+ .debug_str     0x00000000000d627e       0x9d Output/Release/Obj/ble_app_uart_pca10056_s140/arm_q7_to_q15_reordered_no_shift.o
                                        0x6aac (size before relaxing)
- .debug_str     0x00000000000d649b      0x14a Output/Release/Obj/ble_app_uart_pca10056_s140/arm_pool_q7_HWC.o
+ .debug_str     0x00000000000d631b      0x14a Output/Release/Obj/ble_app_uart_pca10056_s140/arm_pool_q7_HWC.o
                                        0x6c85 (size before relaxing)
- .debug_str     0x00000000000d65e5       0x91 Output/Release/Obj/ble_app_uart_pca10056_s140/arm_softmax_q15.o
+ .debug_str     0x00000000000d6465       0x91 Output/Release/Obj/ble_app_uart_pca10056_s140/arm_softmax_q15.o
                                        0x6b1d (size before relaxing)
 
 .debug_ranges   0x0000000000000000     0x42f8

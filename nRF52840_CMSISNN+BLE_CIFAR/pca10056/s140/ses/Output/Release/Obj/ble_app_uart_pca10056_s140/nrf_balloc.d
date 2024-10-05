@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_balloc.o: \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\balloc\nrf_balloc.c \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\components\libraries\balloc\nrf_balloc.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdint.h \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/__config \
@@ -36,7 +36,7 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_balloc.o: \
  ../../../../../../components/libraries/util/nrf_assert.h \
  ../../../../../../components/libraries/experimental_section_vars/nrf_section.h \
  ../../../../../../components/libraries/util/nordic_common.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\balloc\nrf_balloc.h \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\components\libraries\balloc\nrf_balloc.h \
  ../../../../../../components/libraries/util/sdk_errors.h \
  ../../../../../../components/libraries/util/app_util_platform.h \
  ../../../../../../components/softdevice/s140/headers/nrf_soc.h \

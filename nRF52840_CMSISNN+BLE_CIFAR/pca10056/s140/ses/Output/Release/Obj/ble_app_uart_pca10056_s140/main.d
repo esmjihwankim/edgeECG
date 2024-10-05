@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_app_uart_pca10056_s140/main.o: \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\My_Projects\EdgeECG\nRF52840_CMSISNN+BLE_CIFAR\main.c \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\My_Projects\EdgeECG\nRF52840_CMSISNN+BLE_CIFAR\main.c \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdint.h \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/__config \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.32a/include/stdint.h \
@@ -135,6 +135,6 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/main.o: \
  ../../../../includes_cmsis/dsp_include/arm_common_tables.h \
  ../../../../includes_cmsis/dsp_include/arm_math.h \
  ../../../../includes_cmsis/nn_include/arm_nn_tables.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\My_Projects\EdgeECG\nRF52840_CMSISNN+BLE_CIFAR\arm_nnexamples_cifar10_inputs.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\My_Projects\EdgeECG\nRF52840_CMSISNN+BLE_CIFAR\arm_nnexamples_cifar10_parameter.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\My_Projects\EdgeECG\nRF52840_CMSISNN+BLE_CIFAR\arm_nnexamples_cifar10_weights.h
+ D:\Git\ Repo\nRF5_SDK_17.1.0\My_Projects\EdgeECG\nRF52840_CMSISNN+BLE_CIFAR\arm_nnexamples_cifar10_inputs.h \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\My_Projects\EdgeECG\nRF52840_CMSISNN+BLE_CIFAR\arm_nnexamples_cifar10_parameter.h \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\My_Projects\EdgeECG\nRF52840_CMSISNN+BLE_CIFAR\arm_nnexamples_cifar10_weights.h

@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_strerror.o: \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\strerror\nrf_strerror.c \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\components\libraries\strerror\nrf_strerror.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/stdint.h \
  C:/Users/WonResearchGroup/AppData/Local/SEGGER/SEGGER\ Embedded\ Studio/v3/packages/libraries/libcxx/include/__config \
@@ -34,5 +34,5 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/nrf_strerror.o: \
  ../../../../../../components/softdevice/s140/headers/nrf_svc.h \
  ../../../../../../components/libraries/util/sdk_macros.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0_ddde560\components\libraries\strerror\nrf_strerror.h \
+ D:\Git\ Repo\nRF5_SDK_17.1.0\components\libraries\strerror\nrf_strerror.h \
  ../../../../../../components/libraries/util/sdk_errors.h
