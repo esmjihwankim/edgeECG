@@ -180,9 +180,6 @@
     <folder Name="Application">
       <file file_name="../../../main.c" />
       <file file_name="../config/sdk_config.h" />
-      <file file_name="../../../arm_nnexamples_cifar10_inputs.h" />
-      <file file_name="../../../arm_nnexamples_cifar10_parameter.h" />
-      <file file_name="../../../arm_nnexamples_cifar10_weights.h" />
       <file file_name="../../../parameter.h" />
       <file file_name="../../../sample_input_output.h" />
       <file file_name="../../../weight.h" />

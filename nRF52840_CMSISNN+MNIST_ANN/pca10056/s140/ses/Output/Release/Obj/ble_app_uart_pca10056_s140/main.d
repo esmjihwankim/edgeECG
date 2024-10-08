@@ -135,9 +135,6 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/main.o: \
  ../../../../includes_cmsis/dsp_include/arm_common_tables.h \
  ../../../../includes_cmsis/dsp_include/arm_math.h \
  ../../../../includes_cmsis/nn_include/arm_nn_tables.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0\MYPROJECTS\EdgeECG\nRF52840_CMSISNN+MNIST_ANN\arm_nnexamples_cifar10_inputs.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0\MYPROJECTS\EdgeECG\nRF52840_CMSISNN+MNIST_ANN\arm_nnexamples_cifar10_parameter.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0\MYPROJECTS\EdgeECG\nRF52840_CMSISNN+MNIST_ANN\arm_nnexamples_cifar10_weights.h \
  D:\Git\ Repo\nRF5_SDK_17.1.0\MYPROJECTS\EdgeECG\nRF52840_CMSISNN+MNIST_ANN\parameter.h \
  D:\Git\ Repo\nRF5_SDK_17.1.0\MYPROJECTS\EdgeECG\nRF52840_CMSISNN+MNIST_ANN\sample_input_output.h \
  D:\Git\ Repo\nRF5_SDK_17.1.0\MYPROJECTS\EdgeECG\nRF52840_CMSISNN+MNIST_ANN\weight.h

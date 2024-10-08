@@ -31,10 +31,6 @@
 
 #include "arm_nnfunctions.h"
 
-#include "arm_nnexamples_cifar10_inputs.h"
-#include "arm_nnexamples_cifar10_parameter.h"
-#include "arm_nnexamples_cifar10_weights.h"
-
 #include "parameter.h"
 #include "sample_input_output.h"
 #include "weight.h"
@@ -668,7 +664,7 @@ q15_t reference_fc2_output[10] = FC2;
 
 q15_t col_buffer[576];
 //q15_t scratch_buffer[65408*2];
-q15_t scratch_buffer[100];
+q15_t scratch_buffer[28*28];
 
 q15_t input_data[784] = INPUT_DATA;
 q15_t output_data[784];
