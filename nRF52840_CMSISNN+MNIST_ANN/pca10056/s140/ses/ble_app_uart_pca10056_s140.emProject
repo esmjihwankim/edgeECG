@@ -183,6 +183,7 @@
       <file file_name="../../../parameter.h" />
       <file file_name="../../../sample_input_output.h" />
       <file file_name="../../../weight.h" />
+      <file file_name="../../../opt_quantized_weight.h" />
     </folder>
   </project>
   <configuration

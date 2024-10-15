@@ -33,8 +33,8 @@
 
 #include "parameter.h"
 #include "sample_input_output.h"
-#include "weight.h"
-
+//#include "weight.h"
+#include "opt_quantized_weight.h"
 
 #define APP_BLE_CONN_CFG_TAG            1                                           /**< A tag identifying the SoftDevice BLE configuration. */
 
@@ -699,7 +699,7 @@ int main(void)
     q15_t* buffer1 = scratch_buffer;
     q15_t* buffer2 = buffer1 + 100; 
     int i;
-    arm_fully_connected_q15(input_data, fc1_wt, FC1_IN_DIM, FC1_OUT_DIM, FC1_BIAS_LSHIFT, FC1_OUT_RSHIFT, fc1_bias, buffer1, (q15_t*)col_buffer);
+    arm_fully_connected_q15_opt(input_data, fc1_wt, FC1_IN_DIM, FC1_OUT_DIM, FC1_BIAS_LSHIFT, FC1_OUT_RSHIFT, fc1_bias, buffer1, (q15_t*)col_buffer);
     //printf("fc1 output\r\n"); 
     //for (i = 0; i < 100; i++)
     //{
@@ -709,7 +709,7 @@ int main(void)
     arm_relu_q15(buffer1, FC1_OUT_DIM);
 
     printf("fc2 output\r\n"); 
-    arm_fully_connected_q15(buffer1, fc2_wt, FC2_IN_DIM, FC2_OUT_DIM, FC2_BIAS_LSHIFT, FC2_OUT_RSHIFT, fc2_bias, output_data, (q15_t*)col_buffer);
+    arm_fully_connected_q15_opt(buffer1, fc2_wt, FC2_IN_DIM, FC2_OUT_DIM, FC2_BIAS_LSHIFT, FC2_OUT_RSHIFT, fc2_bias, output_data, (q15_t*)col_buffer);
     for (int i = 0; i < 10; i++)
     {
         printf("%d:::%d\r\n", output_data[i], reference_fc2_output[i]);

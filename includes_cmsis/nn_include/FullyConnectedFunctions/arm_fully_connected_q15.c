@@ -86,8 +86,8 @@ arm_fully_connected_q15(const q15_t * pV,
 
     /* this loop loops over different output */
     while (rowCnt) {
-        q31_t     sum =  ((q31_t)(*pBias++) << bias_shift) + NN_ROUND(out_shift);
-        q31_t     sum2 = ((q31_t)(*pBias++) << bias_shift) + NN_ROUND(out_shift);
+        q31_t     sum =  ((q31_t)(*pBias++) << bias_shift);// + NN_ROUND(out_shift);
+        q31_t     sum2 = ((q31_t)(*pBias++) << bias_shift);// + NN_ROUND(out_shift);
 
         uint16_t  colCnt = dim_vec >> 2;
 
@@ -133,7 +133,7 @@ arm_fully_connected_q15(const q15_t * pV,
     rowCnt = num_of_rows & 0x1;
 
     while (rowCnt) {
-        q31_t     sum = ((q31_t)(*pBias++) << bias_shift) + NN_ROUND(out_shift);
+        q31_t     sum = ((q31_t)(*pBias++) << bias_shift);// + NN_ROUND(out_shift);
 
         uint16_t  colCnt = dim_vec >> 2;
 

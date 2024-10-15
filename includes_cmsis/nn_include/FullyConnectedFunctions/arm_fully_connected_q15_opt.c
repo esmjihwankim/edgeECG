@@ -117,10 +117,10 @@ arm_fully_connected_q15_opt(const q15_t * pV,
 
     while (rowCnt)
     {
-        q31_t     sum =  ((q31_t)(*pBias++) << bias_shift) + NN_ROUND(out_shift);
-        q31_t     sum2 = ((q31_t)(*pBias++) << bias_shift) + NN_ROUND(out_shift);
-        q31_t     sum3 = ((q31_t)(*pBias++) << bias_shift) + NN_ROUND(out_shift);
-        q31_t     sum4 = ((q31_t)(*pBias++) << bias_shift) + NN_ROUND(out_shift);
+        q31_t     sum =  ((q31_t)(*pBias++) << bias_shift);// + NN_ROUND(out_shift);
+        q31_t     sum2 = ((q31_t)(*pBias++) << bias_shift);// + NN_ROUND(out_shift);
+        q31_t     sum3 = ((q31_t)(*pBias++) << bias_shift);// + NN_ROUND(out_shift);
+        q31_t     sum4 = ((q31_t)(*pBias++) << bias_shift);// + NN_ROUND(out_shift);
 
         uint16_t  colCnt = dim_vec >> 1;
 
@@ -203,7 +203,7 @@ arm_fully_connected_q15_opt(const q15_t * pV,
 
     while (rowCnt)
     {
-        q31_t     sum = ((q31_t)(*pBias++) << bias_shift) + NN_ROUND(out_shift);
+        q31_t     sum = ((q31_t)(*pBias++) << bias_shift);// + NN_ROUND(out_shift);
 
         uint16_t  colCnt = dim_vec >> 2;
 

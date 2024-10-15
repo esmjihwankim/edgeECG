@@ -137,4 +137,4 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/main.o: \
  ../../../../includes_cmsis/nn_include/arm_nn_tables.h \
  D:\Git\ Repo\nRF5_SDK_17.1.0\MYPROJECTS\EdgeECG\nRF52840_CMSISNN+MNIST_ANN\parameter.h \
  D:\Git\ Repo\nRF5_SDK_17.1.0\MYPROJECTS\EdgeECG\nRF52840_CMSISNN+MNIST_ANN\sample_input_output.h \
- D:\Git\ Repo\nRF5_SDK_17.1.0\MYPROJECTS\EdgeECG\nRF52840_CMSISNN+MNIST_ANN\weight.h
+ D:\Git\ Repo\nRF5_SDK_17.1.0\MYPROJECTS\EdgeECG\nRF52840_CMSISNN+MNIST_ANN\opt_quantized_weight.h
