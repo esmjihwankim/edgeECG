@@ -184,6 +184,11 @@
       <file file_name="../../../sample_input_output.h" />
       <file file_name="../../../weight.h" />
       <file file_name="../../../opt_quantized_weight.h" />
+      <file file_name="../../../bluetooth.c" />
+      <file file_name="../../../bluetooth.h" />
+      <file file_name="../../../main.h" />
+      <file file_name="../../../nn.c" />
+      <file file_name="../../../nn.h" />
     </folder>
   </project>
   <configuration
