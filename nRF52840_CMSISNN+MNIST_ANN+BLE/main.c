@@ -54,7 +54,14 @@ int main(void)
     services_init();
     advertising_init();
     conn_params_init();
+
+    saadc_sampling_event_init();
+    saadc_init();
+    saadc_sampling_event_enable();
+
     advertising_start();
+    
+    
     printf("\r\nAdvertising started.\r\n");
     
     // Inference using trained neural network 
@@ -63,9 +70,8 @@ int main(void)
     // Enter main loop.
     for (;;)
     {
-        idle_state_handle();
+        //idle_state_handle();
     }
-
 
 
 }

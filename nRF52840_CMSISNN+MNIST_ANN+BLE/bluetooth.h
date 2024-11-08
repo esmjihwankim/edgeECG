@@ -21,6 +21,12 @@
 #include "bsp_btn_ble.h"
 #include "nrf_pwr_mgmt.h"
 
+#include "nrf_drv_ppi.h"
+
+#include "nrf_drv_saadc.h"
+#include "nrf_drv_ppi.h"
+#include "nrf_drv_timer.h"
+
 #if defined (UART_PRESENT)
 #include "nrf_uart.h"
 #endif
@@ -52,6 +58,13 @@
 #define FIRST_CONN_PARAMS_UPDATE_DELAY  APP_TIMER_TICKS(5000)                       /**< Time from initiating event (connect or start of notification) to first time sd_ble_gap_conn_param_update is called (5 seconds). */
 #define NEXT_CONN_PARAMS_UPDATE_DELAY   APP_TIMER_TICKS(30000)                      /**< Time between each call to sd_ble_gap_conn_param_update after the first call (30 seconds). */
 #define MAX_CONN_PARAMS_UPDATE_COUNT    3                                           /**< Number of attempts before giving up the connection parameter negotiation. */
+#define BLE_NUS_BUFFER                  26
+#define UART_TX_BUF_SIZE                256
+#define UART_RX_BUF_SIZE                256
+
+#define SAADC_SAMPLES_IN_BUFFER          1
+#define SAADC_SAMPLE_RATE               1
+#define SAADC_SAMPLE_RATE_ACTIVE        40
 
 #define DEAD_BEEF                       0xDEADBEEF                                  /**< Value used as error code on stack dump, can be used to identify stack location on stack unwind. */
 
@@ -66,10 +79,10 @@ void gap_params_init(void);
 void gatt_init(void);
 void services_init(void);
 void conn_params_init(void);
-//void saadc_sampling_event_init(void);
-//void saadc_sampling_event_enable(void);
-void advertising_start(void);
+void saadc_sampling_event_init(void);
+void saadc_sampling_event_enable(void);
 void saadc_init(void);
+void advertising_start(void);
 void pulse_saadc_active(void);
 void advertising_init(void);
 void timers_init(void);

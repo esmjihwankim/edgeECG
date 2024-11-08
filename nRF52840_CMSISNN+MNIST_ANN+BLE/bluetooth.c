@@ -14,6 +14,13 @@ static ble_uuid_t m_adv_uuids[]          =                                      
     {BLE_UUID_NUS_SERVICE, NUS_SERVICE_UUID_TYPE}
 };
 
+static const nrf_drv_timer_t    m_timer = NRF_DRV_TIMER_INSTANCE(3);
+static nrf_saadc_value_t        m_buffer_pool[4][SAADC_SAMPLES_IN_BUFFER];
+static nrf_ppi_channel_t        m_ppi_channel; 
+static uint32_t                 m_adc_evt_counter;
+
+uint8_t nus_string[BLE_NUS_BUFFER * 20];
+
 
 /**@brief Function for assert macro callback.
  *
@@ -563,5 +570,161 @@ void buttons_leds_init(bool * p_erase_bonds)
 void advertising_start(void)
 {
     uint32_t err_code = ble_advertising_start(&m_advertising, BLE_ADV_MODE_FAST);
+    APP_ERROR_CHECK(err_code);
+}
+
+
+void saadc_sampling_event_init(void)
+{
+    ret_code_t err_code;
+    err_code = nrf_drv_ppi_init();
+
+    APP_ERROR_CHECK(err_code);
+    
+    nrf_drv_timer_config_t timer_config = NRF_DRV_TIMER_DEFAULT_CONFIG;
+    timer_config.frequency = NRF_TIMER_FREQ_31250Hz;
+    // err_code = nrf_drv_timer_init(&m_timer, &timer_config, timer_handler);
+    APP_ERROR_CHECK(err_code);
+
+    /* setup m_timer for compare event */
+    uint32_t ticks = nrf_drv_timer_ms_to_ticks(&m_timer,SAADC_SAMPLE_RATE);
+    nrf_drv_timer_extended_compare(&m_timer, NRF_TIMER_CC_CHANNEL0, ticks, NRF_TIMER_SHORT_COMPARE0_CLEAR_MASK, false);
+    nrf_drv_timer_enable(&m_timer);
+    uint32_t timer_compare_event_addr = nrf_drv_timer_compare_event_address_get(&m_timer, NRF_TIMER_CC_CHANNEL0);
+    uint32_t saadc_sample_event_addr = nrf_drv_saadc_sample_task_get();
+
+    /* setup ppi channel so that timer compare event is triggering sample task in SAADC */
+    err_code = nrf_drv_ppi_channel_alloc(&m_ppi_channel);
+    APP_ERROR_CHECK(err_code);
+    
+    err_code = nrf_drv_ppi_channel_assign(m_ppi_channel, timer_compare_event_addr, saadc_sample_event_addr);
+    APP_ERROR_CHECK(err_code);
+}
+
+
+void saadc_sampling_event_enable(void)
+{
+    ret_code_t err_code = nrf_drv_ppi_channel_enable(m_ppi_channel);
+    APP_ERROR_CHECK(err_code);
+}
+
+
+
+/** @brief Called whenver data is read from ADC and sends data via BLE 
+*/ 
+void saadc_callback(nrf_drv_saadc_evt_t const * p_event)
+{
+
+    if (p_event->type == NRF_DRV_SAADC_EVT_DONE)
+    {
+        ret_code_t err_code;
+        uint16_t adc_value;
+        uint8_t value[SAADC_SAMPLES_IN_BUFFER*2];
+        uint16_t bytes_to_send;
+     
+        // set buffers
+        err_code = nrf_drv_saadc_buffer_convert(p_event->data.done.p_buffer, SAADC_SAMPLES_IN_BUFFER);
+        APP_ERROR_CHECK(err_code);
+						
+        /*
+        // print samples on hardware UART and parse data for BLE transmission
+        printf("ADC event number: %d\r\n",(int)m_adc_evt_counter);
+        for (int i = 0; i < SAADC_SAMPLES_IN_BUFFER; i++)
+        {
+            printf("%d\r\n", p_event->data.done.p_buffer[i]);
+
+            adc_value = p_event->data.done.p_buffer[i];
+            value[i*2] = adc_value;
+            value[(i*2)+1] = adc_value >> 8;
+        }
+        */
+
+        register int channel_0_val = p_event->data.done.p_buffer[0];  // u
+        register int channel_1_val = p_event->data.done.p_buffer[1];
+        register int channel_2_val = p_event->data.done.p_buffer[2];
+        register int channel_3_val = p_event->data.done.p_buffer[3];
+        register int channel_4_val = p_event->data.done.p_buffer[4];
+        register int channel_5_val = p_event->data.done.p_buffer[5];
+       
+        // Send data over BLE via NUS service. Create string from samples and send string with correct length.        
+        // Data is to be sent over the data channel
+        uint8_t nus_string[50];
+        bytes_to_send = sprintf(nus_string, 
+                                "D: %d. %d. %d. %d. %d. %d.",
+                                channel_0_val,
+                                channel_1_val,
+                                channel_2_val,
+                                channel_3_val,
+                                channel_4_val,
+                                channel_5_val
+                                );                       
+        err_code = ble_nus_data_send(&m_nus, nus_string, &bytes_to_send, m_conn_handle);
+        if ((err_code != NRF_ERROR_INVALID_STATE) && (err_code != NRF_ERROR_NOT_FOUND))
+        {
+            APP_ERROR_CHECK(err_code);
+        }
+
+        m_adc_evt_counter++;
+    }
+}
+
+
+void saadc_init(void)
+{
+    ret_code_t err_code;
+	
+    nrf_drv_saadc_config_t saadc_config = NRF_DRV_SAADC_DEFAULT_CONFIG;
+    saadc_config.resolution = NRF_SAADC_RESOLUTION_12BIT;
+    
+    // ADC Channel Configuration 
+    nrf_saadc_channel_config_t channel_0_config = 
+        NRF_DRV_SAADC_DEFAULT_CHANNEL_CONFIG_SE(NRF_SAADC_INPUT_AIN0); 
+    channel_0_config.gain = NRF_SAADC_GAIN1_4;
+    channel_0_config.reference = NRF_SAADC_REFERENCE_VDD4;
+    
+    nrf_saadc_channel_config_t channel_1_config = 
+        NRF_DRV_SAADC_DEFAULT_CHANNEL_CONFIG_SE(NRF_SAADC_INPUT_AIN1); 
+    channel_1_config.gain = NRF_SAADC_GAIN1_4;
+    channel_1_config.reference = NRF_SAADC_REFERENCE_VDD4;
+    
+    nrf_saadc_channel_config_t channel_2_config =
+        NRF_DRV_SAADC_DEFAULT_CHANNEL_CONFIG_SE(NRF_SAADC_INPUT_AIN4);
+    channel_2_config.gain = NRF_SAADC_GAIN1_4;
+    channel_2_config.reference = NRF_SAADC_REFERENCE_VDD4;
+	
+    nrf_saadc_channel_config_t channel_3_config =
+        NRF_DRV_SAADC_DEFAULT_CHANNEL_CONFIG_SE(NRF_SAADC_INPUT_AIN5);
+    channel_3_config.gain = NRF_SAADC_GAIN1_4;
+    channel_3_config.reference = NRF_SAADC_REFERENCE_VDD4;
+
+    nrf_saadc_channel_config_t channel_4_config =
+        NRF_DRV_SAADC_DEFAULT_CHANNEL_CONFIG_SE(NRF_SAADC_INPUT_AIN6);
+    channel_4_config.gain = NRF_SAADC_GAIN1_4;
+    channel_4_config.reference = NRF_SAADC_REFERENCE_VDD4;
+	
+    nrf_saadc_channel_config_t channel_5_config =
+        NRF_DRV_SAADC_DEFAULT_CHANNEL_CONFIG_SE(NRF_SAADC_INPUT_AIN7);
+    channel_5_config.gain = NRF_SAADC_GAIN1_4;
+    channel_5_config.reference = NRF_SAADC_REFERENCE_VDD4;				
+	    
+    err_code = nrf_drv_saadc_init(&saadc_config, saadc_callback);
+    APP_ERROR_CHECK(err_code);
+
+    err_code = nrf_drv_saadc_channel_init(0, &channel_0_config);
+    APP_ERROR_CHECK(err_code);
+    err_code = nrf_drv_saadc_channel_init(1, &channel_1_config);
+    APP_ERROR_CHECK(err_code);
+    err_code = nrf_drv_saadc_channel_init(2, &channel_2_config);
+    APP_ERROR_CHECK(err_code);
+    err_code = nrf_drv_saadc_channel_init(3, &channel_3_config);
+    APP_ERROR_CHECK(err_code);
+    err_code = nrf_drv_saadc_channel_init(4, &channel_4_config);
+    APP_ERROR_CHECK(err_code);
+    err_code = nrf_drv_saadc_channel_init(5, &channel_5_config);
+    APP_ERROR_CHECK(err_code);	
+
+    err_code = nrf_drv_saadc_buffer_convert(m_buffer_pool[0],SAADC_SAMPLES_IN_BUFFER);
+    APP_ERROR_CHECK(err_code);   
+    err_code = nrf_drv_saadc_buffer_convert(m_buffer_pool[1],SAADC_SAMPLES_IN_BUFFER);
     APP_ERROR_CHECK(err_code);
 }
