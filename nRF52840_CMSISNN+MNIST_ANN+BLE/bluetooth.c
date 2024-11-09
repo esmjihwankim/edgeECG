@@ -2,11 +2,6 @@
 #include "bluetooth.h"
 
 
-BLE_NUS_DEF(m_nus, NRF_SDH_BLE_TOTAL_LINK_COUNT);                                   /**< BLE NUS service instance. */
-NRF_BLE_GATT_DEF(m_gatt);                                                           /**< GATT module instance. */
-NRF_BLE_QWR_DEF(m_qwr);                                                             /**< Context for the Queued Write module.*/
-BLE_ADVERTISING_DEF(m_advertising);            
-
 static uint16_t   m_conn_handle          = BLE_CONN_HANDLE_INVALID;                 /**< Handle of the current connection. */
 static uint16_t   m_ble_nus_max_data_len = BLE_GATT_ATT_MTU_DEFAULT - 3;            /**< Maximum length of data (in bytes) that can be transmitted to the peer by the Nordic UART service module. */
 static ble_uuid_t m_adv_uuids[]          =                                          /**< Universally unique service identifier. */
@@ -625,7 +620,7 @@ void saadc_callback(nrf_drv_saadc_evt_t const * p_event)
         // set buffers
         err_code = nrf_drv_saadc_buffer_convert(p_event->data.done.p_buffer, SAADC_SAMPLES_IN_BUFFER);
         APP_ERROR_CHECK(err_code);
-						
+        
         /*
         // print samples on hardware UART and parse data for BLE transmission
         printf("ADC event number: %d\r\n",(int)m_adc_evt_counter);
@@ -638,25 +633,30 @@ void saadc_callback(nrf_drv_saadc_evt_t const * p_event)
             value[(i*2)+1] = adc_value >> 8;
         }
         */
+        
 
-        register int channel_0_val = p_event->data.done.p_buffer[0];  // u
+        register int channel_0_val = p_event->data.done.p_buffer[0];  
         register int channel_1_val = p_event->data.done.p_buffer[1];
         register int channel_2_val = p_event->data.done.p_buffer[2];
         register int channel_3_val = p_event->data.done.p_buffer[3];
         register int channel_4_val = p_event->data.done.p_buffer[4];
         register int channel_5_val = p_event->data.done.p_buffer[5];
+
+        //printf("%d\r\n", channel_0_val);
        
         // Send data over BLE via NUS service. Create string from samples and send string with correct length.        
         // Data is to be sent over the data channel
+
         uint8_t nus_string[50];
         bytes_to_send = sprintf(nus_string, 
-                                "D: %d. %d. %d. %d. %d. %d.",
+                                "D: %d. %d. %d. %d. %d. %d. %d.",
                                 channel_0_val,
                                 channel_1_val,
                                 channel_2_val,
                                 channel_3_val,
                                 channel_4_val,
-                                channel_5_val
+                                channel_5_val,
+                                300
                                 );                       
         err_code = ble_nus_data_send(&m_nus, nus_string, &bytes_to_send, m_conn_handle);
         if ((err_code != NRF_ERROR_INVALID_STATE) && (err_code != NRF_ERROR_NOT_FOUND))

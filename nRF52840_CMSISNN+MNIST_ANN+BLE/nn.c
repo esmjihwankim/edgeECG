@@ -23,6 +23,7 @@ q15_t output_data[784];
 
 void run_inference(void)
 {
+    printf("performing inference\r\n");
     q15_t* buffer1 = scratch_buffer;
     q15_t* buffer2 = buffer1 + 100; 
     int i;

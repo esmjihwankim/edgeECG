@@ -1,6 +1,7 @@
 #ifndef   _BLUETOOTH_H
 #define   _BLUETOOTH_H
 
+#include <stdio.h>
 #include <stdint.h>
 #include <string.h>
 #include "nordic_common.h"
@@ -20,8 +21,6 @@
 #include "app_util_platform.h"
 #include "bsp_btn_ble.h"
 #include "nrf_pwr_mgmt.h"
-
-#include "nrf_drv_ppi.h"
 
 #include "nrf_drv_saadc.h"
 #include "nrf_drv_ppi.h"
@@ -62,14 +61,19 @@
 #define UART_TX_BUF_SIZE                256
 #define UART_RX_BUF_SIZE                256
 
-#define SAADC_SAMPLES_IN_BUFFER          1
-#define SAADC_SAMPLE_RATE               1
-#define SAADC_SAMPLE_RATE_ACTIVE        40
+#define SAADC_SAMPLES_IN_BUFFER         6
+#define SAADC_SAMPLE_RATE               50
 
 #define DEAD_BEEF                       0xDEADBEEF                                  /**< Value used as error code on stack dump, can be used to identify stack location on stack unwind. */
 
 #define UART_TX_BUF_SIZE                256                                         /**< UART TX buffer size. */
 #define UART_RX_BUF_SIZE                256         
+
+
+BLE_NUS_DEF(m_nus, NRF_SDH_BLE_TOTAL_LINK_COUNT);                                   /**< BLE NUS service instance. */
+NRF_BLE_GATT_DEF(m_gatt);                                                           /**< GATT module instance. */
+NRF_BLE_QWR_DEF(m_qwr);                                                             /**< Context for the Queued Write module.*/
+BLE_ADVERTISING_DEF(m_advertising);            
 
 
 void uart_init(void);
