@@ -1,10 +1,5 @@
 #include "main.h"
-#define BUTTON_DEBOUNCE_DELAY			50 // Delay from a GPIOTE event until a button is reported as pushed. 
-#define APP_GPIOTE_MAX_USERS                    1  // Maximum number of users of the GPIOTE handler. 
-#define BUTTON_1    11
-#define BUTTON_2    12
-#define BUTTON_3    24
-#define BUTTON_4    25
+#define BUTTON_INF    11
 #define DEBOUNCE_MS 150
 
 /**@brief Function for initializing the nrf log module.
@@ -44,9 +39,6 @@ void idle_state_handle(void)
 void set_button(void)
 {
     nrf_gpio_cfg_input(BUTTON_1, NRF_GPIO_PIN_PULLUP);
-    nrf_gpio_cfg_input(BUTTON_2, NRF_GPIO_PIN_PULLUP);
-    nrf_gpio_cfg_input(BUTTON_3, NRF_GPIO_PIN_PULLUP);
-    nrf_gpio_cfg_input(BUTTON_4, NRF_GPIO_PIN_PULLUP);
 }
 
 
@@ -62,15 +54,15 @@ int main(void)
     // Initialize basic and wireless functionalities
     uart_init();
     log_init();
-    //timers_init();
-    //buttons_leds_init(&erase_bonds);
-    //power_management_init();
-    //ble_stack_init();
-    //gap_params_init();
-    //gatt_init();
-    //services_init();
-    //advertising_init();
-    //conn_params_init();
+    timers_init();
+    buttons_leds_init(&erase_bonds);
+    power_management_init();
+    ble_stack_init();
+    gap_params_init();
+    gatt_init();
+    services_init();
+    advertising_init();
+    conn_params_init();
 
 
     set_button();
@@ -78,10 +70,10 @@ int main(void)
     saadc_sampling_event_init();
     saadc_init();
     saadc_sampling_event_enable();
-    //advertising_start();
-
- 
-
+    advertising_start();
+    
+    
+    CoreDebug->DEMCR |= 0x01000000; 
     
     printf("\r\nAdvertising started.\r\n");
     
@@ -89,14 +81,19 @@ int main(void)
     //run_inference();
 
     // Enter main loop.
+    volatile uint32_t count = 0; 
     for (;;)
     {
         //idle_state_handle();
 
-        if(nrf_gpio_pin_read(BUTTON_1)==0)
+        if(nrf_gpio_pin_read(BUTTON_INF)==0)
         {
+            DWT->CYCCNT = 0;
+            DWT->CTRL |= 0x1;
             run_inference();
-            while(nrf_gpio_pin_read(BUTTON_1)==0);
+            count = DWT->CYCCNT;
+            
+            while(nrf_gpio_pin_read(BUTTON_INF)==0);
         }
     }
     
