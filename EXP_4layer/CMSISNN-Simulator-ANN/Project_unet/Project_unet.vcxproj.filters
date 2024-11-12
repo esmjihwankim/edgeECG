@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="data_type.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="local.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="weight_example.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="parameter_example.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="nn.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="sample_input_output_example.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="parameter.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="sample_input_output.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="weight.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="local.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="nn.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
