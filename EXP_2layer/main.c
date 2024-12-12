@@ -96,7 +96,7 @@ int main(void)
             run_inference();
             count = DWT->CYCCNT;
             flag = 0;
-            printf("Cycle count::%d", count);
+            printf("Cycle count::%d\n\r", count);
         }
     }
 }

@@ -23,6 +23,53 @@ q15_t output_data[784];
 
 
 
+int ssat(int a, const int bit) {
+	int clip_value = a;
+	if (a > (0x1 << (bit - 1))-1) {
+		clip_value = (0x1 << (bit - 1)) - 1;
+	}
+	else if (a < -(0x1 << (bit - 1))) {
+		clip_value = -(0x1 << (bit - 1));
+	}
+	return clip_value;
+};
+
+
+void arm_fully_connected_q15_ref(const q15_t * pV,  // pointer to vector
+	const q15_t * pM,  // pointer to matrix
+	const uint16_t dim_vec,    // length of the vector
+	const uint16_t num_of_rows,    // numCol of A
+	const uint16_t bias_shift, // amount of left-shift for bias
+	const uint16_t out_shift,  // amount of right-shift for output
+	const q15_t * bias, q15_t * pOut,  // output operand
+	q15_t * vec_buffer)
+{
+	for (int i = 0; i < num_of_rows; i++)
+	{
+
+		int       ip_out = bias[i] << bias_shift;
+		for (int j = 0; j < dim_vec; j++)
+		{
+			ip_out += pV[j] * pM[i * dim_vec + j];
+		}
+		pOut[i] = (q15_t)ssat((ip_out >> out_shift), 16);
+	}
+}
+
+
+void arm_relu_q15_ref(q15_t * data, uint16_t size)
+{
+	uint16_t  i;
+
+	for (i = 0; i < size; i++)
+	{
+		if (data[i] < 0)
+			data[i] = 0;
+	}
+}
+
+
+
 void run_inference(void)
 {
     printf("performing inference\r\n");

@@ -177,9 +177,7 @@
         filter="*.*"
         path="../../../../includes_cmsis/nn_include/SoftmaxFunctions"
         recurse="No" />
-      <file file_name="../../../../includes_cmsis/nn_include/arm_nn_tables.h" />
-      <file file_name="../../../../includes_cmsis/nn_include/arm_nnfunctions.h" />
-      <file file_name="../../../../includes_cmsis/nn_include/arm_nnsupportfunctions.h" />
+      <configuration Name="Release" build_exclude_from_build="Yes" />
     </folder>
     <folder Name="Application">
       <file file_name="../../../main.c" />
@@ -193,6 +191,12 @@
       <file file_name="../../../main.h" />
       <file file_name="../../../nn.c" />
       <file file_name="../../../nn.h" />
+      <file file_name="../../../../includes_cmsis/nn_include/libcmsisnn.a" />
+    </folder>
+    <folder Name="CMSIS_NN_ABST">
+      <file file_name="../../../../includes_cmsis/nn_include/arm_nn_tables.h" />
+      <file file_name="../../../../includes_cmsis/nn_include/arm_nnfunctions.h" />
+      <file file_name="../../../../includes_cmsis/nn_include/arm_nnsupportfunctions.h" />
     </folder>
   </project>
   <configuration

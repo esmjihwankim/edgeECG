@@ -56,9 +56,9 @@ int main(void)
     buttons_leds_init(&erase_bonds);
     power_management_init();
 
-    saadc_sampling_event_init();
-    saadc_init();
-    saadc_sampling_event_enable();
+    //saadc_sampling_event_init();
+    //saadc_init();
+    //saadc_sampling_event_enable();
 
     //ble_stack_init();
     //gap_params_init();
